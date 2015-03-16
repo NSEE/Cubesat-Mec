@@ -12,5 +12,4 @@ Desenvolvimento das partes mecânicas do cubesat NSEE, incluindo estrutura, anal
 - Bruna
 - Leonardo
 
-
-
+## Parte 1
