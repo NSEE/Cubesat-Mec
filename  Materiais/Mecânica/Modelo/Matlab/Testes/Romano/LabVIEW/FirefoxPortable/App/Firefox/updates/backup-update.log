@@ -1,0 +1,129 @@
+SOURCE DIRECTORY Y:\ff2\FirefoxPortable\App\Firefox\updates\0
+DESTINATION DIRECTORY Y:\ff2\FirefoxPortable\App\Firefox
+UPDATE TYPE partial
+PREPARE PATCH xul.dll
+PREPARE PATCH xpcom.dll
+PREPARE PATCH updater.exe
+PREPARE PATCH uninstall/helper.exe
+PREPARE PATCH ssl3.dll
+PREPARE PATCH softokn3.dll
+PREPARE ADD softokn3.chk
+PREPARE PATCH smime3.dll
+PREPARE ADD precomplete
+PREPARE PATCH plugin-container.exe
+PREPARE PATCH plds4.dll
+PREPARE PATCH plc4.dll
+PREPARE PATCH platform.ini
+PREPARE PATCH omni.ja
+PREPARE PATCH nssutil3.dll
+PREPARE PATCH nssdbm3.dll
+PREPARE ADD nssdbm3.chk
+PREPARE PATCH nssckbi.dll
+PREPARE PATCH nss3.dll
+PREPARE PATCH nspr4.dll
+PREPARE PATCH mozsqlite3.dll
+PREPARE PATCH mozjs.dll
+PREPARE PATCH mozalloc.dll
+PREPARE PATCH libGLESv2.dll
+PREPARE PATCH libEGL.dll
+PREPARE PATCH freebl3.dll
+PREPARE ADD freebl3.chk
+PREPARE PATCH firefox.exe
+PREPARE PATCH extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+PREPARE PATCH crashreporter.exe
+PREPARE PATCH components/browsercomps.dll
+PREPARE PATCH blocklist.xml
+PREPARE PATCH application.ini
+PREPARE PATCH AccessibleMarshal.dll
+PREPARE ADD mozglue.dll
+PREPARE ADD gkmedias.dll
+PREPARE REMOVEFILE update.locale
+PREPARE REMOVEFILE mozutils.dll
+PREPARE REMOVEFILE update.locale
+PREPARE REMOVEFILE mozutils.dll
+EXECUTE PATCH xul.dll
+EXECUTE PATCH xpcom.dll
+EXECUTE PATCH updater.exe
+EXECUTE PATCH uninstall/helper.exe
+LoadSourceFile: destination file size 904472 does not match expected size 834840
+LoadSourceFile failed
+### execution failed
+FINISH PATCH xul.dll
+FINISH PATCH xpcom.dll
+FINISH PATCH updater.exe
+FINISH PATCH uninstall/helper.exe
+backup_restore: backup file doesn't exist: uninstall/helper.exe.moz-backup
+FINISH PATCH ssl3.dll
+backup_restore: backup file doesn't exist: ssl3.dll.moz-backup
+FINISH PATCH softokn3.dll
+backup_restore: backup file doesn't exist: softokn3.dll.moz-backup
+FINISH ADD softokn3.chk
+backup_restore: backup file doesn't exist: softokn3.chk.moz-backup
+FINISH PATCH smime3.dll
+backup_restore: backup file doesn't exist: smime3.dll.moz-backup
+FINISH ADD precomplete
+backup_restore: backup file doesn't exist: precomplete.moz-backup
+FINISH PATCH plugin-container.exe
+backup_restore: backup file doesn't exist: plugin-container.exe.moz-backup
+FINISH PATCH plds4.dll
+backup_restore: backup file doesn't exist: plds4.dll.moz-backup
+FINISH PATCH plc4.dll
+backup_restore: backup file doesn't exist: plc4.dll.moz-backup
+FINISH PATCH platform.ini
+backup_restore: backup file doesn't exist: platform.ini.moz-backup
+FINISH PATCH omni.ja
+backup_restore: backup file doesn't exist: omni.ja.moz-backup
+FINISH PATCH nssutil3.dll
+backup_restore: backup file doesn't exist: nssutil3.dll.moz-backup
+FINISH PATCH nssdbm3.dll
+backup_restore: backup file doesn't exist: nssdbm3.dll.moz-backup
+FINISH ADD nssdbm3.chk
+backup_restore: backup file doesn't exist: nssdbm3.chk.moz-backup
+FINISH PATCH nssckbi.dll
+backup_restore: backup file doesn't exist: nssckbi.dll.moz-backup
+FINISH PATCH nss3.dll
+backup_restore: backup file doesn't exist: nss3.dll.moz-backup
+FINISH PATCH nspr4.dll
+backup_restore: backup file doesn't exist: nspr4.dll.moz-backup
+FINISH PATCH mozsqlite3.dll
+backup_restore: backup file doesn't exist: mozsqlite3.dll.moz-backup
+FINISH PATCH mozjs.dll
+backup_restore: backup file doesn't exist: mozjs.dll.moz-backup
+FINISH PATCH mozalloc.dll
+backup_restore: backup file doesn't exist: mozalloc.dll.moz-backup
+FINISH PATCH libGLESv2.dll
+backup_restore: backup file doesn't exist: libGLESv2.dll.moz-backup
+FINISH PATCH libEGL.dll
+backup_restore: backup file doesn't exist: libEGL.dll.moz-backup
+FINISH PATCH freebl3.dll
+backup_restore: backup file doesn't exist: freebl3.dll.moz-backup
+FINISH ADD freebl3.chk
+backup_restore: backup file doesn't exist: freebl3.chk.moz-backup
+FINISH PATCH firefox.exe
+backup_restore: backup file doesn't exist: firefox.exe.moz-backup
+FINISH PATCH extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+backup_restore: backup file doesn't exist: extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf.moz-backup
+FINISH PATCH crashreporter.exe
+backup_restore: backup file doesn't exist: crashreporter.exe.moz-backup
+FINISH PATCH components/browsercomps.dll
+backup_restore: backup file doesn't exist: components/browsercomps.dll.moz-backup
+FINISH PATCH blocklist.xml
+backup_restore: backup file doesn't exist: blocklist.xml.moz-backup
+FINISH PATCH application.ini
+backup_restore: backup file doesn't exist: application.ini.moz-backup
+FINISH PATCH AccessibleMarshal.dll
+backup_restore: backup file doesn't exist: AccessibleMarshal.dll.moz-backup
+FINISH ADD mozglue.dll
+backup_restore: backup file doesn't exist: mozglue.dll.moz-backup
+FINISH ADD gkmedias.dll
+backup_restore: backup file doesn't exist: gkmedias.dll.moz-backup
+FINISH REMOVEFILE update.locale
+backup_restore: backup file doesn't exist: update.locale.moz-backup
+FINISH REMOVEFILE mozutils.dll
+backup_restore: backup file doesn't exist: mozutils.dll.moz-backup
+FINISH REMOVEFILE update.locale
+backup_restore: backup file doesn't exist: update.locale.moz-backup
+FINISH REMOVEFILE mozutils.dll
+backup_restore: backup file doesn't exist: mozutils.dll.moz-backup
+failed: 8
+calling QuitProgressUI
