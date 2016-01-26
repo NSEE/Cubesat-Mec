@@ -1,0 +1,663 @@
+%
+% Núcelo De Sistemas Eletrônicos Embarcados - Instituto Mauá de Tecnologia
+%
+% Agosto de 2013
+%
+% Eng. Rafael Corsi Ferrao
+% 	corsiferrao@gmail.com / rafael.corsi@maua.br
+%  		
+% Projeto de pesquisa Roda de Reação - Chamada Cnpq 2013
+% 	Chamada MCTI/CNPq/CT-Aeronáutico/CT-Espacial No 22/2013 -
+%	Apoio ao Desenvolvimento Científico, Tecnológico e de Inovação no
+%	Setor Aeroespacial
+%
+
+\input{head_fapesp_proj_pesq}
+
+%\def\jobname{projPesq_JCarlos_roda_CNPq}
+
+
+% Espaçamento de 1.5
+\linespread{1.5}
+
+% ------------------------------------------------------------------------
+\title{Desenvolvimento de Rodas de Reação de Tecnologia Nacional para Controle 
+de Atitude de Satélites.} 
+\author{Prof. Responsável: José Carlos de Souza Junior - \texttt{jcarlos@maua.br}}
+\date{}
+
+% ------------------------------------------------------------------------
+\begin{document}
+
+
+% ------------------------------------------------------------------------
+% Folhas de rosto (duas, sendo uma em português e outra em inglês) contendo título do projeto de pesquisa proposto, nome do Pesquisador Responsável, Instituição Sede e resumo de 20 linhas.
+
+\thispagestyle{empty}
+
+\todo[inline]{Chamada MCTI/CNPq/CT-Aeronáutico/CT-Espacial No 22/2013}
+\todo[inline]{Limitar o tamanho do Arquivo para 1Mb - CNPq}
+\todoin{
+	Critérios de análise e julgamento
+	\begin{enumerate}
+		\item Mérito, originalidade e relevância do projeto para o  desenvolvimento científico, tecnológico e de inovação do País, no setor Aeroespacial 
+		
+		\item Potencial de impacto dos resultados do ponto de vista técnico-		 científico, de inovação, difusão, sócio econômico e ambiental, para o		       setor Aeroespacial. 
+		
+		\item Qualidade e eficiência do gerenciamento proposto em termos da 		 qualificação do Coordenador e da experiência da equipe e eventuais 		    parcerias. 
+		
+		\item Adequação do cronograma de execução e do dimensionamento dos recursos solicitados. 
+		
+		\item Potencial de agregação de valor à cadeia produtiva e interesse da 		   indústria aeroespacial com os prováveis resultados do projeto. 
+		
+		
+	\end{enumerate}
+}
+
+\begin{center} 
+\begin{LARGE}
+
+	 Desenvolvimento de Rodas de Reação de Tecnologia Nacional para Controle 
+	 de Atitude de Satélites. 
+	
+\end{LARGE}
+\begin{large}
+
+    Tema principal : Guiamento e Controle
+
+	José Carlos de Souza Junior
+
+	Instituto Mauá de Tecnologia - IMT
+
+\end{large}
+
+\end{center}
+
+\section*{Resumo}
+
+
+
+Este projeto de pesquisa visa construir e validar um motor sem escovas que opere em grande faixa de torque com oscilação reduzida e apresente alta eficiência energética respeitando restrições severas de massa e volume. A principal aplicação é em rodas de reação utilizadas para controle de atitude de satélites. Pretende-se apresentar soluções para os seguintes desafios. 1) Motor sem escovas que satisfaça os requisitos de desempenho e consumo necessários para aplicação em rodas de reação e cuja topologia não seja necessariamente compatível com requisitos espaciais no que diz respeito ao comportamento térmico e à emissão eletromagnética. 2) Mancal magnético e/ou de rolamento que satisfaça os requisitos de desempenho e durabilidade (em operação contínua) necessários para aplicação em rodas de reação e cuja topologia seja compatível com requisitos espaciais no que diz respeito ao comportamento térmico e à operação na ausência de gravidade. 3) Sistema de atuação propriamente dito, contemplando o motor sem escovas, o mancal magnético ou de rolamento, um disco de inércia adequadamente dimensionado e balanceado e eletrônica de acionamento e controle necessária para a prova de conceito do sistema integrado.
+
+\newpage
+
+% ---
+
+\thispagestyle{empty}
+\begin{center}
+\selectlanguage{english}
+\begin{LARGE}
+
+	Development of National Technology Reaction Wheels  for Satellite Attitude Control. 
+
+\end{LARGE}
+\begin{large}
+
+	Main theme: Guidance and Control
+
+	José Carlos de Souza Junior
+
+	Instituto Mauá de Tecnologia - IMT
+
+\end{large}
+
+\end{center}
+
+\section*{Abstract}
+
+This research project aims to build and validate a brushless motor that covers a large range of torque with controlled oscillation and presents high energy efficiency within severe constraints of mass and volume. The main purpose of the device is for reaction wheel attitude control. The main challenges of this project are the following. 1) Develop a brushless motor that satisfies the requirements of performance and consumption for use in reaction wheels and not necessarily compatible with thermal conditions and electromagnetic emission requirements in space. 2) Develop a magnetic bearing and/or ball bearing that satisfies performance and durability requirements (in continuous operation) of a reaction wheel considering thermal conditions and absence of gravity in space. 3) Develop the complete system itself, which comprises the brushless motor, the magnetic bearing and/or ball bearing, an inertia disc suitably designed and balanced, and the electronics necessary to control and test the integrated system.
+
+\newpage
+
+\selectlanguage{brazilian}
+% ------------------------------------------------------------------------
+%
+\pagenumbering{Roman} \pagestyle{empty}
+\maketitle
+\thispagestyle{empty}
+\tableofcontents  
+\clearpage
+\pagenumbering{arabic} \pagestyle{myheadings}
+
+% ------------------------------------------------------------------------
+\section{Enunciado do problema}
+% Qual será o problema tratado pelo projeto e qual sua importância? Qual será a contribuição para a área se bem sucedido? Cite trabalhos relevantes na área, conforme necessário.
+
+O sistema de controle de atitude e órbita é uma das tecnologias mais críticas de qualquer sistema espacial. O desenvolvimento de um sistema de controle de atitude em território nacional permanece incompleto \cite{dos2010estrategia} e a venda de componentes deste sistema ao nosso país é frequentemente recusada por países que detêm esta tecnologia.
+
+Basicamente, um sistema de controle de atitude é formado por sensores, atuadores e uma central responsável pelo processamento dos sinais dos sensores e comando dos atuadores segundo uma lei de controle. Os sensores mais comuns são detectores de horizonte, sensores magnéticos, sensores solares, giroscópios e rastreadores estelares. 
+
+Os principais atuadores incluem propulsores, torques magnéticos e rodas de reação. A quase totalidade destes componentes de controle possui atualmente alguma iniciativa de desenvolvimento no país, seja por instituições governamentais ou por grupos de pesquisa independentes \cite{pantojadesafios}. A principal exceção são as rodas de reação \cite{oland2009reaction, ge2006comparative}, que praticamente não têm projetos de  desenvolvimento em andamento e, no entanto, representam um componente indispensável na realização de manobras e na estabilização e controle de atitude em três eixos. 
+
+Rodas de reação são dificilmente substituíveis pois apresentam larga faixa de operação em torque (ao contrário de atuadores magnéticos) e são alimentadas pela energia renovável fornecida por painéis solares (ao contrário de propulsores baseados em um estoque finito de combustível). Por estes motivos, rodas de reação estão presentes em praticamente qualquer satélite que apresente requerimentos mínimos de desempenho em atitude.
+
+Uma roda de reação pode ser descrita como um atuador inercial com funcionamento baseado no princípio de conservação do momento angular. A atuação da roda de reação sobre o satélite se realiza por intercâmbio de momento angular, limitado ao eixo de rotação da roda. Para controle de atitude em três eixos é necessário, um conjunto de no mínimo três rodas de reação. Porém, muitos satélites utilizam uma roda de reação extra por motivos de redundância.
+
+A presente proposta visa o desenvolvimento de uma prova de conceito para um atuador 
+por rodas de reação com tecnologia nacional. O objetivo é a demonstração de um 
+sistema de controle baseado em rodas que tenha inicialmente requisitos de desempenho 
+próximos aos exigidos em aplicações aerospacial, e que busque identificar e abordar convenientemente as 
+complexidades do tema. O projeto nasceu da cooperação com o INPE \footnote{Instituto 
+Nacional de Pesquisas Espaciais} que resultou na co-orientação de dois trabalhos de mestrado, iniciados em 2011, atualmente em fase de conclusão. O INPE disponibilizou sua mesa de mancal a ar para a validação do sistema, bem como eventuais testes e informações que forem necessárias ao desenvolvimento. A relação IMT-INPE foi recentemente formalizada por um acordo de cooperação (Anexo  \ref{Anexo_INPE}).
+
+O projeto será desenvolvido no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia (IMT). O núcleo foi criado em 2010 mas sua equipe atua  na área aeroespacial desde 2004. A primeira participação foi na missão CoRoT \footnote{COnvection ROtation et Transits planétaires} na etapa AIT \footnote{\textit{Assembly, Integration and Test}} realizada no Observatório de Paris (2004-2006) com bolsa CAPES (BEX 1649/03-5) recebida pelo pesquisador Dr. Vanderlei C. Parro, integrante e coordenador do NSEE. A segunda com projeto em cooperação com o pesquisador Michel Auvergne (2006-2010) com o estudo intitulado:  \textit{Estudo para a caracterização da função de espalhamento do sistema óptico do canal de aquisição de imagens destinado a investigação exoplanetes do satélite CoRoT} (FAPESP -2006/03008- 9), cujo resultado foi utilizado pela equipe do segmento solo da missão CoRoT. Desde 2009 o grupo participa do INCT INEspaço desenvolvendo sistemas e sub sistemas eletônicos visando aplicação aeroespacial (FAPESP 2008/57866-1).
+
+
+O grupo concluiu com sucesso sua primeira participação do UNIESPAÇO, também sob  a coordenação do Dr. Vanderlei C. Parro, com o projeto Sistema de Controle Tempo Real Reconfigurável de Experimento em Astrobiologia. Como resultado direto da execução deste projeto efetivou-se a participação do NSEE no projeto CITAR (Circuitos Integrados Tolerantes à radiação) liderado pelo Dr. Saulo Finco do CTI Renato Archer.
+
+Desde 2010 o NSEE participa, integrando a equipe brasileira, do consórcio que propôs à ESA a construção de um novo satélite para  busca de planetas habitáveis designado por PLATO\footnote{\url{http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=48984}} e conta com o apoio do MCTI\footnote{Ministério da Ciência, Tecnologia e Inovação} (Anexo \ref{Anexo_1}). Em 2011 a equipe entregou com êxito um simulador tempo real do canal de aquisição de imagens proposto para o Plato ao CNES\footnote{\textit{Centre National d'Etudes Spatiales}} (Anexo \ref{Anexo_2}). O trabalho foi desenvolvido em cooperação com o Observatório de Paris e envolveu com êxito alunos de graduação e pós-graduação (Anexo \ref{Anexo_3}). Como resultado deste trabalho do NSEE dois registros de software foram encaminhados por intermédio da empresa Britânia Marcas e Patentes, foi publicado um artigo em revista, além de diversas participações em congressos. 
+
+
+% ------------------------------------------------------------------------
+\section{Resultados esperados} 
+%
+% O que será criado ou produzido como resultado do projeto proposto?
+
+O objetivo deste projeto de pesquisa é a construção nacional de uma prova de conceito para os seguintes elementos críticos constitutivos de uma roda de reação:
+
+\begin{enumerate}
+	\item Motor sem escovas que satisfaça os requisitos de desempenho e consumo necessários para aplicação em rodas de reação, e cuja topologia não seja compatível com requisitos espaciais no que diz respeito ao comportamento térmico e à emissão eletromagnética.  
+	
+	\item Mancal magnético e/ou de rolamento que satisfaça os requisitos de desempenho e durabilidade (em operação contínua) necessários para aplicação em rodas de reação, e cuja topologia sera compatível com requisitos espaciais no que diz respeito ao comportamento térmico e à operação na ausência de gravidade.
+	
+	\item Sistema  de atuação propriamente dito, contemplando o motor sem escovas, o mancal magnético ou de rolamento, um disco de inércia adequadamente dimensionado e balanceado, e a eletrônica de acionamento e controle necessária para a prova de conceito do sistema integrado.
+\end{enumerate}
+
+Por prova de conceito de topologia compatível com requisitos espaciais, entendemos sistemas que não constituem modelos de qualificação (requisitos de vácuo-térmico, vibração e choque, por exemplo, não são respeitados), mas que foram concebidos de tal forma que sua evolução para um modelo de qualificação não exigiria uma reconcepção profunda do sistema, mas apenas modificação nos materiais utilizados ou adaptações de cunho incremental. 
+
+Ao final, a roda será validada em um sistema que emule a dinâmica do satélite (mesa com mancal a ar) \cite{carrara2007controle}, e o algorítimo de controle desenvolvido no INPE será utilizado para testar a eficiência da roda quando submetida à simulação de controle de atitude.
+
+Como consequência deste projeto de pesquisa pretende-se possibilitar a realização de um trabalho de mestrado, quatro trabalhos de iniciação científica e um projeto de pós doutorado, que já está em andamento. Além dos temas de pesquisa, pretende-se também envolver dois alunos monitores na execução de tarefas de cunho técnico. Como pano de fundo deve-se enfatizar todo trabalho realizado no sentido de aproximação das áreas acadêmica e produtiva, contribuindo de forma significativa para a quebra do estigma existente quando à efetividade do trabalho conjunto destes dois atores. 
+
+Sob o ponto de vista do potencial de agregação de valor à cadeia produtiva e do interesse da indústria aeroespacial, deve-se ressaltar que do sistema de controle de atitude para plataformas o único atuador que ainda não possui estudos avançados para produção no país é o de rodas de reação. Dados obtidos junto ao INPE demonstram nossa fragilidade estratégica neste tema, obrigando o país a realizar a aquisição deste tipo de atuador por meio de importações. A empresa que se dispuser à fabricar este atuador no Brasil, além das vantagens econômicas relativas a aquisição de similar importado, também estará consolidado sua posição estratégica na área. Não menos importante é lembrarmos que atuadores como este podem, uma vez tendo o país o domínio da tecnologia, aplicações nas mais diversas áreas (complementares ou não à área aeroespacial), traduzindo-se diretamente em ganho de valor agregado para a cadeia produtiva. 
+
+ \todo[inline]{Potencial de agregação de valor à cadeia produtiva e interesse da 
+    indústria aeroespacial com os prováveis resultados do projeto. 
+ }
+ 
+ 
+\section{Desafios científicos, tecnológicos e metodologia empregada} \label{sec:Desafios}
+
+Entre os desafios presentes na construção de rodas de reação, inerentes do sistema de controle de atitude, pode-se destacar:
+
+\begin{enumerate}
+	\item Operação em grande faixa de torque com oscilação reduzida;
+	\item Alta eficiência energética;
+	\item Restrições severas de massa e volume.
+\end{enumerate}
+
+A investigação, tanto para o conjunto com mancal mecânico quanto mancal magnético, deve considerar que a utilização de partes móveis representam elementos críticos em ambientes espaciais \cite{nasaSTD4003} e requerem atenção especial na sua construção. 
+
+No espaço, devido a falta de pressão, a dispersão dos lubrificantes \cite{silverman1995space, miyoshi2007solid} e as partes móveis apresentam não linearidades e após algum tempo de operação param de funcionar. Sistemas complexos de re-lubrificação por capilaridades ou lubrificantes sólidos são utilizados para contornar esse problema, porém apresentam grande dificuldade na validação em Terra já que a simulação de longos períodos de operação em ambientes espaciais (câmara vácuo térmica) são de difícil acesso. 
+
+O desafio na construção do mancal magnético está na complexidade da compactação do sistema, já que a roda de reação possui restrições severas de dimensão e massa, e também na necessidade de baixo consumo energético (estático e dinâmico), já que o mancal estará em funcionamento sempre que a roda estiver ativa. Os requisitos de estabilidade influenciam diretamente na qualidade da roda e o mancal não deve interferir com vibrações.
+
+O motor deve ser robusto suficiente para operar por longos períodos de tempo e sua construção deve permitir que a relação torque/consumo seja elevada (satélites de porte médio possuem disponível para operação cerca de centenas de Watts). A escolha dos materiais assim como do método construtivo do motor são de extrema importância pois resultam em um sistema mais balanceado e energeticamente econômico. 
+
+Visando superar os desafios envolvidos na construção de uma roda de reação usando motor sem escovas, respeitando restrições que impliquem em futura adequação para utilização em vôo, este projeto de pesquisa foi estruturado seguindo a divisão diagramada na Fig. \ref{fig:estrutura}. As cinco etapas compreendem atividades de pesquisa e desenvolvimento que buscam preencher as lacunas evidenciadas durante pesquisa bibliográfica, e são descritas em detalhes neste documento.
+
+\begin{figure}[h!]  
+	\centering
+		\includegraphics[width=1 \columnwidth,angle=0]{figs/estrutura.pdf}
+	\caption{Estrutura do projeto de pesquisa em cinco etapas.}
+	\label{fig:estrutura}
+\end{figure}
+	
+Os requisitos do motor foram definidos tendo como referência a aplicação da roda de reação em satélites de médio porte em órbita terrestre baixa. Esta sugestão partiu de estudo da plataforma multimissão do INPE e de diversas discussões com a equipe responsável pelo estudo e desenvolvimento das rodas de reação Este requisitos serão parte dos parâmetros de referência para avaliação do progresso da pesquisa nas quatro etapas restantes.
+	
+A segunda etapa da pesquisa consiste na proposição de dois modelos físicos para o motor. Um envolvendo motor com mancal utilizando rolamentos e, outro utilizando mancal magnético. Ambos os modelos serão simulados em ambiente Comsol Multiphysics \cite{pilat2007automatic} utilizando técnicas de \textit{cloud computing} \cite{juethner2011dramatically} considerando a exigência da carga computacional envolvida. Pretende-se locar um serviço de computação distribuída com base no Comsol, como por exemplo o serviço oferecido pela ASW/EC2 (\textit{Amazon Web Service/Elastic Compute Cloud}). Nesta etapa pretende-se propor e caracterizar topologias do conjunto motor e mancal visando atender os requisitos anteriormente definidos considerando aspectos construtivos e sua viabilidade. O principal resultado será a definição de duas construções físicas, uma para cada conjunto (mancal magnético e rolamento) e as expectativas de desempenho.
+	
+As terceiras e quarta etapas serão desenvolvidas simultaneamente. O início do projeto mecânico e construção a partir dos modelos físicos estudados na segunda etapa e a modelagem do sistema dinâmico e técnicas de controle a serem implementadas. Estas duas etapas serão complementares e tem uma dinâmica intrínseca de difícil separação. Pretende-se ao término destas etapas obter um modelo representativo do sistema concebido bem como uma primeira construção que servirá de base para a validação e estudo experimental.
+	
+A quinta e última etapa caracteriza-se pela validação do sistema construído, utilizando o controle obtido implementado em plataforma \textit{Hardware-in-the-loop} (HIL), e verificação dos requisitos iniciais. O cenário de validação do sistema, operando como uma roda de reação,  pode ser descrito como a combinação da eletrônica de acionamento, motor, mancal e componente de inércia, como descrito na Fig. \ref{fig:EsquemaRoda}. Sendo o componente de inércia responsável pela armazenagem de momento angular; o motor elétrico utilizado na manutenção ou modificação do momento angular do componente de inércia; o mancal responsável pela sustentação do componente de inércia (e demais partes móveis) da roda de reação e a eletrônica de acionamento responsável por operar e controlar todos os subsistemas da roda. 
+
+\begin{figure}[hb!] 
+	\centering
+		\includegraphics[width=.78 \columnwidth,angle=0]{figs/EsquemaRoda.pdf}
+	\caption{Esquema representando roda de reação individual}
+	\label{fig:EsquemaRoda}
+\end{figure}
+
+
+\subsection{Requisitos} \label{sec:esp}
+
+A roda de reação proposta deve satisfazer as especificações da Tabela \ref{tab:especificações}, onde deseja-se atingir os requisitos de uma roda para um satélite de classe II, baseado nos dados da plataforma multimissão do INPE, possibilitando que o mesmo possa rejeitar pertubações orbitais e executar manobras de posicionamento \cite{junior2005estudo}.
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{l c l l}
+		Parâmetro & Valor &  & tipo \\
+       	\hline
+ 		Torque   						  & 0,1 & [Nm] & Máximo \\
+ 		Momento angular  				  & 10 &      [Nms] & Máximo \\
+ 		Rotação 							  & $\pm4000$ & [rpm] & Mínimo \\
+ 		Oscilação do torque 				  & 10  & [\%] & Máximo \\
+ 		Torque de fricção do mancal 		  & 0,01 & [Nm] & Máximo\\
+ 		\multirow{2}{*}{Desbalanceamento residual} 
+ 		 & 0,2 & [g.cm] & Estático \\
+ 		 & 20  & [g.cm$^{2}$] & Dinâmico \\
+ 		\multirow{3}{*}{Consumo de potência} 
+ 		& 3 & [W] 	& \textit{standby} \\
+ 		& 30 & [W] & Nominal \\
+ 		& 100 & [W] 	& Máximo \\	
+ 		Tensão de alimentação  & 20 à 40 & [V] & Faixa \\
+    \end{tabular}
+    \caption{Especificações de requisito do sistema}
+    \label{tab:especificações}
+\end{table}
+
+O acionamento da roda de reação deve ser possível em ambos os sentidos de rotação e com a mesma eficiência. Requer também que o eixo de rotação tenha inclinação menor do que 0,1 grau com relação a superfície de fixação da roda. A precisão de alinhamento é necessária para a adequada atuação da roda de reação no eixo sob controle.
+
+A roda de reação deve ter dimensões limitadas em 250mm de diâmetro por 100mm de altura com massa total que não deve exceder 4kg. Na concepção das partes construtivas da roda de reação será considerada a necessidade de operação contínua por longos períodos de tempo (em torno de quatro anos).
+
+\subsection{Concepção do conjunto Motor e Mancal}\label{sec:especificacao}
+
+Rodas de reação são constituídas basicamente de um motor, mancal, elemento de inércia e eletrônica de controle . O motor e o mancal são os blocos mais críticos, influenciando diretamente a qualidade da roda de reação e o cumprimento dos requisitos. Os desafios científicos e tecnológicos envolvidos na construção do conjunto motor e mancal são detalhados em \ref{sec:motor} e \ref{sec:mancal}.
+	
+\subsubsection{Motor} \label{sec:motor}
+
+Diversos mecanismos e sistemas aerospaciais requerem o uso de motores elétricos. Rodas de reação possuem como seu principal bloco um motor elétrico. O problema da concepção do mesmo se da na escolha da melhor topologia a ser empregada na aplicação, levando em conta: desempenho, confiabilidade, complexidade, custo e adequação dos materiais empregados em aplicações espaciais \cite{favre1999european}. 
+	
+A classificação dos motores elétricos é normalmente feita pelo tipo de construção do rotor (com ou sem escovas) e pelo tipo de alimentação (AC ou DC). Motores de corrente alternada apresentam bom desempenho em torque e podem atingir altas velocidades angulares. Também demonstram alta confiabilidade devido à  transmissão sem contato de energia para o rotor. No entanto, apesar de sua eficiência ser excelente na presença de carga, em baixas rotações sua operação requer correntes relativamente altas para excitação do rotor, o que se traduz em reduzido fator de potência. A controlabilidade em velocidade variável também é limitada e exige acionamentos complexos. Por estes motivos, a utilização espacial deste tipo de motor em geral se reduz a aplicações em velocidade angular constante \cite{favre1999european}, sendo menos indicado para o acionamento de rodas de reação.
+	
+Motores sem escova possuem arquitetura inversa à  dos motores com escovas \cite{laxminarayana2011design}. Motores sem escovas são formados por imãs permanentes no rotor, e enrolamentos no estator que são chaveados eletronicamente de forma síncrona. A sincronização dos chaveamentos do estator requer a determinação do posicionamento do rotor, que pode ser feita através de codificadores ópticos, \textit{resolvers} analógicos, sensores de efeito Hall \cite{kim2003error}, ou indiretamente través da medição da força contra eletromotriz induzida pela rotação do rotor.
+	
+Trata-se de motores de excelente desempenho \cite{saxena2012ultra}, podendo atingir velocidades de 100.000 rpm. Apresentam grande versatilidade de acionamento em torque ou velocidade se comandados eletronicamente de forma adequada. Assim como em motores de indução, a ausência de escovas se traduz em grande eficiência e confiabilidade, além de boa compatibilidade eletromagnética devido à  ausência de faiscamento, diferente de motores DC com escova, os quais são acionadas por meio de comutadores mecânicos. Motores DCs com escovas apresentam baixa confiabilidade devido ao desgaste das escovas. A eficiência também é reduzida devido à existência de atrito no mecanismo comutador. 
+
+Rodas de reação são normalmente construídas com motores DC sem escovas \cite{sinclair2007enabling} porém diversos parâmetros construtivos do motor devem ser analisados em vista da otimização para atingir os requisitos impostos para a roda de reação. Os aspectos que devem ser tratados e avaliados na pesquisa e seus impactos na aplicação roda de reação são:
+
+%\begin{compactitem}
+%	%\begin{itemize}	
+%	    \item Números de pólos do rotor
+%  			
+%  		\item Número de fases
+%  			
+%  	    \item Disposição, distribuição e conexão dos enrolamentos
+%  		
+%  		\item Topologia do denteamento do estator
+%  			
+%  		\item Motor com ferro/ Sem ferro
+%  			
+%  		\item Posicionamento do rotor
+%  			
+%  	    \item Posição dos imãs permanentes
+%	
+%  		\item Sensoriamento do motor	
+%	%\end{itemize}
+%\end{compactitem}
+
+
+\paragraph{Números de pólos do rotor:}\label{sec:motor:pólos}
+
+O número de polos magnéticos do rotor determina a quantidade de ciclos elétricos por revolução mecânica. Um maior número de polos se traduz em maior torque fornecido pelo motor. O maior número de interfaces entre os imãs permanentes, no entanto, se traduz em um aumento de fluxo magnético parasita e consequentemente na redução do fluxo visto pelas bobinas do estator. Após certo limite o aumento do número de polos deixa de ser vantajoso devido a este fenômeno. Existe ainda um limite para o aumento do número de polos ditado pelo espaço físico disponível no rotor.	Com a redução da largura dos imãs, o aumento do número de polos possibilita a redução das dimensões do circuito magnético do motor, devido ao menor fluxo magnético a ser conduzido, bem como da largura do denteamento. Esta redução do denteamento se traduz em enrolamentos com menor componente radial de corrente (que não contribui para o torque) e consequente redução da dissipação resistiva de potência.	Por outro lado, uma desvantagem do aumento do número de polos é o maior número de chaveamentos eletrônicos para uma mesma velocidade angular, o que limita a velocidade de rotação máxima e se traduz por uma maior perda por histerese no ferro do estator e perda de eficiência do motor. Salienta-se também que a escolha do número de pólos influencia na técnica a ser utilizada para a determinação da velocidade de rotação do motor. Um menor número de pólos torna difícil a medida em baixa velocidade (para o caso de utilizar sensores de efeito de campo).
+
+\paragraph{Número de fases:}\label{sec:motor:fases}
+
+O número maior de fases possibilita maior flexibilidade de acionamento, o que se traduz principalmente em uma maior estabilidade do torque gerado pelo motor. A contrapartida é uma maior complexidade construtiva e um aumento do número de comutadores eletrônicos. Um estudo detalhado deve ser realizado para verificar a consequência dessa escolha na oscilação do torque e na sua complexidade construtiva.
+
+\paragraph{Disposição dos Enrolamentos:}\label{sec:motor:disposição}
+
+A disposição dos enrolamentos dependem do número de polos utilizados.
+Podendo ser de dois tipos: concentrada e distribuída. Enrolamentos concentrados são formados com passo pleno (180 graus) que possuem em seu campo magnético um componente fundamental e uma série de harmônicos ímpares, o que pode causar perturbações na dinâmica da roda, apresentam maior facilidade construtiva do que os enrolamentos distribuídos e não depende do número de polos do rotor. Nos enrolamentos distribuídos, as harmônicas no campo magnético do estator são minimizadas, gerando assim uma maior estabilidade do sistema. Porém a força eletromotriz depende do número de polos do motor, sendo menor quanto maior o número de polos.
+
+\paragraph{Distribuição dos Enrolamentos:}\label{sec:motor:distribuicao}
+
+O enrolamento do estator pode ser distribuído de maneira senoidal ou trapezoidal, segundo a forma de onda da força contra-eletromotriz induzida pela passagem dos imãs
+permanentes do rotor. Na distribuição senoidal o enrolamento é idealizado de maneira que a força contra-eletromotriz apresente forma senoidal. Esta topologia é concebida para um acionamento senoidal, o que resulta em melhor desempenho a baixas velocidades devido à comutação das fases serem realizadas gradualmente. Em altas velocidades o desempenho tende a decair devido à dificuldade de manutenção do sincronismo de acionamento com uma força contra-eletromotriz senoidal em maiores frequências. Já na distribuição trapezoidal o enrolamento uniforme das bobinas do estator implica em uma força contra-eletromotriz de forma trapezoidal. Esta topologia é adaptada para comutação operada por ondas quadradas, o que se traduz em grande simplicidade de acionamento. Apresenta bom desempenho em altas velocidades, mas o torque gerado em baixa velocidades é irregular devido às transições de acionamento das fases.
+	
+\paragraph{Conexão dos Enrolamentos:}\label{sec:motor:conexão}
+
+A conexão de enrolamentos trifásicos pode ser realizada com as topologias em triângulo ou estrela. A topologia estrela fornece maior torque em baixas velocidades. Esta topologia apresenta também maior eficiência devido aos seguintes fatores: ausência de correntes circulares parasitas (possíveis no caso da topologia em triângulo por sua conexão em circuito fechado), ausência de tensões parciais indesejadas aplicadas às fases não comandadas em cada ciclo de comutação (com correspondente dissipação resistiva). O processo de enrolamento pode levar a assimetria entre as fases, o que deve ser levado em conta na construção e controle do motor.
+
+\paragraph{Topologia do Denteamento do Estator:}\label{sec:motor:denteamento}
+
+Diversos parâmetros do denteamento destinado à alocação dos enrolamentos tem impacto sobre as características de desempenho do motor. As características geométricas do denteamento influenciam na densidade de fluxo magnético vista pelas bobinas do estator, grandeza diretamente proporcional ao torque fornecido. Por outro lado, a presença do denteamento no entreferro se traduz em relutância variável vista pelo rotor em função de sua posição, em geral com tendência de alinhamento dos imãs permanentes na posição de relutância mínima, levando a oscilação de torque do motor. Este inconveniente deve ser minimizado com parâmetros de projeto que incluem não apenas as características geométricas do denteamento como também sua eventual inclinação com relação ao rotor.
+	
+\paragraph{Estator com ferro/ sem ferro:}\label{sec:motor:ferro}
+
+Motores sem ferro apresentam vantagens com relação a motores com ferro no estator, essas vantagens vão da melhor dissipação térmica, torque linear (devido a ausência das não linearidades do ferro) e menor peso. Porém apresentam maior dispersão do campo magnético e menor indução magnética. Um estudo deve ser feito a fim de verificar a melhor topologia para ser utilizada no desenvolvimento de rodas de reação.
+
+\paragraph{Posicionamento do rotor:}\label{sec:motor:posicionamento}
+
+Existem duas opções para o posicionamento do rotor em relação ao estator: interna ou exter. A posição interna é uma opção bastante utilizada devido ao reduzido momento de inércia apresentado pelo rotor.
+
+\paragraph{Posicionamento dos imãs permanentes:}\label{sec:motor:Imãs}
+
+Existem duas alternativas para a localização dos imãs permanentes em motores DC sem escovas: na superfície do rotor ou no interior do rotor. Na primeira topologia, utilizam-se em geral imãs de baixa permeabilidade, de forma que o rotor seja magneticamente simétrico do ponto de vista das linhas de campo do estator (permeabilidade significativa apenas no corpo do rotor), porém isso se traduz em baixo torque. Já na topologia com imãs no interior, a baixa permeabilidade dos imãs se traduz em lacunas de permeabilidade
+no interior do rotor e na concentração de linhas de fluxo magnético nos eixos não-magnéticos do rotor. Esta topologia apresenta elevado torque de relutância, com ganho de eficiência e melhor disponibilidade de torque. Como os imãs estão protegidos pelo corpo metálico do rotor, esta topologia torna-os também mais imunes à desmagnetização porém implica em uma elevada oscilação de torque causada pela relutância do rotor.
+
+\paragraph{Sensoriamento do motor:}\label{sec:motor:sensoriamento}
+	
+Sensores possuem um papel importante no controle de motores sem escova já que influenciam diretamente na qualidade da medição da posição do rotor, que na sua vez influencia na comutação das correntes na bobina. O tipo de acionamento a ser utilizado é também diretamente dependente dos sensores disponíveis. Sensores com alta resolução como \textit{encolders, resolvers} possibilitam um melhor controle do sistema em baixas rotações, porém aumentam a complexidade construtiva e a compactação do sistema. Já sensores de baixa resolução, como os de efeito \textit{Hall}, são sensores miniaturizados e compactos, mas adicionam maior complexidade ao controle do sistema em baixas rotações.	
+
+\subsubsection{Mancal}\label{sec:mancal}
+
+A suspensão do rotor com relação ao estator representa uma parte crítica em rodas de reação \cite{taniwaki2003experimental} devido as consequências de qualquer fricção no movimento relativo entre estes dois componentes. Com efeito, a fricção se traduz não apenas em um maior consumo de potência elétrica, como também na introdução de uma zona morta de atuação em torque, bem como na limitação da vida útil da roda de reação devido ao gradual desgaste do mancal. 
+
+Uma solução mecânica para a interface entre o rotor e o estator é o mancal por rolamento. Apesar de sua aparente simplicidade, apresenta desafios para a obtenção dos valores mínimos de fricção necessários, em vista das exigências de consumo, controlabilidade e vida útil da roda de reação \cite{krishnan2010lubrication}. No caso de aplicações aerospaciais, a lubrificação do rolamento representa também considerável dificuldade devido à impossibilidade de utilização de lubrificantes tradicionais em condições de baixa ou nenhuma pressão atmosférica, que leva à perda dos componentes voláteis destes lubrificantes e sua consequente degradação. Outra dificuldade se deve à tendência de migração dos lubrificantes na ausência de gravidade, o que costuma ser abordado com estratégias de recaptura ou relubrificação. Sistemas de relubrificação, em particular, apresentam grande complexidade e seu comportamento orbital é de difícil validação em laboratório.
+
+As dificuldades associadas ao uso de mancal de rolamento reside também em sua modelagem, consequência da variação de viscosidade do lubrificante em função da temperatura do mancal, o que torna o coeficiente de fricção dependente da velocidade de rotação e das condições térmicas em geral. O mancal por rolamento apresenta, por outro lado, grande vantagem construtiva devido a compactação do sistema e não necessidade de eletrônica extra para o seu controle. 
+
+Para contornar os problemas de lubrificação em baixa pressão, algumas rodas de reação  utilizam um sistema hermeticamente selado pressurizado com um gás inerte \cite{sathyan2010long}. Esta solução relaxa os requisitos de lubrificação porém impõe uma força de arrasto extra na roda, restando ainda o problema da migração dos lubrificantes na ausência de gravidade. Uma pesquisa detalhada dos lubrificantes de classe espacial e estratégias de selamento e relubrificação deve ser realizada.
+
+A outra solução é a utilização de um mancal magnético \cite{marble2006bearing, bangcheng2012integral} que é uma alternativa sem contato mecânico entre o rotor e o estator, na qual o rotor é mantido suspenso magneticamente. O ganho em confiabilidade e vida útil da roda de reação é considerável \cite{ladner1964earth}, sendo a vida útil basicamente limitada  pela durabilidade da eletrônica. A operação sem contato elimina a necessidade de lubrificante e possibilita consequentemente a operação em vácuo, o que se traduz em simplificação nos requisitos da concepção mecânica. A ausência de fricção elimina a zona morta de aplicação de torque em baixas velocidades, eliminando não-linearidades da lei de controle, com consequente ganho em simplicidade dos algoritmos e em desempenho do controle de atitude. A contrapartida é a adição de uma malha de controle para a suspensão eletromagnética. O ganho de eficiência trazido pela ausência de fricção também é contrabalanceado, ao menos parcialmente, pelo consumo de potência dos atuadores deste tipo de mancal.
+	
+Devido as não linearidades do mancal magnético (por exemplo sua rigidez em função do deslocamento), a modelagem analítica é de difícil obtenção e uma análise por elementos finitos é recomendada \cite{pilat2007automatic}. Com este tipo de análise é possível verificar o acoplamento das forças e momentos envolvidos além das características térmicas do sistema. A modelagem e implementação é um terreno fértil para pesquisas em todo o mundo e  esta área ainda é pouco explorada no país. Com a presente pesquisa, pretende-se contribuir com o fechamento da lacuna existente na pesquisa de mancais magnéticos de pequenas dimensões.
+
+\subsubsection{Resultados preliminares}
+
+	Devido aos esforços em pesquisa da equipe no projeto ao longo desses dois anos, foi desenvolvida uma versão inicial do mancal magnético ilustrado na Fig \ref{fig:mancal}. 
+	
+	\begin{figure}[!h]  
+		\centering
+			\subfigure[Geometria]{\includegraphics[width=0.5\columnwidth,angle=0]{figs/preliminar/geometria.pdf}}
+			\subfigure[Corte]{\includegraphics[width=1\columnwidth,angle=0]{figs/preliminar/corte.pdf}}
+		\caption{Mancal Magnético. a. Estator Externo; b. Rotor; c. Estator Interno; d. Imã Permanente.}
+		\label{fig:mancal}
+	\end{figure}
+	
+	As propriedades magnéticas do mancal foram simuladas (análise estática) no software de elementos finitos Comsol, no qual foram analisados parâmetros de rigidez mecânica (torção e deslocamento transversal) e a saturação do ferro.  A topologia atual utiliza um imã de Neodímio no rotor externo para gerar um fluxo magnético permanente, o que torna o eixo transversal estável.  Quatro bobinas, utilizadas no estator interno, são responsáveis pela estabilização do mancal no plano de rotação. O mancal possui rigidez axial de 100 N.m,   com raio externo de 75 mm, entreferro de 0,5 mm e altura de 10 mm.
+	
+	\begin{figure}[!h]  
+		\centering
+			\includegraphics[width=.5 \columnwidth,angle=0]{figs/preliminar/corte-fluxo_e.pdf}
+		\caption{ Vetor campo magnético gerado com o software Comsol do rotor deslocado transversalmente e rotacionado em um grau. }
+		\label{fig:corte:campo}
+	\end{figure}
+		
+\subsection{Construção}
+
+Pretende-se construir o conjunto motor e mancal estudado visando a etapa de validação. Um estudo inicial da proposta com mancal magnético é ilustrado na Fig. \ref{fig:roda}. O conjunto será usinado com requisitos de mecânica de precisão utilizando-se os materiais estudados para a aplicação.
+
+\begin{figure}[!h]  
+	\centering
+		\includegraphics[width=0.6 \columnwidth,angle=0]{figs/roda_modelo.pdf}
+	\caption{Roda de reação com motor sem escova e mancal magnético. a. Disco de inércia; b. Atuador mancal; c. Mancal magnético; d. Sensor posição mancal; e. Estator motor; f. Rotor motor.}
+	\label{fig:roda}
+\end{figure}
+
+\subsubsection{Inércia}\label{sec:inercia}
+	
+A fim de ser utilizado na etapa de validação, o componente de inércia será fixado no conjunto motor e mancal com a função de armazenar o momento angular gerado pela atuação do conjunto. Na determinação da forma geométrica deste componente o objetivo é satisfazer o requisito de momento de inércia da roda de reação sem, no entanto, incorrer em incremento desnecessário de massa e dimensões.
+
+  \subsection{Modelagem e controle}\label{sec:algoritimos}
+
+No caso de rodas de reação baseadas em mancal de rolamentos, o torque gerado pela roda não é proporcional à corrente elétrica aplicada ao motor, devido ao atrito presente no mancal, principalmente em baixas velocidades. Por consequência do atrito, rodas de reação apresentam comportamento não-linear de natureza descontínua, durante a reversão de sentido de rotação \cite{wertz1978spacecraft}. Tal característica das rodas de reação restringe em maior ou menor grau o desempenho do sistema de controle de atitude. Uma possibilidade de minimizar esse problema é utilizar um algoritmo de controle que compense os efeitos da não-linearidade causada pelo atrito. Faz parte do escopo desse trabalho pesquisar técnicas de compensação do atrito em rodas de reação. Esse tema têm sido estudado tanto em âmbito nacional \cite{carrara2010comparaccao,carrara2011speed}, como internacional \cite{stetson1993reaction}. Portanto, contribuições significativas nessa linha de pesquisa são de interesse da comunidade científica.
+
+A rigor há duas formas de se realizar o controle de uma roda de reação. A mais convencional utiliza um controle por corrente do motor. Todavia, como apontado anteriormente, a relação entre a corrente e o torque líquido de reação (torque efetivamente gerado pelo atuador) não é linear. Portanto, essa abordagem será imprecisa, a não ser que as perdas por atrito sejam compensadas.  Nesse caso, um modelo fiel da roda de reação é vital para aprimorar o desempenho de um controlador de atitude baseado em controle por corrente \cite{carrara2010comparaccao}. Também está previsto na proposta o estudo de formas para modelar o atrito em rodas de reação. Por outro lado, do ponto de vista do sistema de controle de atitude, o torque líquido de reação é dado pelo produto entre o momento de inércia do volante e a variação da velocidade de rotação. Logo, pode-se controlar diretamente o torque através da velocidade da roda. Essa abordagem, apesar de ser mais precisa, implica no aumento da complexidade do sistema, pois há a necessidade de se medir e realimentar a velocidade angular. Como isso, normalmente a medida é feita através de codificadores é preciso lidar com problemas de quantização e resolução do sensoriamento. Outro aspecto relevante de investigação é a aplicação de técnicas de leitura de codificadores de baixa resolução \cite{petrella2007speed} para o controle de velocidade de rodas de reação.
+
+
+\subsection{Validação}
+
+
+A validação do projeto será realizada primeiramente em cada um de seus subsistemas independentes utilizando o conceito de \textit{Hardware-in-the-loop} (HIL), onde sistemas dinâmicos podem ser simulados a fim de rápida e fácil validação das propostas, além de permitir o desenvolvimento dos subsistemas em paralelo. A Fig. \ref{fig:testes_cenarios} mostra os diversos cenários de testes da roda de reação. Para execução destes ensaios será utilizado o sistema \textit{Dspace} com \textit{Matlab} (sistema adquirido pelo INCT INEspaço - FAPESP 2008/57866-1).
+
+\begin{figure}[h!]  
+	\centering
+		\subfigure[Ambiente de teste de controle do motor e do mancal, validando também a eletrônica de potência e o sensoriamento]{
+				\includegraphics[width=0.4 \columnwidth,angle=0]{figs/teste_motor.pdf}
+				\label{fig:teste_b}
+			}
+		\subfigure[Ambiente de simulação da interface com um satélite]{
+				\includegraphics[width=0.4 \columnwidth,angle=0]{figs/teste_rdr.pdf}
+				\label{fig:teste_c}
+			}			
+	\caption{Cenários de testes propostos. 
+	}
+	\label{fig:testes_cenarios}
+	
+\end{figure}
+
+Após a validação individual de cada subsistema, o comportamento do sistema integrado (roda de reação propriamente dita) será verificado no Laboratório de Simulação (LABSIM) da Divisão de Mecânica Espacial e Controle (DMC) do INPE. O laboratório conta com  plataformas dinâmicas de mancal aerostático com três graus de liberdade e instrumentação associada (três giroscópios FOG - \textit{fibre optic gyroscope}, e um sensor estelar). A disponibilidade desta infraestrutura permitirá a simulação do comportamento orbital do sistema em malha fechada do controle de atitude, possibilitando a avaliação da capacidade de atuação e o desempenho associado à roda de reação desenvolvida.
+
+% ------------------------------------------------------------------------
+\section{Disseminação e avaliação}
+
+A evolução do projeto de pesquisa será avaliada considerando cada etapa proposta para execução: concepção, construção, modelagem, controle e validação (Fig. \ref{fig:estrutura}) visando contemplar a construção de um conjunto funcional.
+ 
+O projeto de pesquisa está alinhado com os objetivos descritos no PNAE (Programa Nacional de Atividades Espaciais). Seu resultado possibilitará preencher lacunas existentes para a construção do conjunto motor e mancal visando aplicação aeroespacial e contribuirá com o desenvolvimento de rodas de reação com tecnologia nacional. No curso da realização do projeto há alguns pontos que são fortes candidatos a obtenção de patentes, o que implica em retorno para a sociedade na forma de propriedade intelectual. Pretende-se participar de um congresso nacional e um congresso internacional de área correlata, e ao menos produzir uma publicação em revista indexada. Os alunos de iniciação científica e mestrado, em momento oportuno serão incentivados a publicarem os resultados de suas contribuições.
+ 
+ O engenheiro Rafael Corsi Ferrão, atualmente matriculado no programa de pós-graduação da Escola Politécnica da USP, realizará seu mestrado em tema correlato. O trabalho será realizado sob orientação do Prof. Dr. José Jaime da Cruz e co-orientado pelo proponente. Cinco temas de iniciação científica serão propostos:
+
+\begin{compactitem}
+	%\begin{itemize}
+		\item Modelagem  e simulação de mancal magnético.
+		\item Bancada de teste utilizando plataforma HIL.
+		\item Caracterização de motores sem escovas.
+		\item Estudo de materiais para aplicações aeroespaciais.
+		\item Utilização da técnica FMEA - \textit{Failure Mode and Effect Analysis} 	aplicado a escolha de soluções no desenvolvimento do conjunto motor e mancal.
+	%\end{itemize}
+\end{compactitem}
+
+
+Os resultados científicos e tecnológicos deste projeto de pesquisa serão compartilhados com o INPE. Pretende-se em sua continuidade, inserir a solução proposta em um sistema de controle de atitude para validação em condições de operação e, prosseguir no processo de "espacialização"  da roda de reação.
+
+% ------------------------------------------------------------------------
+\section{Apoio institucional, investigador principal e equipe} 
+
+\subsection{Apoio institucional}
+O projeto será desenvolvido no Núcleo de Sistemas Eletrônicos Embarcados (NSEE) do Instituto Mauá de Tecnologia (IMT). O núcleo foi criado em 2010 mas sua equipe atua  na área aeroespacial desde 2004. A primeira participação foi na missão CoRoT \footnote{COnvection ROtation et Transits planétaires} na etapa AIT \footnote{\textit{Assembly, Integration and Test}} realizada no Observatório de Paris (2004-2006) com bolsa CAPES (BEX 1649/03-5) recebida pelo pesquisador Dr. Vanderlei C. Parro, integrante do NSEE. E a segunda com projeto em cooperação com o pesquisador Michel Auvergne (2006-2010) com o estudo intitulado:  \textit{Estudo para a caracterização da função de espalhamento do sistema óptico do canal de aquisição de imagens destinado a investigação exoplanetas do satélite CoRoT} (FAPESP -2006/03008- 9), cujo resultado foi utilizado pela equipe do segmento solo da missão CoRoT . 
+
+Desde 2010 o NSEE participa, integrando a equipe brasileira, do consórcio que propôs à ESA a construção de um novo satélite para  busca de planetas habitáveis designado por PLATO\footnote{\url{http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=48984}} e conta com o apoio do MCTI\footnote{Ministério da Ciência, Tecnologia e Inovação} (Anexo \ref{Anexo_acordo}). Em 2011 a equipe entregou com êxito um simulador tempo real do canal de aquisição de imagens proposto para o Plato ao CNES\footnote{Centre National d'Etudes Spatiales} (Anexo \ref{Anexo_2}). O trabalho foi desenvolvido em cooperação com o Observatório de Paris e envolveu com êxito alunos de graduação e pós-graduação (Anexo \ref{Anexo_3}). Como resultado deste trabalho do NSEE dois registros de software foram encaminhados por intermédio da empresa Britânia Marcas e Patentes, foi publicado um artigo em revista, além de diversas participações em congressos.
+
+\subsection{Pesquisador principal}
+
+O pesquisador principal do projeto é o Dr. José Carlos de Souza Junior, atualmente professor titular do Instituto Mauá de Tecnologia - onde atua como Reitor, professor. Adjunto II (licenciado) do Centro Universitário da FEI e professor titular (licenciado) da Universidade São Judas Tadeu. Fundou a Mosaico Engenharia Eletrônica Ltda., onde atuou até 2009. Fundador da VERSOR Inovação Tecnológica em 2010, é também seu responsável técnico. Tem experiência na área de Engenharia Elétrica/Eletrônica, com ênfase em Processamento Digital de Sinais, atuando principalmente nos seguintes temas: Processamento de Imagem, Processamento de Sinais Biológicos, Sistemas Embarcados e Telecomunicações.
+
+%O pesquisador principal está de acordo com o anuncio de oportunidades AO 2013 do programa Uniespaço (Anexo \ref{Anexo_acordo})
+
+\subsection{Equipe}
+
+Vinculados ao Instituto Mauá de Tecnologia, estão participando do projeto os seguintes professores/pesquisadores:
+
+\begin{compactitem}
+%\begin{itemize}
+\item Dr. José Carlos de Souza Junior - 	\url{http://lattes.cnpq.br/0108626756702152}
+\item Dr. Rodrigo Alvite Romano - 		\url{http://lattes.cnpq.br/3843114488132776}
+\item Dr. Sergio Ribeiro Augusto - 		\url{http://lattes.cnpq.br/5713896758998889}
+%\item Dr. Vanderlei Cunha Parro - 		\url{http://lattes.cnpq.br/5302657052708622}
+\item Eng. Rafael Corsi Ferrão - 		\url{http://lattes.cnpq.br/4775677284462845}
+%\end{itemize}
+\end{compactitem}
+
+O estudo inicial que resultou nesta proposta de projeto de pesquisa foi iniciado em 2011. Desde então o IMT tem garantido as condições necessárias para avançar na pesquisa, na colaboração com a AEB \footnote{Agencia Espacial Brasileira} e o INPE e disponibilizado bolsas de IC para participação nos estudos preliminares. Neste intervalo duas dissertações de mestrado, em fase de conclusão foram co-orientadas pelos Profs. Dr. José Carlos de Souza Jr. e Dr. Rodrigo Alvite Romano.
+ 
+Atualmente o projeto é também apoiado pelo INCT INEspaço que forneceu bolsa PDJ ao Dr. Leonardo Pinheiro da Silva para participar do projeto como tema de trabalho, o pesquisador Leonardo trabalhou em diversas áreas da engenharia aerospacial, inicialmente com seu Doutorado no Observatório de Paris. O Me. Fernando Junqueira  tem três décadas de experiência com o desenvolvimento de mancais magnéticos para aplicações críticas. Ademais, é o responsável pelo desenvolvimento de sistemas inerciais junto ao Centro Tecnológico da Marinha em São Paulo. 
+
+\begin{compactitem}
+%\begin{itemize}
+	\item Dr. Leonardo Pinheiro da Silva -  \url{http://lattes.cnpq.br/1935109897045645}
+	\item Me. Fernando De Castro Junqueira - 			\url{http://lattes.cnpq.br/5963802943335370}
+%\end{itemize}
+\end{compactitem}
+
+Além dos pesquisadores, dois alunos de IC realizam trabalho em temas correlatos. O aluno Bruno Tsuchiya investiga técnicas HIL utilizando Matlab e tem como objetivo estabelecer uma plataforma estável de análise e desenvolvimento. O aluno Angelo Lunardi trabalha com simulação 3D no Matlab afim de representar os movimentos dinâmicos de um satélite partindo de estímulos externos.
+ 
+A atribuição de horas, assim como o Cargo/Função, no projeto pode ser vista no Anexo \ref{Anexo_equipe} sendo que o total de horas de engenheiros dedicados ao projeto será de 58 horas semanais.
+
+
+\section{Infra-estrutura básica disponível}
+
+
+Atualmente, o NSEE está instalado em um laboratório com área de aproximadamente $ 50\textrm{m}^2$, contando com infra-estrutura de rede sem-fio, impressão e telefonia.  
+
+\subsubsection{Biblioteca}
+A Biblioteca tem em seu acervo mais de $70$ mil livros especializados, acesso à  algumas das principais bases de dados: \textit{American Chemical Society} (ACS), ASTM \textit{International}, \textit{Science Direct} e ScopFus, além de centenas de revistas e periódicos. Totalmente informatizada, a Biblioteca dispõe de $15$ microcomputadores para consulta ao acervo e $46$ microcomputadores para uso exclusivo em pesquisa via Internet. Possui $3$ salas para estudos sendo uma para estudo individualizado ($116$ lugares), uma para estudo em grupos de $4$ alunos ($100$ lugares) e uma para estudo em grupos de $10$ e $12$ alunos ($134$ lugares). Possui também convênio com as principais bibliotecas do país para troca de livros e artigos (COMUT).
+
+\subsubsection{Laboratório de prototipagem eletrônica}
+
+O IMT disponibilizará um laboratório completo para projeto, fabricação e montagem de placas eletrônicas.  Esta montagem pode envolver estruturas em microfita com impedância controlada bem como a solda de componentes do tipo SMD. Com este recurso tem-se independência e agilidade na criação de protótipos e sistemas eletrônicos de suporte.
+
+% ------------------------------------------------------------------------
+\section{Cronograma de desenvolvimento} \label{sec:crono}
+
+ O projeto possui um cronograma de 24 meses, dividido em duas fases de 6 bimestre cada, como demonstrado na Tabela \ref{tab:crono}.
+ \todo[inline]{As propostas a serem apoiadas pela presente Chamada deverão ter seu prazo máximo de execução estabelecido em 36 (trinta e seis) meses. Excepcionalmente, mediante apresentação
+ de justificativa, o prazo de execução dos projetos poderá ser prorrogado.}
+
+\newcommand{\X}{\textbullet}
+\begin{table}[!ht]
+\centering
+\caption{Cronograma de execução do projeto proposto.}
+\hspace{6pt}
+
+\begin{footnotesize} 
+
+\begin{tabular}{|>{\PBS\raggedright\hspace{0pt}}p{52mm}%
+				|c|c|c|c|c|c || c|c|c|c|c|c|}
+\cline{2-13}
+\multicolumn{1}{c|}{} & 
+\multicolumn{6}{c||}{\textbf{1\textordmasculine Fase}} & 
+\multicolumn{6}{c|}{\textbf{2\textordmasculine Fase}} \\
+\hline
+
+Atividade (Bimestre)  & 1.\textordmasculine & 2.\textordmasculine & 3.\textordmasculine & 4.\textordmasculine & 5.\textordmasculine & 6.\textordmasculine & 7.\textordmasculine & 8.\textordmasculine & 9.\textordmasculine & 10.\textordmasculine & 11.\textordmasculine & 12.\textordmasculine \\
+
+\hline
+\hline
+
+Estudo Preliminar da roda de reação & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} &  & & & & & & & & \\
+\hline
+
+Concepção mecânica &  &  & \X & \X  & &  &\X  & \X & & & & \\
+\hline
+
+Concepção eletrônica de acionamento &  &   & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & &  & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & & & & \\
+\hline
+
+Usinagem e prototipagem do mancal &  &  &  &  &\multirow{2}{*}{\X} & \multirow{2}{*}{\X}& & &\multirow{2}{*}{\X} & \multirow{2}{*}{\X} & & \\
+\hline
+
+Usinagem e prototipagem do motor &  &  &  &  & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & & & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & & \\
+\hline
+
+Integração e testes do protótipo &  &  &  &  & & \X & \X & \X & \X & \X & \X& \X\\
+\hline
+
+Implementação das leis de controle e do software embarcado &  &  &  &  & & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} &  \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} & \multirow{2}{*}{\X} \\
+\hline
+
+Ensaios e validação em HIL &  &  &  &  &  & \X & \X & \X & \X & \X & \X & \\
+\hline
+
+Redação de artigos científicos &  &  & \X & \X & \X & \X & \X & \X &  \X&  \X& \X & \X \\
+\hline
+
+Redação de relatórios científicos & & & & \X & & \X & & \X & &  & \X & \X\\
+\hline
+
+\end{tabular}
+\label{tab:crono}
+\end{footnotesize}
+\end{table}
+
+
+\section{Recursos}
+
+Os recursos necessários para o projeto contempla R$\$ 159.850,00$ para a Fase 1 e R$\$ 98.000,00$ para a Fase 2. Os recursos envolvem o desenvolvimento, construção e validação da roda de reação, contando com otimizações e melhorias dos subsistemas ao longo da evolução do projeto, além de possibilitar a construção de réplicas da roda, verificando a repetibilidade na construção. 
+
+O organograma físico financeiro se encontra no Anexo \ref{Anexo_4_Organograma}.
+
+\subsection{Recursos detalhados}
+
+Os seguintes recursos e suas justificativas são necessários para o desenvolvimento do projeto:
+
+\small{
+\begin{longtable}{ p{0.3\columnwidth} p{0.65\columnwidth} }
+	\input{Anexos/orcamento_detalhado.tex}
+\end{longtable}}
+
+%O Anexo \ref{Anexo_4_Justificativa} é uma descrição/justificativa dos recursos necessários para execução do projeto.
+
+
+% ------------------------------------------------------------------------
+\section{Disseminação e avaliação}
+
+A evolução do projeto de pesquisa será avaliada considerando cada etapa proposta para execução: concepção, construção, modelagem, controle e validação visando contemplar a construção do conjunto funcional.
+ 
+O projeto de pesquisa está alinhado com os objetivos descritos no PNAE (Programa Nacional de Atividades Espaciais). Seu resultado possibilitará preencher lacunas existentes para a construção do conjunto motor e mancal visando aplicação aeroespacial e contribuirá com o desenvolvimento de rodas de reação com tecnologia nacional. No curso da realização do projeto há alguns pontos que são fortes candidatos a obtenção de patentes, o que implica em retorno para a sociedade na forma de propriedade intelectual. Pretende-se participar de um congresso nacional e um congresso internacional de área correlata, e , ao menos, produzir uma publicação em revista indexada. Os alunos de iniciação científica e mestrado, em momento oportuno, serão incentivados a publicarem os resultados de suas contribuições.
+ 
+ O engenheiro Rafael Corsi Ferrão, atualmente matriculado no programa de pós-graduação da Escola Politécnica da USP, realizará seu mestrado em tema correlato. O trabalho será realizado sob orientação do Prof. Dr. José Jaime da Cruz e co-orientado pelo proponente. Cinco temas de iniciação científica serão propostos:
+
+\begin{compactitem}
+	%\begin{itemize}
+		\item Modelagem  e simulação de mancal magnético;
+		\item Bancada de teste utilizando plataforma HIL;
+		\item Caracterização de motores sem escovas;
+		\item Estudo de materiais para aplicações aeroespaciais;
+		\item Utilização da técnica FMEA - \textit{Failure Mode and Effect Analysis} 	aplicado a escolha de soluções no desenvolvimento do conjunto motor e mancal.
+	%\end{itemize}
+\end{compactitem}
+
+ Pretende-se em sua continuidade, inserir a solução proposta em um sistema de controle de atitude para validação em condições de operação e prosseguir no processo de "espacialização"  da roda de reação.
+
+Como contrapartida pedagógica e de divulgação  pretende-se desenvolver um sistema didático de avaliação da roda de reação enquanto atuador. Este sistema será fundamentado em um pendulo cujo movimento será controlado por uma roda de reação posicionada em sua extremidade. 
+
+
+
+
+%-------- changes
+%\newpage
+% Diminui tamanho da letra na secção referencias
+\newpage
+\apptocmd{\thebibliography}{\footnotesize}{}{}
+\bibliographystyle{unsrt}'1
+\addcontentsline{toc}{section}{Referências Bibliográficas}
+\bibliography{Bibliografia_RW2}
+
+\newpage
+\pagenumbering{Alph} % para de númerar paginas em anexo
+
+\appendix
+\section{- Carta AEB} \label{Anexo_1}
+		\includegraphics[width=1 \columnwidth,angle=0]{./Anexos/Anexo1.pdf}
+
+\newpage
+%\appendix
+\section{- Carta CNES} \label{Anexo_2}
+		\includegraphics[width=1 \columnwidth,angle=0]{./Anexos/Anexo2.pdf}
+	
+\newpage
+%\appendix
+\section{- Carta Lesia} \label{Anexo_3}
+		\includegraphics[width=1 \columnwidth,angle=0]{./Anexos/Anexo3.pdf}
+		
+\newpage
+%\appendix
+\section{- Parceria IMT - INPE} \label{Anexo_INPE}
+		\includegraphics[width=1 \columnwidth,angle=0,page=1]{./Anexos/Anexo_InpeIMT.pdf}	
+		\includegraphics[width=1 \columnwidth,angle=0,page=2]{./Anexos/Anexo_InpeIMT.pdf}		
+	
+%\newpage
+%\appendix
+%\section{- Declaração de conhecimento} \label{Anexo_acordo}
+%		\includegraphics[width=1 \columnwidth]{./Anexos/carta_ze.pdf}		
+		
+\newpage
+%\appendix
+\section{- Equipe} \label{Anexo_equipe}
+		\includegraphics[width=1.4 \columnwidth ,angle=90]{./Anexos/cpf_equipe.pdf}
+		
+\newpage
+%\appendix
+\newgeometry{left=2cm,bottom=0.1cm}
+\section{- Organograma Físico Financeiro} \label{Anexo_4_Organograma}
+		\includegraphics[width=1.3 \columnwidth,angle=90]{./Anexos/cpf_OrganogramaFisicoFinanceiro.pdf}
+\restoregeometry
+%\newpage
+%\appendix
+%\section*{Anexo 4}
+%		\includegraphics[width=1 \columnwidth,angle=0]{../Docs/Anexos/Anexo4.pdf}	
+		
+\newpage
+%--------- todi
+\listoftodos 
+
+%\begin{versionhistory}
+%  \vhEntry{0.5.0}{20.05.13}{Corsi}{Proposta Uniespaco}
+%  \vhEntry{0.5.1}{22.05.13}{Rafael e Sergio}{Revisão da estrutura, cronograma, orçamento}
+%  \vhEntry{0.5.2}{29.05.13}{Rafael}{Novos itens cronograma}
+%\end{versionhistory}
+% ------------------------------------------------------------------------
+\end{document}
+% ------------------------------------------------------------------------

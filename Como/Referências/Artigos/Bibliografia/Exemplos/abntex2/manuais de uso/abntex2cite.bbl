@@ -1,0 +1,3804 @@
+\nocite{wmoore1960}
+\nocite{silva1988}
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem{abnt-options0}
+\abntrefinfo{nada}{NADA}{c}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-options0}! . Op\c c\~ao selecionada {\tt
+  abnt-show-options=}\verb+list+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-options0,
+key={a},
+abnt-show-options={list}}
+\end{verbatim}}
+\bibitem{NBR6023:2000}
+\abntrefinfo{ABNT}{ABNT}{2000}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6023}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- refer\^encias --- elabora{\c
+  c}\~ao.
+Rio de Janeiro, 2000, 22~p.}
+{\footnotesize\begin{verbatim}
+@manual{NBR6023:2000,
+address={Rio de Janeiro},
+month={ago.},
+organization={Associa{\c c}\~ao Brasileira de Normas T\'ecnicas},
+org-short={ABNT},
+pages={22},
+subtitle={Informa{\c c}\~ao e documenta{\c c}\~ao --- Refer\^encias ---
+  Elabora{\c c}\~ao},
+title={{NBR} 6023},
+year={2000}}
+\end{verbatim}}
+\bibitem{NBR10520:1988}
+\abntrefinfo{ABNT}{ABNT}{1988}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 10520}:
+  Apresenta{\c c}\~ao de cita{\c c}\~oes em documentos --- procedimentos.
+Rio de Janeiro, 1988, 3~p.}
+{\footnotesize\begin{verbatim}
+@manual{NBR10520:1988,
+address={Rio de Janeiro},
+month={out.},
+organization={Associa{\c c}\~ao Brasileira de Normas T\'ecnicas},
+org-short={ABNT},
+pages={3},
+subtitle={Apresenta{\c c}\~ao de cita{\c c}\~oes em documentos ---
+  Procedimentos},
+title={{NBR} 10520},
+year={1988}}
+\end{verbatim}}
+\bibitem{NBR10520:2001}
+\abntrefinfo{ABNT}{ABNT}{2001}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 10520}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- apresenta{\c c}\~ao de cita{\c
+  c}\~oes em documentos.
+Rio de Janeiro, 2001, 4~p. Substitui a Ref.~\citeonline{NBR10520:1988}.}
+{\footnotesize\begin{verbatim}
+@manual{NBR10520:2001,
+address={Rio de Janeiro},
+month={jul.},
+note={Substitui a Ref.~\citeonline{NBR10520:1988}},
+organization={Associa{\c c}\~ao Brasileira de Normas T\'ecnicas},
+org-short={ABNT},
+pages={4},
+subtitle={Informa{\c c}\~ao e documenta{\c c}\~ao --- Apresenta{\c c}\~ao de
+  cita{\c c}\~oes em documentos},
+title={{NBR} 10520},
+year={2001}}
+\end{verbatim}}
+\bibitem{abnt-bibtex-alf-doc}
+\abntrefinfo{Weber}{WEBER}{2003}
+{WEBER, G. \emph{Estilo bibtex compat{\'\i}vel com a `norma' 6023/2000 da
+  {ABNT}}: Quest\~oes espec{\'\i}ficas da `norma' 10520/2001.
+[S.l.], 2003. Dispon{\'\i}vel em: \url{http://abntex.codigolivre.org.br}.}
+{\footnotesize\begin{verbatim}
+@manual{abnt-bibtex-alf-doc,
+author={Gerald Weber},
+organization={Grupo abnTeX},
+subtitle={Quest\~oes espec{\'\i}ficas da `norma' 10520/2001},
+title={Estilo bibtex compat{\'\i}vel com a `norma' 6023/2000 da {ABNT}},
+url={http://abntex.codigolivre.org.br},
+year={2003}}
+\end{verbatim}}
+\bibitem{gomes1998}
+\abntrefinfo{Gomes}{GOMES}{1998}
+{GOMES, L. G. F.~F. \emph{Novela e sociedade no Brasil}. Niter\'oi: EdUFF,
+  1998. 137~p., 21~cm.  (Cole{\c c}\~ao Antropologia e Ci\^encia Pol{\'\i}tica,
+  15). Bibliografia: p. 131--132.
+ISBN 85-228-0268-8.}
+{\footnotesize\begin{verbatim}
+@book{gomes1998,
+address={Niter\'oi},
+author={Gomes, L. G. F. F},
+dimensions={21~cm},
+isbn={85-228-0268-8},
+note={Bibliografia: p. 131--132},
+number={15},
+pages={137},
+publisher={EdUFF},
+series={Cole{\c c}\~ao Antropologia e Ci\^encia Pol{\'\i}tica},
+title={Novela e sociedade no Brasil},
+year={1998}}
+\end{verbatim}}
+\bibitem{FUNDAP1994}
+\abntrefinfo{Perfil\ldots}{PERFIL\ldots}{1994}
+{PERFIL da administra{\c c}\~ao p\'ublica paulista. 6. ed. S\~ao Paulo: FUNDAP,
+  1994. 317~p., 28~cm. Inclui {\'\i}ndice.
+ISBN 85-7285-026-0.}
+{\footnotesize\begin{verbatim}
+@book{FUNDAP1994,
+address={S\~ao Paulo},
+edition={6},
+dimensions={28~cm},
+isbn={85-7285-026-0},
+note={Inclui {\'\i}ndice},
+pages={317},
+publisher={FUNDAP},
+title={Perfil da administra{\c c}\~ao p\'ublica paulista},
+year={1994}}
+\end{verbatim}}
+\bibitem{ABNT-barcelos0}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{ABNT-barcelos0}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+title+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{ABNT-barcelos0,
+key={x},
+abnt-thesis-year={title}}
+\end{verbatim}}
+\bibitem{barcelos1998}
+\abntrefinfo{Barcelos}{BARCELOS}{1998}
+{BARCELOS, M. F.~P.
+\emph{Ensaio tecnol\'ogico, bioqu{\'\i}mico e sensorial de soja e gandu
+  enlatados no est\'agio verde e matura{\c c}\~ao de colheita}.
+1998. 160~f. Tese (Doutorado em Nutri{\c c}\~ao) --- Faculdade de Engenharia de
+  Alimentos, Universidade Estadual de Campinas, Campinas.}
+{\footnotesize\begin{verbatim}
+@phdthesis{barcelos1998,
+address={Campinas},
+author={M. F. P. Barcelos},
+pages={160},
+pagename={f.},
+school={Faculdade de Engenharia de Alimentos, Universidade Estadual de
+  Campinas},
+title={Ensaio tecnol\'ogico, bioqu{\'\i}mico e sensorial de soja e gandu
+  enlatados no est\'agio verde e matura{\c c}\~ao de colheita},
+type={Doutorado em Nutri{\c c}\~ao},
+year={1998}}
+\end{verbatim}}
+\bibitem{ABNT-barcelos1}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{ABNT-barcelos1}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+final+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{ABNT-barcelos1,
+key={x},
+abnt-thesis-year={final}}
+\end{verbatim}}
+\bibitem{IBICT1993}
+\abntrefinfo{IBICT}{IBICT}{1993}
+{IBICT. \emph{Manual de normas de editora{\c c}\~ao do {IBICT}}. 2. ed.
+  Bras{\'\i}lia, DF, 1993, 41~p.}
+{\footnotesize\begin{verbatim}
+@booklet{IBICT1993,
+address={Bras{\'\i}lia, DF},
+edition={2},
+organization={IBICT},
+pages={41},
+title={Manual de normas de editora{\c c}\~ao do {IBICT}},
+year={1993}}
+\end{verbatim}}
+\bibitem{houaiss1996}
+\abntrefinfo{Houaiss}{HOUAISS}{1996}
+{HOUAISS, A. (Ed.). \emph{Novo dicion\'ario {Folha Webster's}}:
+  ingl\^es/portugu\^es, portugu\^es/ingl\^es. Co-editor Ismael Cardim. S\~ao
+  Paulo: Folha da Manh\~a, 1996. Edi{\c c}\~ao exclusiva para o assinante da
+  Folha de S.\ Paulo.}
+{\footnotesize\begin{verbatim}
+@book{houaiss1996,
+address={S\~ao Paulo},
+editor={A. Houaiss},
+furtherresp={Co-editor Ismael Cardim},
+note={Edi{\c c}\~ao exclusiva para o assinante da Folha de S.\ Paulo},
+publisher={Folha da Manh\~a},
+subtitle={ingl\^es/portugu\^es, portugu\^es/ingl\^es},
+title={Novo dicion\'ario {Folha Webster's}},
+year={1996}}
+\end{verbatim}}
+\bibitem{folha1995}
+\abntrefinfo{Brasil\ldots}{BRASIL\ldots}{1995}
+{BRASIL: roteiros tur{\'\i}sticos. S\~ao Paulo: Folha da Manh\~a, 1995. 319~p.,
+  il.  (Roteiros tur{\'\i}sticos Fiat). Inclui mapa rodovi\'ario.}
+{\footnotesize\begin{verbatim}
+@book{folha1995,
+address={S\~ao Paulo},
+illustrated={},
+note={Inclui mapa rodovi\'ario},
+pages={319},
+publisher={Folha da Manh\~a},
+series={Roteiros tur{\'\i}sticos Fiat},
+title={Brasil: roteiros tur{\'\i}sticos},
+year={1995}}
+\end{verbatim}}
+\bibitem{secretaria1989}
+\abntrefinfo{S\~ao Paulo {(Estado). Secretaria do Meio Ambiente. Coordenadoria
+  de Planejamento Ambiental.}}{S\~AO PAULO {(Estado). Secretaria do Meio
+  Ambiente. Coordenadoria de Planejamento Ambiental.}}{1989}
+{S\~AO PAULO {(Estado). Secretaria do Meio Ambiente. Coordenadoria de
+  Planejamento Ambiental.} \emph{Estudo de impacto ambiental --- {EIA},
+  Relat\'orio de Impacto ambiental --- {RIMA}}: manual de orienta{\c c}\~ao.
+S\~ao Paulo, 1989, 48~p.  (S\'erie Manuais).}
+{\footnotesize\begin{verbatim}
+@manual{secretaria1989,
+address={S\~ao Paulo},
+organization={S\~ao Paulo {(Estado). Secretaria do Meio Ambiente. Coordenadoria
+  de Planejamento Ambiental.}},
+pages={48},
+series={S\'erie Manuais},
+subtitle={manual de orienta{\c c}\~ao},
+title={Estudo de impacto ambiental --- {EIA}, Relat\'orio de Impacto ambiental
+  --- {RIMA}},
+year={1989}}
+\end{verbatim}}
+\bibitem{museu1997}
+\abntrefinfo{Museu~da~Imigra{\c c}\~ao {(S\~ao Paulo, SP)}}{MUSEU~DA~IMIGRA{\c
+  C}\~AO {(S\~ao Paulo, SP)}}{1997}
+{MUSEU~DA~IMIGRA{\c C}\~AO {(S\~ao Paulo, SP)}. \emph{Museu da Imigra{\c c}\~ao
+  --- S. Paulo}: cat\'alogo.
+S\~ao Paulo, 1997, 16~p.}
+{\footnotesize\begin{verbatim}
+@manual{museu1997,
+address={S\~ao Paulo},
+organization={Museu~da~Imigra{\c c}\~ao {(S\~ao Paulo, SP)}},
+pages={16},
+subtitle={cat\'alogo},
+title={Museu da Imigra{\c c}\~ao --- S. Paulo},
+year={1997}}
+\end{verbatim}}
+\bibitem{moreira1997}
+\abntrefinfo{Instituto Moreira Salles}{INSTITUTO MOREIRA SALLES}{1997}
+{INSTITUTO MOREIRA SALLES. \emph{S\~ao Paulo de {V}incenzo {P}astore}:
+  fotografias: de 26 de abril a 3 de agosto de 1997, {Casa da cultura de Po{\c
+  c}os de Caldas, MG}.
+[S.l.], 1997. 1 folder. Apoio Minist\'erio da Cultura: Lei Federal de Incentivo
+  \`a Cultura.}
+{\footnotesize\begin{verbatim}
+@manual{moreira1997,
+note={1 folder. Apoio Minist\'erio da Cultura: Lei Federal de Incentivo \`a
+  Cultura},
+organization={Instituto Moreira Salles},
+subtitle={fotografias: de 26 de abril a 3 de agosto de 1997, {Casa da cultura
+  de Po{\c c}os de Caldas, MG}},
+title={S\~ao Paulo de {V}incenzo {P}astore},
+year={1997}}
+\end{verbatim}}
+\bibitem{torelly1991}
+\abntrefinfo{Torelly}{TORELLY}{1991}
+{TORELLY, M. \emph{Almanaque para 1949}: primeiro semestre ou {A}lmanaque d'{A}
+  {M}anh\~a. Ed. fac-sim. S\~ao Paulo: Studioma: Arquivo do Estado, 1991.
+  (Cole{\c c}\~ao Almanaques do Bar\~ao de Itarar\'e). Cont\'em iconografia e
+  depoimentos sobre o autor.}
+{\footnotesize\begin{verbatim}
+@book{torelly1991,
+address={S\~ao Paulo},
+author={M. Torelly},
+edition={Ed. fac-sim},
+note={Cont\'em iconografia e depoimentos sobre o autor},
+publisher={Studioma: Arquivo do Estado},
+series={Cole{\c c}\~ao Almanaques do Bar\~ao de Itarar\'e},
+subtitle={primeiro semestre ou {A}lmanaque d'{A} {M}anh\~a},
+title={Almanaque para 1949},
+year={1991}}
+\end{verbatim}}
+\bibitem{romano1996}
+\abntrefinfo{Romano}{ROMANO}{1996}
+{ROMANO, G. Imagens da juventude na era moderna. In:  LEVI, G.; SCHMIDT, J.
+  (Org.). \emph{Hist\'oria dos jovens 2}: a \'epoca contempor\^anea. S\~ao
+  Paulo: Companhia das Letras, 1996. p. 7--16.}
+{\footnotesize\begin{verbatim}
+@incollection{romano1996,
+address={S\~ao Paulo},
+author={G. Romano},
+booktitle={Hist\'oria dos jovens 2},
+booksubtitle={a \'epoca contempor\^anea},
+editor={G. Levi and J. Schmidt},
+editortype={Org.},
+pages={7-16},
+publisher={Companhia das Letras},
+title={Imagens da juventude na era moderna},
+year={1996}}
+\end{verbatim}}
+\bibitem{santos1994}
+\abntrefinfo{Santos}{SANTOS}{1994}
+{SANTOS, F.~R. dos. A coloniza{\c c}\~ao da terra do {T}ucuj\'us.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Hist\'oria do Amap\'a, {1$^o$} grau}.
+  2. ed. Macap\'a: Valcan, 1994. cap.~3, p. 15--24.}
+{\footnotesize\begin{verbatim}
+@inbook{santos1994,
+address={Macap\'a},
+author={dos Santos, Fernando Rodrigues},
+booktitle={Hist\'oria do Amap\'a, {1$^o$} grau},
+chapter={3},
+edition={2},
+pages={15-24},
+publisher={Valcan},
+title={A coloniza{\c c}\~ao da terra do {T}ucuj\'us},
+year={1994}}
+\end{verbatim}}
+\bibitem{koogan1998}
+\abntrefinfo{Koogan e Houaiss}{KOOGAN; HOUAISS}{1998}
+{KOOGAN, A.; HOUAISS, A. (Ed.). \emph{Enciclop\'edia e dicion\'ario digital
+  98}. Dire{\c c}\~ao geral de Andr\'e Koogan Breikman. S\~ao Paulo: Delta:
+  Estad\~ao, 1998. 5 CD-ROM. Produzida por Videolar Multim{\'\i}dia.}
+{\footnotesize\begin{verbatim}
+@book{koogan1998,
+address={S\~ao Paulo},
+editor={A. Koogan and A. Houaiss},
+furtherresp={Dire{\c c}\~ao geral de Andr\'e Koogan Breikman},
+note={5 CD-ROM. Produzida por Videolar Multim{\'\i}dia},
+publisher={Delta: Estad\~ao},
+title={Enciclop\'edia e dicion\'ario digital 98},
+year={1998}}
+\end{verbatim}}
+\bibitem{priberam1998}
+\abntrefinfo{Pol{\'\i}tica}{POL{\'I}TICA}{1998}
+{POL{\'I}TICA.
+In:  DICION\'ARIO da l{\'\i}ngua portuguesa. Lisboa: Priberam Inform\'atica,
+  1998.
+Dispon{\'\i}vel em: \url{http://www.priberam.pt/dlDLPO}. Acesso em: 8 mar.
+  1999.}
+{\footnotesize\begin{verbatim}
+@inbook{priberam1998,
+address={Lisboa},
+booktitle={Dicion\'ario da l{\'\i}ngua portuguesa},
+publisher={Priberam Inform\'atica},
+title={Pol{\'\i}tica},
+url={http://www.priberam.pt/dlDLPO},
+urlaccessdate={8 mar. 1999},
+year={1998}}
+\end{verbatim}}
+\bibitem{secretaria1999}
+\abntrefinfo{S\~ao Paulo {(Estado). Secretaria do Meio Ambiente}}{S\~AO PAULO
+  {(Estado). Secretaria do Meio Ambiente}}{1999}
+{S\~AO PAULO {(Estado). Secretaria do Meio Ambiente}. Tratados e organiza{\c
+  c}\~oes ambientais em mat\'eria de meio ambiente.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Entendendo o meio ambiente}. S\~ao
+  Paulo, 1999. v.~1.
+Dispon{\'\i}vel em: \url{http://www.bdt.org.br/sma/entendendo/atual.htm}.
+  Acesso em: 8 mar. 1999.}
+{\footnotesize\begin{verbatim}
+@inbook{secretaria1999,
+address={S\~ao Paulo},
+booktitle={Entendendo o meio ambiente},
+organization={S\~ao Paulo {(Estado). Secretaria do Meio Ambiente}},
+title={Tratados e organiza{\c c}\~oes ambientais em mat\'eria de meio
+  ambiente},
+url={http://www.bdt.org.br/sma/entendendo/atual.htm},
+urlaccessdate={8 mar. 1999},
+volume={1},
+year={1999}}
+\end{verbatim}}
+\bibitem{brasileira1939}
+\abntrefinfo{Revista Brasileira de Geografia}{REVISTA BRASILEIRA DE
+  GEOGRAFIA}{1939--}
+{REVISTA BRASILEIRA DE GEOGRAFIA. Rio de Janeiro: IBGE, 1939--. Trimestral.
+  Absorveu Boletim Geogr\'afico do IBGE. \'Indice acumulado. 1939--1983.
+ISSN 0034-723X.}
+{\footnotesize\begin{verbatim}
+@book{brasileira1939,
+address={Rio de Janeiro},
+issn={0034-723X},
+note={Trimestral. Absorveu Boletim Geogr\'afico do IBGE. \'Indice acumulado.
+  1939--1983},
+organization={Revista Brasileira de Geografia},
+publisher={IBGE},
+year={1939--}}
+\end{verbatim}}
+\bibitem{geografico1943}
+\abntrefinfo{Boletim Geogr\'afico}{BOLETIM GEOGR\'AFICO}{1943-1978}
+{BOLETIM GEOGR\'AFICO. Rio de Janeiro: IBGE, 1943--1978. Trimestral.}
+{\footnotesize\begin{verbatim}
+@book{geografico1943,
+address={Rio de Janeiro},
+note={Trimestral},
+organization={Boletim Geogr\'afico},
+publisher={IBGE},
+year={1943-1978}}
+\end{verbatim}}
+\bibitem{paulista1941}
+\abntrefinfo{S\~ao Paulo Medical Journal=Revista Paulista de Medicina}{S\~AO
+  PAULO MEDICAL JOURNAL=REVISTA PAULISTA DE MEDICINA}{1941-}
+{S\~AO PAULO MEDICAL JOURNAL=REVISTA PAULISTA DE MEDICINA. S\~ao Paulo:
+  Associa{\c c}\~ao Paulista de Medicina, 1941--. Bimensal.
+ISSN 0035-0362.\footnote{O sinal de igualdade \'e do jeito que est\'a no
+  exemplo da `norma'.}}
+{\footnotesize\begin{verbatim}
+@book{paulista1941,
+address={S\~ao Paulo},
+issn={0035-0362},
+note={Bimensal},
+organization={S\~ao Paulo Medical Journal=Revista Paulista de Medicina},
+publisher={Associa{\c c}\~ao Paulista de Medicina},
+year={1941-}}
+\end{verbatim}}
+\bibitem{fgv1984}
+\abntrefinfo{Conjuntura\ldots}{CONJUNTURA\ldots}{1984}
+{CONJUNTURA ECON\^OMICA. As 500 maiores empresas do {B}rasil. Rio de Janeiro:
+  FGV, v.~38, n.~9, set. 1984. 135~p. Edi{\c c}\~ao Especial.}
+{\footnotesize\begin{verbatim}
+@journalpart{fgv1984,
+address={Rio de Janeiro},
+month={set.},
+note={Edi{\c c}\~ao Especial},
+number={9},
+pages={135},
+publisher={FGV},
+title={Conjuntura Econ\^omica. As 500 maiores empresas do {B}rasil},
+volume={38},
+year={1984}}
+\end{verbatim}}
+\bibitem{ibge1983}
+\abntrefinfo{Pesquisa\ldots}{PESQUISA\ldots}{1983}
+{PESQUISA NACIONAL POR AMOSTRA DE DOMIC{\'I}LIOS. M\~ao-de-obra e
+  previd\^encia. Rio de Janeiro: IBGE, v.~7, 1983. Suplemento.}
+{\footnotesize\begin{verbatim}
+@journalpart{ibge1983,
+address={Rio de Janeiro},
+note={Suplemento},
+publisher={IBGE},
+title={Pesquisa Nacional por amostra de domic{\'\i}lios. M\~ao-de-obra e
+  previd\^encia},
+volume={7},
+year={1983}}
+\end{verbatim}}
+\bibitem{tres2000}
+\abntrefinfo{Dinheiro}{DINHEIRO}{2000}
+{DINHEIRO: revista semanal de neg\'ocios. S\~ao Paulo: Ed.\ Tr\^es, n.~148, 28
+  jun. 2000. 98~p.}
+{\footnotesize\begin{verbatim}
+@journalpart{tres2000,
+address={S\~ao Paulo},
+month={28 jun.},
+number={148},
+pages={98},
+publisher={Ed.\ Tr\^es},
+subtitle={revista semanal de neg\'ocios},
+title={Dinheiro},
+year={2000}}
+\end{verbatim}}
+\bibitem{costa1998}
+\abntrefinfo{Costa}{COSTA}{1998}
+{COSTA, V.~R. {\`A} margem da lei: o {P}rograma {C}omunidade {S}olid\'aria.
+\emph{Em Pauta} --- Revista da Faculdade de Servi{\c c}o Social da UERJ, Rio de
+  Janeiro, n.~12, p. 131--148, 1998.}
+{\footnotesize\begin{verbatim}
+@article{costa1998,
+address={Rio de Janeiro},
+author={V. R. Costa},
+journal={Em Pauta},
+number={12},
+pages={131-148},
+section={Revista da Faculdade de Servi{\c c}o Social da UERJ},
+title={{\`A} Margem da lei: o {P}rograma {C}omunidade {S}olid\'aria},
+year={1998}}
+\end{verbatim}}
+\bibitem{gurgel1997}
+\abntrefinfo{Gurgel}{GURGEL}{1997}
+{GURGEL, C. Reforma do estado e seguran{\c c}a p\'ublica.
+\emph{Pol{\'\i}tica e administra{\c c}\~ao}, Rio de Janeiro, v.~3, n.~2, p.
+  15--21, set. 1997.}
+{\footnotesize\begin{verbatim}
+@article{gurgel1997,
+address={Rio de Janeiro},
+author={C. Gurgel},
+journal={Pol{\'\i}tica e administra{\c c}\~ao},
+month={set.},
+number={2},
+pages={15-21},
+title={Reforma do estado e seguran{\c c}a p\'ublica},
+volume={3},
+year={1997}}
+\end{verbatim}}
+\bibitem{tourinho1997}
+\abntrefinfo{Tourinho Neto}{TOURINHO NETO}{1997}
+{TOURINHO NETO, F.~C. Dano ambiental.
+\emph{Consulex} --- Revista Jur{\'\i}dica, Bras{\'\i}lia, DF, ano~1, n.~1, p.
+  18--23, fev. 1997.}
+{\footnotesize\begin{verbatim}
+@article{tourinho1997,
+address={Bras{\'\i}lia, DF},
+author={Tourinho, Neto, F. C.},
+journal={Consulex},
+month={fev.},
+number={1},
+pages={18-23},
+section={Revista Jur{\'\i}dica},
+title={Dano ambiental},
+volume={ano~1},
+year={1997}}
+\end{verbatim}}
+\bibitem{mansilla1998}
+\abntrefinfo{Mansilla}{MANSILLA}{1998}
+{MANSILLA, H. C.~F. La controversia entre universalismo y particularismo en la
+  filosofia de la cultura.
+\emph{Revista Latinoamericana de Filosofia}, Buenos Aires, v.~24, n.~2,
+  primavera 1998.}
+{\footnotesize\begin{verbatim}
+@article{mansilla1998,
+address={Buenos Aires},
+author={H. C. F. Mansilla},
+journal={Revista Latinoamericana de Filosofia},
+month={primavera},
+number={2},
+title={La controversia entre universalismo y particularismo en la filosofia de
+  la cultura},
+volume={24},
+year={1998}}
+\end{verbatim}}
+\bibitem{aldus1997}
+\abntrefinfo{Costura\ldots}{COSTURA\ldots}{1997}
+{COSTURA {$\times$} {P. U. R.}
+\emph{Aldus}, S\~ao Paulo, ano 1, n.~1, nov. 1997.
+Encarte t\'ecnico, p.~8.}
+{\footnotesize\begin{verbatim}
+@article{aldus1997,
+address={S\~ao Paulo},
+journal={Aldus},
+month={nov.},
+note={Encarte t\'ecnico, p.~8},
+number={1},
+title={Costura {$\times$} {P. U. R.}},
+volume={ano 1},
+year={1997}}
+\end{verbatim}}
+\bibitem{naves1999}
+\abntrefinfo{Naves}{NAVES}{1999}
+{NAVES, P. Lagos andinos d\~ao banho de belexa.
+\emph{Folha de S.\ Paulo}, S\~ao Paulo, 28 jun. 1999.
+Folha Turismo, Caderno 8, p.~13.}
+{\footnotesize\begin{verbatim}
+@article{naves1999,
+address={S\~ao Paulo},
+author={P. Naves},
+journal={Folha de S.\ Paulo},
+month={28 jun.},
+note={Folha Turismo, Caderno 8, p.~13},
+title={Lagos andinos d\~ao banho de belexa},
+year={1999}}
+\end{verbatim}}
+\bibitem{leal1999}
+\abntrefinfo{Leal}{LEAL}{1999}
+{LEAL, L.~N. {MP} fiscaliza com autonomia total.
+\emph{Jornal do Brasil}, Rio de Janeiro, p.~3, 25 abr. 1999.}
+{\footnotesize\begin{verbatim}
+@article{leal1999,
+address={Rio de Janeiro},
+author={L. N. Leal},
+journal={Jornal do Brasil},
+month={25 abr.},
+pages={3},
+title={{MP} fiscaliza com autonomia total},
+year={1999}}
+\end{verbatim}}
+\bibitem{silva1998}
+\abntrefinfo{Silva}{SILVA}{1998}
+{SILVA, M. M.~L. Crimes da era digital.
+\emph{.Net}, Rio de Janeiro, nov. 1998.
+Se{\c c}\~ao Ponto de Vista.
+Dispon{\'\i}vel em:
+  \url{http://www.brazilnet.com.br/contexts/brasilrevistas.htm}. Acesso em: 28
+  nov. 1998.}
+{\footnotesize\begin{verbatim}
+@article{silva1998,
+address={Rio de Janeiro},
+author={M. M. L. Silva},
+journal={.Net},
+month={nov.},
+note={Se{\c c}\~ao Ponto de Vista},
+title={Crimes da era digital},
+url={http://www.brazilnet.com.br/contexts/brasilrevistas.htm},
+urlaccessdate={28 nov. 1998},
+year={1998}}
+\end{verbatim}}
+\bibitem{ribeiro1998}
+\abntrefinfo{Ribeiro}{RIBEIRO}{1998}
+{RIBEIRO, P. S.~G. Ado{\c c}\~ao \`a brasileira: uma an\'alise
+  s\'ocio-jur{\'\i}dica.
+\emph{Datavenia}, S\~ao Paulo, ano~3, n.~18, ago. 1998.
+Dispon{\'\i}vel em: \url{http://www.datavenia.inf.br/frameartig.html}. Acesso
+  em: 10 set. 1998.}
+{\footnotesize\begin{verbatim}
+@article{ribeiro1998,
+address={S\~ao Paulo},
+author={P. S. G. Ribeiro},
+journal={Datavenia},
+month={ago.},
+number={18},
+subtitle={uma an\'alise s\'ocio-jur{\'\i}dica},
+title={Ado{\c c}\~ao \`a brasileira},
+url={http://www.datavenia.inf.br/frameartig.html},
+urlaccessdate={10 set. 1998},
+volume={ano~3},
+year={1998}}
+\end{verbatim}}
+\bibitem{pc1998}
+\abntrefinfo{Windows\ldots}{WINDOWS\ldots}{1998}
+{WINDOWS 98: o melhor caminho para atualiza{\c c}\~ao.
+\emph{PC World}, S\~ao Paulo, n.~75, set. 1998.
+Dispon{\'\i}vel em: \url{http://www.idg.com.br/abre.htm}. Acesso em: 10 set.
+  1998.}
+{\footnotesize\begin{verbatim}
+@article{pc1998,
+address={S\~ao Paulo},
+journal={PC World},
+month={set.},
+number={75},
+title={Windows 98: o melhor caminho para atualiza{\c c}\~ao},
+url={http://www.idg.com.br/abre.htm},
+urlaccessdate={10 set. 1998},
+year={1998}}
+\end{verbatim}}
+\bibitem{gsilva1998}
+\abntrefinfo{Silva}{SILVA}{1998}
+{SILVA, I.~G. Pena de morte para o nasciturno.
+\emph{O Estado de S.~Paulo}, S\~ao Paulo, 19 set. 1998.
+Dispon{\'\i}vel em:
+  \url{http://www.providafamilia.org/pena\_morte\_nasciturno.htm}. Acesso em:
+  10 set. 1998.}
+{\footnotesize\begin{verbatim}
+@article{gsilva1998,
+address={S\~ao Paulo},
+author={I. G. Silva},
+journal={O Estado de S.~Paulo},
+month={19 set.},
+title={Pena de morte para o nasciturno},
+url={http://www.providafamilia.org/pena_morte_nasciturno.htm},
+urlaccessdate={10 set. 1998},
+year={1998}}
+\end{verbatim}}
+\bibitem{kelly1996}
+\abntrefinfo{Kelly}{KELLY}{1996}
+{KELLY, R. Electronic publishing at {APS}: its not just online journalism.
+\emph{APS News Online}, Los Angeles, nov. 1996.
+Dispon{\'\i}vel em: \url{http://www.aps.org/apsnews/1196/11965.html}. Acesso
+  em: 25 nov. 1998.\footnote{No original est\'a `Nov.' em vez de `nov.'.
+  Trata-se de um boletim informativo de sociedade científica (APS) e n\~ao de
+  um jornal científico como afirma a `norma'.}}
+{\footnotesize\begin{verbatim}
+@article{kelly1996,
+address={Los Angeles},
+author={R. Kelly},
+journal={APS News Online},
+month={nov.},
+title={Electronic publishing at {APS}: its not just online journalism},
+url={http://www.aps.org/apsnews/1196/11965.html},
+urlaccessdate={25 nov. 1998},
+year={1996}}
+\end{verbatim}}
+\bibitem{nordeste1998}
+\abntrefinfo{Arranjo\ldots}{ARRANJO\ldots}{1998}
+{ARRANJO tribut\'ario.
+\emph{Di\'ario do Nordeste Online}, Fortaleza, 27 nov. 1998.
+Dispon{\'\i}vel em: \url{http://www.diariodonordeste.com.br}. Acesso em: 28
+  nov. 1998.}
+{\footnotesize\begin{verbatim}
+@article{nordeste1998,
+address={Fortaleza},
+journal={Di\'ario do Nordeste Online},
+month={27 nov.},
+title={Arranjo tribut\'ario},
+url={http://www.diariodonordeste.com.br},
+urlaccessdate={28 nov. 1998},
+year={1998}}
+\end{verbatim}}
+\bibitem{redes1995}
+\abntrefinfo{Simp\'osio Brasileiro de Redes de Computadores}{SIMP\'OSIO
+  BRASILEIRO DE REDES DE COMPUTADORES}{1995}
+{SIMP\'OSIO BRASILEIRO DE REDES DE COMPUTADORES, 13., 1995, Belo Horizonte.
+  \emph{Anais...} Belo Horizonte: UFMG, 1995. 655~p.}
+{\footnotesize\begin{verbatim}
+@proceedings{redes1995,
+address={Belo Horizonte},
+conference-number={13},
+conference-year={1995},
+conference-location={Belo Horizonte},
+organization={Simp\'osio Brasileiro de Redes de Computadores},
+pages={655},
+publisher={UFMG},
+title={Anais...},
+year={1995}}
+\end{verbatim}}
+\bibitem{chemical1984}
+\abntrefinfo{IUFROST International Syposium on Chemical Changes During Food
+  Processing}{IUFROST INTERNATIONAL SYPOSIUM ON CHEMICAL CHANGES DURING FOOD
+  PROCESSING}{1984}
+{IUFROST INTERNATIONAL SYPOSIUM ON CHEMICAL CHANGES DURING FOOD PROCESSING,
+  1984, Valencia. \emph{Proceedings...} Valencia: Instituto de Agroquimica y
+  Tecnologia de Alimentos, 1984.}
+{\footnotesize\begin{verbatim}
+@proceedings{chemical1984,
+address={Valencia},
+conference-year={1984},
+conference-location={Valencia},
+organization={IUFROST International Syposium on Chemical Changes During Food
+  Processing},
+publisher={Instituto de Agroquimica y Tecnologia de Alimentos},
+title={Proceedings...},
+year={1984}}
+\end{verbatim}}
+\bibitem{quimica1997}
+\abntrefinfo{Reuni\~ao Anual da Sociedade Brasileira de Qu\'imica}{REUNI\~AO
+  ANUAL DA SOCIEDADE BRASILEIRA DE QU\'IMICA}{1997}
+{REUNI\~AO ANUAL DA SOCIEDADE BRASILEIRA DE QU\'IMICA, 20., 1997, Po{\c c}os de
+  Caldas. \emph{Qu{\'\i}mica}: academia, ind\'ustria, sociedade: livro de
+  resumos. S\~ao Paulo: Sociedade Brasileira de Qu{\'\i}mica, 1997.}
+{\footnotesize\begin{verbatim}
+@proceedings{quimica1997,
+address={S\~ao Paulo},
+conference-number={20},
+conference-year={1997},
+conference-location={Po{\c c}os de Caldas},
+organization={Reuni\~ao Anual da Sociedade Brasileira de Qu\'imica},
+publisher={Sociedade Brasileira de Qu{\'\i}mica},
+subtitle={academia, ind\'ustria, sociedade: livro de resumos},
+title={Qu{\'\i}mica},
+year={1997}}
+\end{verbatim}}
+\bibitem{martin1997}
+\abntrefinfo{Martin Neto, Bayer e Mielniczuk}{MARTIN NETO; BAYER;
+  MIELNICZUK}{1997}
+{MARTIN NETO, L.; BAYER, C.; MIELNICZUK, J. Altera{\c c}\~oes qualitativas da
+  mat\'eria org\^anica e os fatores determinantes da sua estabilidade num solo
+  podz\'olico vermelho-escuro em diferentes sistemas de manejo. In:  CONGRESSO
+  BRASILEIRO DE CI\^ENCIA DO SOLO, 26., 1997, Rio de Janeiro. \emph{Resumos...}
+  Rio de Janeiro: Sociedade Brasileira de Ci\^encia do Solo, 1997. p.~443. Ref.
+  6--141.\footnote{No original: `p. 443, ref. 6-141' em vez de `p. 443. ref.
+  6-141'.}}
+{\footnotesize\begin{verbatim}
+@inproceedings{martin1997,
+address={Rio de Janeiro},
+author={Martin, Neto, L. and C. Bayer and J. Mielniczuk},
+booktitle={Resumos...},
+conference-number={26},
+conference-year={1997},
+conference-location={Rio de Janeiro},
+note={ref. 6--141},
+organization={Congresso Brasileiro de Ci\^encia do Solo},
+pages={443},
+publisher={Sociedade Brasileira de Ci\^encia do Solo},
+title={Altera{\c c}\~oes qualitativas da mat\'eria org\^anica e os fatores
+  determinantes da sua estabilidade num solo podz\'olico vermelho-escuro em
+  diferentes sistemas de manejo},
+year={1997}}
+\end{verbatim}}
+\bibitem{brayner1994}
+\abntrefinfo{Brayner e Medeiros}{BRAYNER; MEDEIROS}{1994}
+{BRAYNER, A. R.~A.; MEDEIROS, C.~B. Incorpora{\c c}\~ao do tempo em {SGDB}
+  orientado a objetos. In:  SIMP\'OSIO BRASILEIRO DE BANCO DE DADOS, 9., 1994,
+  S\~ao Paulo. \emph{Anais...} S\~ao Paulo: USP, 1994. p. 16--29.}
+{\footnotesize\begin{verbatim}
+@inproceedings{brayner1994,
+address={S\~ao Paulo},
+author={A. R. A. Brayner and C. B. Medeiros},
+booktitle={Anais...},
+conference-number={9},
+conference-year={1994},
+conference-location={S\~ao Paulo},
+organization={Simp\'osio Brasileiro de Banco de Dados},
+pages={16-29},
+publisher={USP},
+title={Incorpora{\c c}\~ao do tempo em {SGDB} orientado a objetos},
+year={1994}}
+\end{verbatim}}
+\bibitem{souza1994}
+\abntrefinfo{Souza, Borges e Rezende}{SOUZA; BORGES; REZENDE}{1994}
+{SOUZA, L.~S.; BORGES, A.~L.; REZENDE, J.~O. Influ\^encia da corre{\c c}\~ao e
+  do preparo do solo sobre algumas propriedades qu{\'\i}micas do solo cultivado
+  com bananeiras. In:  REUNI\~AO BRASILEIRA DE FERTILIDADE DO SOLO E NUTRI{\c
+  C}\~AO DE PLANTAS, 21., 1994, Petrolina. \emph{Anais...} Petrolina: EMPRAPA,
+  CATSA, 1994. p.~3--4.}
+{\footnotesize\begin{verbatim}
+@inproceedings{souza1994,
+address={Petrolina},
+author={L. S. Souza and A. L. Borges and J. O. Rezende},
+booktitle={Anais...},
+conference-number={21},
+conference-year={1994},
+conference-location={Petrolina},
+organization={Reuni\~ao Brasileira de Fertilidade do Solo e Nutri{\c c}\~ao de
+  Plantas},
+pages={3-4},
+publisher={EMPRAPA, CATSA},
+title={Influ\^encia da corre{\c c}\~ao e do preparo do solo sobre algumas
+  propriedades qu{\'\i}micas do solo cultivado com bananeiras},
+year={1994}}
+\end{verbatim}}
+\bibitem{cientifica1996}
+\abntrefinfo{Congresso de Inicia{\c c}\~ao Cient\'ifica da {UFPe}}{CONGRESSO DE
+  INICIA{\c C}\~AO CIENT\'IFICA DA {UFPe}}{1996}
+{CONGRESSO DE INICIA{\c C}\~AO CIENT\'IFICA DA {UFPe}, 4., 1996, Recife.
+  \emph{Anais eletr\^onicos...} Recife: UFPe, 1996.
+Dispon{\'\i}vel em: \url{http://www.propesq.ufpe.br/anais/anais.htm}. Acesso
+  em: 21 jan. 1997.}
+{\footnotesize\begin{verbatim}
+@proceedings{cientifica1996,
+address={Recife},
+conference-number={4},
+conference-year={1996},
+conference-location={Recife},
+organization={Congresso de Inicia{\c c}\~ao Cient\'ifica da {UFPe}},
+publisher={UFPe},
+title={Anais eletr\^onicos...},
+url={http://www.propesq.ufpe.br/anais/anais.htm},
+urlaccessdate={21 jan. 1997},
+year={1996}}
+\end{verbatim}}
+\bibitem{oliveira1996}
+\abntrefinfo{Silva e Oliveira}{SILVA; OLIVEIRA}{1996}
+{SILVA, R.~N.; OLIVEIRA, R. Os limites pedag\'ogicos do paradigma da qualidade
+  total na educa{\c c}\~ao. In:  CONGRESSO DE INICIA{\c C}\~AO CIENT\'IFICA DA
+  {UFPe}, 4., 1996, Recife. \emph{Anais eletr\^onicos...} Recife: UFPe, 1996.
+  Dispon{\'\i}vel em:
+  \url{http://www.propesq.ufpe.br/anais/anais/educ/ce04.htm}. Acesso em: 21
+  jan. 1997.\footnote{A url no original \'e impossível.}}
+{\footnotesize\begin{verbatim}
+@inproceedings{oliveira1996,
+address={Recife},
+author={R. N. Silva and R. Oliveira},
+booktitle={Anais eletr\^onicos...},
+conference-number={4},
+conference-year={1996},
+conference-location={Recife},
+organization={Congresso de Inicia{\c c}\~ao Cient\'ifica da {UFPe}},
+publisher={UFPe},
+title={Os limites pedag\'ogicos do paradigma da qualidade total na educa{\c
+  c}\~ao},
+url={http://www.propesq.ufpe.br/anais/anais/educ/ce04.htm},
+urlaccessdate={21 jan. 1997},
+year={1996}}
+\end{verbatim}}
+\bibitem{guncho1998}
+\abntrefinfo{Guncho}{GUNCHO}{1998}
+{GUNCHO, M.~R. A educa{\c c}\~ao \`a dist\^ancia e a biblioteca
+  universit\'aria. In:  SEMIN\'ARIO DE BIBLIOTECAS UNIVERSIT\'ARIAS, 10., 1998,
+  Fortaleza. \emph{Anais...} Fortaleza: Tec Treina, 1998. 1~CD.}
+{\footnotesize\begin{verbatim}
+@inproceedings{guncho1998,
+address={Fortaleza},
+author={M. R. Guncho},
+booktitle={Anais...},
+conference-number={10},
+conference-year={1998},
+conference-location={Fortaleza},
+note={1~CD},
+organization={Semin\'ario de Bibliotecas Universit\'arias},
+publisher={Tec Treina},
+title={A educa{\c c}\~ao \`a dist\^ancia e a biblioteca universit\'aria},
+year={1998}}
+\end{verbatim}}
+\bibitem{sabroza1998}
+\abntrefinfo{Sabroza}{SABROZA}{1998}
+{SABROZA, P.~C. Globaliza{\c c}\~ao e sa\'ude: impacto nos perfis
+  epidemiol\'ogicos das popula{\c c}\~oes. In:  CONGRESSO BRASILEIRO DE
+  EPIDEMIOLOGIA, 4., 1998, Rio de Janeiro. \emph{Anais eletr\^onicos...} Rio de
+  Janeiro: ABRASCO, 1998. Mesa-redonda. Dispon{\'\i}vel em:
+  \url{http://www.abrasco.com.br/epirio98/}. Acesso em: 17 jan. 1999.}
+{\footnotesize\begin{verbatim}
+@inproceedings{sabroza1998,
+address={Rio de Janeiro},
+author={P. C. Sabroza},
+booktitle={Anais eletr\^onicos...},
+conference-number={4},
+conference-year={1998},
+conference-location={Rio de Janeiro},
+note={Mesa-redonda},
+organization={Congresso Brasileiro de Epidemiologia},
+publisher={ABRASCO},
+title={Globaliza{\c c}\~ao e sa\'ude: impacto nos perfis epidemiol\'ogicos das
+  popula{\c c}\~oes},
+url={http://www.abrasco.com.br/epirio98/},
+urlaccessdate={17 jan. 1999},
+year={1998}}
+\end{verbatim}}
+\bibitem{krzyzanowski1996}
+\abntrefinfo{Krzyzanowski}{KRZYZANOWSKI}{}
+{KRZYZANOWSKI, R.~F. Valor agregado no mundo da informa{\c c}\~ao: um meio de
+  criar novos espa{\c c}os competitivos a partir da tecnologia da informa{\c
+  c}\~ao e melhor satisfazer \`as necessidades dos clientes/usu\'arios. In:
+  CONGRESSO REGIONAL DE INFORMA{\c C}\~AO EM CI\^ENCIAS DA SA\'UDE, 3., 1996,
+  Rio de Janeiro. \emph{Interliga{\c c}\~oes da tecnologia da informa{\c
+  c}\~ao}: um elo futuro. Dispon{\'\i}vel em:
+  \url{http://www.bireme.br/cgi-bin/crics3/texto?titulo=VALOR+AGREGADO+NO+MUNDO}.
+  Acesso em: 26 jan. 1999.}
+{\footnotesize\begin{verbatim}
+@inproceedings{krzyzanowski1996,
+author={R. F. Krzyzanowski},
+booktitle={Interliga{\c c}\~oes da tecnologia da informa{\c c}\~ao},
+booksubtitle={um elo futuro},
+conference-number={3},
+conference-year={1996},
+conference-location={Rio de Janeiro},
+organization={Congresso Regional de Informa{\c c}\~ao em Ci\^encias da
+  Sa\'ude},
+title={Valor agregado no mundo da informa{\c c}\~ao: um meio de criar novos
+  espa{\c c}os competitivos a partir da tecnologia da informa{\c c}\~ao e
+  melhor satisfazer \`as necessidades dos clientes/usu\'arios},
+url={http://www.bireme.br/cgi-bin/crics3/texto?titulo=VALOR+AGREGADO+NO+MUNDO},
+urlaccessdate={26 jan. 1999}}
+\end{verbatim}}
+\bibitem{cruvinel1989}
+\abntrefinfo{Cruvinel}{CRUVINEL}{}
+{EMBRAPA. {Unidade de Apoio, Pesquisa e Desenvolvimento de Instrumenta{\c
+  c}\~ao Agropecu\'aria (S\~ao Carlos)}. Paulo~Estev{\~a}o Cruvinel.
+  \emph{Medidor digital multisensorial de temperatura para solos}. BR n. PI
+  8903105-9, 26 jun. 1989, 30 maio 1995.}
+{\footnotesize\begin{verbatim}
+@patent{cruvinel1989,
+author={Paulo Estev{\~a}o Cruvinel},
+howpublished={26 jun. 1989, 30 maio 1995},
+number={BR n. PI 8903105-9},
+organization={Embrapa. {Unidade de Apoio, Pesquisa e Desenvolvimento de
+  Instrumenta{\c c}\~ao Agropecu\'aria (S\~ao Carlos)}},
+title={Medidor digital multisensorial de temperatura para solos}}
+\end{verbatim}}
+\bibitem{brasil1988}
+\abntrefinfo{Brasil}{BRASIL}{1988}
+{BRASIL.
+Constitui{\c c}\~ao (1988). \emph{Constitui{\c c}\~ao da Rep\'ublica Federativa
+  do Brasil}. Bras{\'\i}lia, DF: Senado, 1988.}
+{\footnotesize\begin{verbatim}
+@book{brasil1988,
+address={Bras{\'\i}lia, DF},
+organization={Brasil},
+publisher={Senado},
+title={Constitui{\c c}\~ao da Rep\'ublica Federativa do Brasil},
+type={Constitui{\c c}\~ao (1988)},
+year={1988}}
+\end{verbatim}}
+\bibitem{brasil1966}
+\abntrefinfo{Brasil}{BRASIL}{1995}
+{BRASIL. Constitui{\c c}\~ao (1988). {E}menda constitucional n{$^o$}9, de 9 de
+  novembro de 1995. {D}\'a nova reda{\c c}\~ao ao art.\ 177 da {C}onstitui{\c
+  c}\~ao {F}ederal, alterando e inserindo par\'agrafos.
+\emph{Lex} --- Colet\^anea de Legisla{\c c}\~ao e Jurisprud\^encia: legisla{\c
+  c}\~ao federal e margin\'alia, S\~ao Paulo, v.~59, p.~1966, out./dez. 1995.}
+{\footnotesize\begin{verbatim}
+@article{brasil1966,
+address={S\~ao Paulo},
+journal={Lex},
+month={out./dez.},
+organization={Brasil},
+pages={1966},
+section={Colet\^anea de Legisla{\c c}\~ao e Jurisprud\^encia: legisla{\c c}\~ao
+  federal e margin\'alia},
+title={Constitui{\c c}\~ao (1988). {E}menda constitucional n{$^o$}9, de 9 de
+  novembro de 1995. {D}\'a nova reda{\c c}\~ao ao art.\ 177 da {C}onstitui{\c
+  c}\~ao {F}ederal, alterando e inserindo par\'agrafos},
+volume={59},
+year={1995}}
+\end{verbatim}}
+\bibitem{brasil1997}
+\abntrefinfo{Brasil}{BRASIL}{1997}
+{BRASIL. Medida provis\'oria n{$^o$} 1.569-9, de 11 de dezembro de 1997.
+  {E}stabelece multa em opera{\c c}\~oes de importa{\c c}\~ao, e d\'a outras
+  provid\^encias.
+\emph{Di\'ario Oficial [da] Rep\'ublica Federativa do Brasil}, Poder Executivo,
+  Bras{\'\i}lia, DF, 14 dez. 1997.
+Se{\c c}\~ao~1, p.~29514.}
+{\footnotesize\begin{verbatim}
+@article{brasil1997,
+address={Bras{\'\i}lia, DF},
+journal={Di\'ario Oficial [da] Rep\'ublica Federativa do Brasil},
+month={14 dez.},
+note={Se{\c c}\~ao~1, p.~29514},
+organization={Brasil},
+publisher={Poder Executivo},
+title={Medida provis\'oria n{$^o$} 1.569-9, de 11 de dezembro de 1997.
+  {E}stabelece multa em opera{\c c}\~oes de importa{\c c}\~ao, e d\'a outras
+  provid\^encias.},
+year={1997}}
+\end{verbatim}}
+\bibitem{lex1998}
+\abntrefinfo{S\~ao Paulo {(Estado)}}{S\~AO PAULO {(Estado)}}{1998}
+{S\~AO PAULO {(Estado)}. Decreto n{$^o$} 42.822, de 20 de janeiro de 1998.
+  {D}isp\~oe sobre a desativa{\c c}\~ao de unidades administrativas de
+  \'org\~aos da administra{\c c}\~ao direta e das autarquias do {E}estado e
+  d\'a provid\^encias correlatas.
+\emph{Lex} --- Colet\^anea de Legisla{\c c}\~ao e Jurisprud\^encia, S\~ao
+  Paulo, v.~62, n.~3, p. 217--220, 1998.}
+{\footnotesize\begin{verbatim}
+@article{lex1998,
+address={S\~ao Paulo},
+journal={Lex},
+number={3},
+organization={S\~ao Paulo {(Estado)}},
+pages={217-220},
+section={Colet\^anea de Legisla{\c c}\~ao e Jurisprud\^encia},
+title={Decreto n{$^o$} 42.822, de 20 de janeiro de 1998. {D}isp\~oe sobre a
+  desativa{\c c}\~ao de unidades administrativas de \'org\~aos da administra{\c
+  c}\~ao direta e das autarquias do {E}estado e d\'a provid\^encias
+  correlatas},
+volume={62},
+year={1998}}
+\end{verbatim}}
+\bibitem{leis1991}
+\abntrefinfo{Brasil. {Congresso. Senado}}{BRASIL. {Congresso. Senado}}{1991}
+{BRASIL. {Congresso. Senado}. Resolu{\c c}\~ao n{$^o$} 17, de 1991. {A}utoriza
+  o desbloqueio de {L}etras {F}inanceiras do {T}esouro do {E}stado do {R}io
+  {G}rande do {S}ul, atrav\'es de revoga{\c c}\~ao do par\'agrafo 2{$^o$}, do
+  artigo 1{$^o$} da {R}esolu{\c c}\~ao n{$^o$} 72, de 1990.
+\emph{Cole{\c c}\~ao de leis da Rep\'ublica Federativa do Brasil},
+  Bras{\'\i}lia, DF, v.~183, p. 1156--1157, maio/jun. 1991.}
+{\footnotesize\begin{verbatim}
+@article{leis1991,
+address={Bras{\'\i}lia, DF},
+journal={Cole{\c c}\~ao de leis da Rep\'ublica Federativa do Brasil},
+month={maio/jun.},
+organization={Brasil. {Congresso. Senado}},
+pages={1156-1157},
+title={Resolu{\c c}\~ao n{$^o$} 17, de 1991. {A}utoriza o desbloqueio de
+  {L}etras {F}inanceiras do {T}esouro do {E}stado do {R}io {G}rande do {S}ul,
+  atrav\'es de revoga{\c c}\~ao do par\'agrafo 2{$^o$}, do artigo 1{$^o$} da
+  {R}esolu{\c c}\~ao n{$^o$} 72, de 1990},
+volume={183},
+year={1991}}
+\end{verbatim}}
+\bibitem{lex1943}
+\abntrefinfo{Brasil}{BRASIL}{1943}
+{BRASIL. Consolida{\c c}\~ao das {L}eis do {T}rabalho. {D}ecreto-lei
+  n{$^o$}5.252 de 1 de maio de 1943. {A}prova a consolida{\c c}\~ao das leis do
+  trabalho.
+\emph{Lex} --- Colet\^anea de Legisla{\c c}\~ao: edi{\c c}\~ao federal, S\~ao
+  Paulo, v.~7, 1943.
+Suplemento.}
+{\footnotesize\begin{verbatim}
+@article{lex1943,
+address={S\~ao Paulo},
+journal={Lex},
+note={Suplemento},
+organization={Brasil},
+section={Colet\^anea de Legisla{\c c}\~ao: edi{\c c}\~ao federal},
+title={Consolida{\c c}\~ao das {L}eis do {T}rabalho. {D}ecreto-lei n{$^o$}5.252
+  de 1 de maio de 1943. {A}prova a consolida{\c c}\~ao das leis do trabalho},
+volume={7},
+year={1943}}
+\end{verbatim}}
+\bibitem{brasil1995}
+\abntrefinfo{Brasil}{BRASIL}{1995}
+{BRASIL. \emph{C\'odigo civil}. Organiza{\c c}\~ao dos textos, notas remissivas
+  e {\'\i}ndices por Juarez de Oliveira. 46. ed. S\~ao Paulo: Saraiva, 1995.}
+{\footnotesize\begin{verbatim}
+@book{brasil1995,
+address={S\~ao Paulo},
+edition={46},
+furtherresp={Organiza{\c c}\~ao dos textos, notas remissivas e {\'\i}ndices por
+  Juarez de Oliveira},
+organization={Brasil},
+publisher={Saraiva},
+title={C\'odigo civil},
+year={1995}}
+\end{verbatim}}
+\bibitem{brasillex1998}
+\abntrefinfo{Brasil}{BRASIL}{1998}
+{BRASIL. {T}ribunal {R}egional {F}ederal. {R}egi\~ao, 5. {A}dministrativo.
+  {E}scola {T}\'ecnica {F}ederal. {P}agamento de diferen{\c c}as referente a
+  enquadramento de servidor decorrente de implanta{\c c}\~ao de {P}lano
+  {{\'U}}nico de {C}lassifica{\c c}\~ao e {D}istribui{\c c}\~ao de {C}argos e
+  {E}mpregos, institu{\'\i}do pela {L}ei n{$^o$}~8.270/91. {P}redomin\^ancia da
+  lei sobre a portaria. {A}pela{\c c}\~ao c{\'\i}vel n{$^o$}~42.441-{PE}
+  (94.05.01629-6). {A}pelante: {E}dilemos {M}amede dos {S}antos e outros.
+  {A}pelada: {E}scola {T}\'ecnica {F}ederal de {P}ernambuco. {R}elator: {J}uiz
+  {N}ereu {S}antos. {R}ecife, 4 de mar{\c c}o de 1997.
+\emph{Lex} --- Jurisprud\^encia do STJ e Tribunais Regionais Federais, S\~ao
+  Paulo, v.~10, n.~103, p. 558--562, mar. 1998.\footnote{Na `norma' a \'ultima
+  parte, a partir do volume, encontra-se incorretamente em it\'alico.}}
+{\footnotesize\begin{verbatim}
+@article{brasillex1998,
+address={S\~ao Paulo},
+journal={Lex},
+month={mar.},
+number={103},
+organization={Brasil},
+pages={558-562},
+section={Jurisprud\^encia do STJ e Tribunais Regionais Federais},
+title={{T}ribunal {R}egional {F}ederal. {R}egi\~ao, 5. {A}dministrativo.
+  {E}scola {T}\'ecnica {F}ederal. {P}agamento de diferen{\c c}as referente a
+  enquadramento de servidor decorrente de implanta{\c c}\~ao de {P}lano
+  {{\'U}}nico de {C}lassifica{\c c}\~ao e {D}istribui{\c c}\~ao de {C}argos e
+  {E}mpregos, institu{\'\i}do pela {L}ei n{$^o$}~8.270/91. {P}redomin\^ancia da
+  lei sobre a portaria. {A}pela{\c c}\~ao c{\'\i}vel n{$^o$}~42.441-{PE}
+  (94.05.01629-6). {A}pelante: {E}dilemos {M}amede dos {S}antos e outros.
+  {A}pelada: {E}scola {T}\'ecnica {F}ederal de {P}ernambuco. {R}elator: {J}uiz
+  {N}ereu {S}antos. {R}ecife, 4 de mar{\c c}o de 1997},
+volume={10},
+year={1998}}
+\end{verbatim}}
+\bibitem{tribunal1998}
+\abntrefinfo{Brasil. {Superior Tribunal de Justi\c ca}}{BRASIL. {Superior
+  Tribunal de Justi\c ca}}{1998}
+{BRASIL. {Superior Tribunal de Justi\c ca}. Processual {P}enal.
+  \textit{Habeas-corpus}. {C}onstrangimento ilegal. \textit{Habeas-corpus}
+  n{$^o$}~181.636-1, da 6{$^a$} {C}\^amera {C}{\'\i}vel do {T}ribunal de
+  {J}usti{\c c}a do {E}stado de {S}\~ao {P}aulo, {B}ras{\'\i}lia, {DF}, 6 de
+  dezembro de 1994.
+\emph{Lex} --- Jurisprud\^encia do STJ e Tribunais Regionais Federais, S\~ao
+  Paulo, v.~10, n.~103, p. 236--240, mar. 1998.}
+{\footnotesize\begin{verbatim}
+@article{tribunal1998,
+address={S\~ao Paulo},
+journal={Lex},
+month={mar.},
+number={103},
+organization={Brasil. {Superior Tribunal de Justi\c ca}},
+pages={236-240},
+section={Jurisprud\^encia do STJ e Tribunais Regionais Federais},
+title={Processual {P}enal. \textit{Habeas-corpus}. {C}onstrangimento ilegal.
+  \textit{Habeas-corpus} n{$^o$}~181.636-1, da 6{$^a$} {C}\^amera {C}{\'\i}vel
+  do {T}ribunal de {J}usti{\c c}a do {E}stado de {S}\~ao {P}aulo,
+  {B}ras{\'\i}lia, {DF}, 6 de dezembro de 1994},
+volume={10},
+year={1998}}
+\end{verbatim}}
+\bibitem{brasil1994}
+\abntrefinfo{Brasil. {Supremo Tribunal de Justi{\c c}a}}{BRASIL. {Supremo
+  Tribunal de Justi{\c c}a}}{1994}
+{BRASIL. {Supremo Tribunal de Justi{\c c}a}. S\'umula n{$^o$}14. {N}\~ao \'e
+  admiss{\'\i}vel por ato administrativo restringir, em raz\~ao de idade,
+  inscri{\c c}\~ao em concurso para cargo p\'ublico.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{S\'umulas}. S\~ao Paulo: Associa{\c
+  c}\~ao dos Advogados do Brasil, 1994. p.~16.}
+{\footnotesize\begin{verbatim}
+@inbook{brasil1994,
+address={S\~ao Paulo},
+booktitle={S\'umulas},
+organization={Brasil. {Supremo Tribunal de Justi{\c c}a}},
+pages={16},
+publisher={Associa{\c c}\~ao dos Advogados do Brasil},
+title={S\'umula n{$^o$}14. {N}\~ao \'e admiss{\'\i}vel por ato administrativo
+  restringir, em raz\~ao de idade, inscri{\c c}\~ao em concurso para cargo
+  p\'ublico},
+year={1994}}
+\end{verbatim}}
+\bibitem{barros1995}
+\abntrefinfo{Barros}{BARROS}{1995}
+{BARROS, R.~G. de. Minist\'erio {P}\'ublico: sua legitima{\c c}\~ao frente ao
+  {C}\'odigo do {C}onsumidor.
+\emph{Revista Trimestral de Jurisprud\^encia dos Estados}, S\~ao Paulo, v.~19,
+  n.~139, p. 53--72, ago. 1995.}
+{\footnotesize\begin{verbatim}
+@article{barros1995,
+address={S\~ao Paulo},
+author={R. G. de Barros},
+journal={Revista Trimestral de Jurisprud\^encia dos Estados},
+month={ago.},
+number={139},
+pages={53-72},
+title={Minist\'erio {P}\'ublico: sua legitima{\c c}\~ao frente ao {C}\'odigo do
+  {C}onsumidor},
+volume={19},
+year={1995}}
+\end{verbatim}}
+\bibitem{brasil1999}
+\abntrefinfo{Brasil}{BRASIL}{1999}
+{BRASIL. Lei n{$^o$} 9.887, de 7 de dezembro de 1999. {A}ltera a legisla{\c
+  c}\~ao tribut\'aria federal.
+\emph{Di\'ario Oficial [da] Rep\'ublica Federativa do Brasil}, Bras{\'\i}lia,
+  DF, 8 dez. 1999.
+Dispon{\'\i}vel em:
+  \url{http://www.in.gov.br/mp\_leis/leis\_texto.aps?Id=Lei\%209887}. Acesso
+  em: 22 dez. 1999.}
+{\footnotesize\begin{verbatim}
+@article{brasil1999,
+address={Bras{\'\i}lia, DF},
+journal={Di\'ario Oficial [da] Rep\'ublica Federativa do Brasil},
+month={8 dez.},
+organization={Brasil},
+title={Lei n{$^o$} 9.887, de 7 de dezembro de 1999. {A}ltera a legisla{\c
+  c}\~ao tribut\'aria federal},
+url={http://www.in.gov.br/mp_leis/leis_texto.aps?Id=Lei%209887},
+urlaccessdate={22 dez. 1999},
+year={1999}}
+\end{verbatim}}
+\bibitem{brasil1998}
+\abntrefinfo{Brasil. {Supremo Tribunal Federal}}{BRASIL. {Supremo Tribunal
+  Federal}}{a}
+{BRASIL. {Supremo Tribunal Federal}. \emph{S\'umula n{$^o$}14}. {N}\~ao \'e
+  admiss{\'\i}vel por ato administrativo restringir, em raz\~ao de idade,
+  inscri{\c c}\~ao em concurso para cargo p\'ublico. Dispon{\'\i}vel em:
+  \url{http://www.truenetm.com.br/jurisnet/sumusSTF.html}. Acesso em: 29 nov.
+  1998.}
+{\footnotesize\begin{verbatim}
+@book{brasil1998,
+note={{N}\~ao \'e admiss{\'\i}vel por ato administrativo restringir, em raz\~ao
+  de idade, inscri{\c c}\~ao em concurso para cargo p\'ublico},
+organization={Brasil. {Supremo Tribunal Federal}},
+title={S\'umula n{$^o$}14},
+url={http://www.truenetm.com.br/jurisnet/sumusSTF.html},
+urlaccessdate={29 nov. 1998}}
+\end{verbatim}}
+\bibitem{supremo1998}
+\abntrefinfo{Brasil. {Supremo Tribunal Federal}}{BRASIL. {Supremo Tribunal
+  Federal}}{b}
+{BRASIL. {Supremo Tribunal Federal}. S\'umula n{$^o$}14. {N}\~ao \'e
+  admiss{\'\i}vel por ato administrativo restringir, em raz\~ao de idade,
+  inscri{\c c}\~ao em concurso para cargo p\'ublico. {J}ulgamento: 1963/12/16.
+  {SUDIN} vol. 0000-01 {PG}00037.
+\emph{Revista Experimental de Direito e Telem\'atica}.
+Dispon{\'\i}vel em: \url{http://www.prodau-sc.com.br/ciberjur/stf.html}. Acesso
+  em: 29 nov. 1998.}
+{\footnotesize\begin{verbatim}
+@article{supremo1998,
+journal={Revista Experimental de Direito e Telem\'atica},
+organization={Brasil. {Supremo Tribunal Federal}},
+title={S\'umula n{$^o$}14. {N}\~ao \'e admiss{\'\i}vel por ato administrativo
+  restringir, em raz\~ao de idade, inscri{\c c}\~ao em concurso para cargo
+  p\'ublico. {J}ulgamento: 1963/12/16. {SUDIN} vol. 0000-01 {PG}00037},
+url={http://www.prodau-sc.com.br/ciberjur/stf.html},
+urlaccessdate={29 nov. 1998}}
+\end{verbatim}}
+\bibitem{ceravi1983}
+\abntrefinfo{Os~perigos\ldots}{OS~PERIGOS\ldots}{1983}
+{OS~PERIGOS do uso de t\'oxicos. Produ{\c c}\~ao de Jorge Ramos de Andrade.
+  Coordena{\c c}\~ao de Maria Izabel Azevedo. S\~ao Paulo: CERAVI, 1983. 1 fita
+  de v{\'\i}deo (30 min), VHS, son., color.}
+{\footnotesize\begin{verbatim}
+@book{ceravi1983,
+address={S\~ao Paulo},
+furtherresp={Produ{\c c}\~ao de Jorge Ramos de Andrade. Coordena{\c c}\~ao de
+  Maria Izabel Azevedo},
+note={1 fita de v{\'\i}deo (30 min), VHS, son., color.},
+publisher={CERAVI},
+title={Os~perigos do uso de t\'oxicos},
+year={1983}}
+\end{verbatim}}
+\bibitem{riofilme1998}
+\abntrefinfo{Central\ldots}{CENTRAL\ldots}{1998}
+{CENTRAL do {B}rasil. Dire{\c c}\~ao: Walter Salles J\'unior. Produ{\c c}\~ao:
+  Martire de Clermont-Tonnerre e Artur Cohn. Roteiro: Marcos Bernstein, Jo\~ao
+  Emanuel Carneiro e Walter Salles J\'unior. Int\'erpretes: Fernanda
+  Montenegro; Mar{\'\i}lia Pera; Vinicius de Oliveira; S\^onia Lira; Othon
+  Bastos; Matheus Nachtergaele e outros. [S.l.]: Le Studio Canal; Riofilme;
+  MACT Productions, 1998. 1 filme (106 min), son., color., 35 mm.}
+{\footnotesize\begin{verbatim}
+@book{riofilme1998,
+furtherresp={Dire{\c c}\~ao: Walter Salles J\'unior. Produ{\c c}\~ao: Martire
+  de Clermont-Tonnerre e Artur Cohn. Roteiro: Marcos Bernstein, Jo\~ao Emanuel
+  Carneiro e Walter Salles J\'unior. Int\'erpretes: Fernanda Montenegro;
+  Mar{\'\i}lia Pera; Vinicius de Oliveira; S\^onia Lira; Othon Bastos; Matheus
+  Nachtergaele e outros},
+note={1 filme (106 min), son., color., 35 mm},
+publisher={Le Studio Canal; Riofilme; MACT Productions},
+title={Central do {B}rasil},
+year={1998}}
+\end{verbatim}}
+\bibitem{warner1991}
+\abntrefinfo{Blade\ldots}{BLADE\ldots}{c1991}
+{BLADE {R}unner. Dire{\c c}\~ao: Ridley Scott. Produ{\c c}\~ao: Michael Deeley.
+  Int\'erpretes: Harrison Ford; Rutger Hauer; Sean Young; Edward James Olmos e
+  outros. Roteiro: Hampton Fancher e David Peoples. M\'usica: Vangelis. Los
+  Angeles: Warner Brothers, c1991. 1 DVD (117 min), widescreen, color.
+  Produzido por Warner Video Home. Baseado na novela ``Do androids dream of
+  electric sheep?'' de Philip K.\ Dick.}
+{\footnotesize\begin{verbatim}
+@book{warner1991,
+address={Los Angeles},
+furtherresp={Dire{\c c}\~ao: Ridley Scott. Produ{\c c}\~ao: Michael Deeley.
+  Int\'erpretes: Harrison Ford; Rutger Hauer; Sean Young; Edward James Olmos e
+  outros. Roteiro: Hampton Fancher e David Peoples. M\'usica: Vangelis},
+note={1 DVD (117 min), widescreen, color. Produzido por Warner Video Home.
+  Baseado na novela ``Do androids dream of electric sheep?'' de Philip K.\
+  Dick},
+publisher={Warner Brothers},
+title={Blade {R}unner},
+year={c1991}}
+\end{verbatim}}
+\bibitem{kobayashi1998}
+\abntrefinfo{Kobayashi}{KOBAYASHI}{1980}
+{KOBAYASHI, K. \emph{Doen{\c c}a dos xavantes}. 1980.
+1 fot., color. 16 cm$\times$56 cm.}
+{\footnotesize\begin{verbatim}
+@misc{kobayashi1998,
+author={K. Kobayashi},
+note={1 fot., color. 16 cm$\times$56 cm},
+title={Doen{\c c}a dos xavantes},
+year={1980}}
+\end{verbatim}}
+\bibitem{fraipont1998}
+\abntrefinfo{Fraipont}{FRAIPONT}{1998}
+{FRAIPONT, E. A.~I.
+\emph{O Estado de S.\ Paulo}, S\~ao Paulo, 30 nov. 1998.
+Caderno 2, Visuais p. D2. 1 fot., p\&b. Foto apresentada no Projeto
+  ABRA/Coca-cola.\footnote{N\~ao \'e poss{\'\i}vel saber o que vem a ser o
+  ``II'' (ou seria ``Ll''?) no nome.}}
+{\footnotesize\begin{verbatim}
+@article{fraipont1998,
+address={S\~ao Paulo},
+author={Fraipont, E. Amiclar {II}},
+journal={O Estado de S.\ Paulo},
+month={30 nov.},
+note={Caderno 2, Visuais p. D2. 1 fot., p\&b. Foto apresentada no Projeto
+  ABRA/Coca-cola},
+year={1998}}
+\end{verbatim}}
+\bibitem{ceravi1985}
+\abntrefinfo{O~que\ldots}{O~QUE\ldots}{1985}
+{O~QUE acreditar em rela{\c c}\~ao \`a maconha. S\~ao Paulo: CERAVI, 1985. 22
+  transpar\^encias, color., 25 cm$\times$20 cm.}
+{\footnotesize\begin{verbatim}
+@misc{ceravi1985,
+address={S\~ao Paulo},
+howpublished={22 transpar\^encias, color., 25 cm$\times$20 cm},
+publisher={CERAVI},
+title={O~que acreditar em rela{\c c}\~ao \`a maconha},
+year={1985}}
+\end{verbatim}}
+\bibitem{souza1985}
+\abntrefinfo{O~descobrimento\ldots}{O~DESCOBRIMENTO\ldots}{1985}
+{O~DESCOBRIMENTO do {B}rasil. Fotografia de Carmem Souza. Grava{\c c}\~ao de
+  Marcos Louren{\c c}o. S\~ao Paulo: CERAVI, 1985. 31 diapositivos: color. + 1
+  fita cassete sonoro (15 min) mono.}
+{\footnotesize\begin{verbatim}
+@misc{souza1985,
+address={S\~ao Paulo},
+furtherresp={Fotografia de Carmem Souza. Grava{\c c}\~ao de Marcos Louren{\c
+  c}o},
+howpublished={31 diapositivos: color. + 1 fita cassete sonoro (15 min) mono},
+publisher={CERAVI},
+title={O~descobrimento do {B}rasil},
+year={1985}}
+\end{verbatim}}
+\bibitem{samu1977}
+\abntrefinfo{Sam\'u}{SAM\'U}{1977}
+{SAM\'U, R. \emph{Vit\'oria}: 18:35 h. 1977. 1 grav., serigraf., color., 46
+  cm$\times$63 cm. Cole{\c c}\~ao Particular.}
+{\footnotesize\begin{verbatim}
+@misc{samu1977,
+author={R. Sam\'u},
+howpublished={1 grav., serigraf., color., 46 cm$\times$63 cm. Cole{\c c}\~ao
+  Particular},
+subtitle={18:35 h},
+title={Vit\'oria},
+year={1977}}
+\end{verbatim}}
+\bibitem{mattos1987}
+\abntrefinfo{Mattos}{MATTOS}{1987}
+{MATTOS, M.~D. \emph{Paisagem --- {Q}uatro {B}arras}. 1987. 1 original de arte,
+  \'oleo sobre tela, 40~cm{$\times$}50~cm. Cole{\c c}\~ao particular.}
+{\footnotesize\begin{verbatim}
+@misc{mattos1987,
+author={M. D. Mattos},
+howpublished={1 original de arte, \'oleo sobre tela, 40~cm{$\times$}50~cm.
+  Cole{\c c}\~ao particular.},
+title={Paisagem --- {Q}uatro {B}arras},
+year={1987}}
+\end{verbatim}}
+\bibitem{vaso1999}
+\abntrefinfo{VASO\ldots}{VASO\ldots}{1999}
+{VASO.TIFF. 1999.
+Altura: 1083 pixels. Largura: 827 pixels. 300 dpi. 32 BIT CMYK. 3.5 Mb. Formato
+  TIFF bitmap. Compactado.
+Dispon{\'\i}vel em: \url{C:\Carol\VASO.TIFF}. Acesso em: 28 out.
+  1999.\footnote{Na `norma' aparece o ano quando j\'a tem a data de acesso.}}
+{\footnotesize\begin{verbatim}
+@misc{vaso1999,
+note={Altura: 1083 pixels. Largura: 827 pixels. 300 dpi. 32 BIT CMYK. 3.5 Mb.
+  Formato TIFF bitmap. Compactado},
+title={VASO.TIFF},
+url={C:\Carol\VASO.TIFF},
+urlaccessdate={28 out. 1999},
+year={1999}}
+\end{verbatim}}
+\bibitem{levi1997}
+\abntrefinfo{Levi}{LEVI}{1997}
+{LEVI, R. \emph{Edif{\'\i}cio {C}olumbus de propriedade de {L}amberto
+  {R}amengoni \`a {R}ua da {P}az, esquina da {A}venida {B}rigadeiro {L}uiz
+  {A}ntonio}: n. 1930-33. 1997, 108~f. Plantas diversas. Originais em papel
+  vegetal.}
+{\footnotesize\begin{verbatim}
+@misc{levi1997,
+author={R. Levi},
+howpublished={Plantas diversas. Originais em papel vegetal},
+pages={108},
+pagename={f.},
+subtitle={n. 1930-33.},
+title={Edif{\'\i}cio {C}olumbus de propriedade de {L}amberto {R}amengoni \`a
+  {R}ua da {P}az, esquina da {A}venida {B}rigadeiro {L}uiz {A}ntonio},
+year={1997}}
+\end{verbatim}}
+\bibitem{datum1996}
+\abntrefinfo{Datum Consultoria e Projetos}{DATUM CONSULTORIA E PROJETOS}{1996}
+{DATUM CONSULTORIA E PROJETOS. \emph{Hotel {P}orto do {S}ol {S}\~ao {P}aulo}:
+  ar condicionado e ventila{\c c}\~ao mec\^anica: fluxograma hidr\'aulico,
+  central de \'agua gelada. 1996. Projeto final. Desenhista: Pedro. N. da obra
+  1744/96/Folha 10.}
+{\footnotesize\begin{verbatim}
+@misc{datum1996,
+howpublished={Projeto final. Desenhista: Pedro. N. da obra 1744/96/Folha 10},
+month={15 jul.},
+organization={Datum Consultoria e Projetos},
+subtitle={ar condicionado e ventila{\c c}\~ao mec\^anica: fluxograma
+  hidr\'aulico, central de \'agua gelada},
+title={Hotel {P}orto do {S}ol {S}\~ao {P}aulo},
+year={1996}}
+\end{verbatim}}
+\bibitem{britanica1981}
+\abntrefinfo{Atlas\ldots}{ATLAS\ldots}{1981}
+{ATLAS Mirador Internacional. Rio de Janeiro: Enciclop\'edia Brit\^anica do
+  Brasil, 1981.}
+{\footnotesize\begin{verbatim}
+@book{britanica1981,
+address={Rio de Janeiro},
+publisher={Enciclop\'edia Brit\^anica do Brasil},
+title={Atlas Mirador Internacional},
+year={1981}}
+\end{verbatim}}
+\bibitem{geografico1994}
+\abntrefinfo{Instituto Geogr\'afico e Cartogr\'afico {(S\~ao Paulo,
+  SP)}}{INSTITUTO GEOGR\'AFICO E CARTOGR\'AFICO {(S\~ao Paulo, SP)}}{1994}
+{INSTITUTO GEOGR\'AFICO E CARTOGR\'AFICO {(S\~ao Paulo, SP)}. \emph{Regi\~oes
+  de governo do {E}stado de {S}\~ao {P}aulo}.
+S\~ao Paulo, 1994. Plano Cartogr\'afico do Estado de S\~ao Paulo. Escala
+  1:2.000.}
+{\footnotesize\begin{verbatim}
+@manual{geografico1994,
+address={S\~ao Paulo},
+note={Plano Cartogr\'afico do Estado de S\~ao Paulo. Escala 1:2.000},
+organization={Instituto Geogr\'afico e Cartogr\'afico {(S\~ao Paulo, SP)}},
+title={Regi\~oes de governo do {E}stado de {S}\~ao {P}aulo},
+year={1994}}
+\end{verbatim}}
+\bibitem{michalany1981}
+\abntrefinfo{Brasil\ldots}{BRASIL\ldots}{1981}
+{BRASIL e parte da Am\'erica do Sul: mapa pol\'itico, escolar, rodovi\'ario,
+  tur{\'\i}stico e regional. S\~ao Paulo: Michalany, 1981. 1 mapa, color.,
+  79~cm$\times$95~cm. Escala 1:600.000.}
+{\footnotesize\begin{verbatim}
+@book{michalany1981,
+address={S\~ao Paulo},
+note={1 mapa, color., 79~cm$\times$95~cm. Escala 1:600.000},
+publisher={Michalany},
+subtitle={mapa pol\'itico, escolar, rodovi\'ario, tur{\'\i}stico e regional},
+title={Brasil e parte da Am\'erica do Sul},
+year={1981}}
+\end{verbatim}}
+\bibitem{geografico1986}
+\abntrefinfo{Instituto Geogr\'afico e Cartogr\'afico {(S\~ao Paulo,
+  SP)}}{INSTITUTO GEOGR\'AFICO E CARTOGR\'AFICO {(S\~ao Paulo, SP)}}{1986}
+{INSTITUTO GEOGR\'AFICO E CARTOGR\'AFICO {(S\~ao Paulo, SP)}. \emph{Projeto
+  {L}ins {T}up\~a}: foto a\'erea.
+S\~ao Paulo, 1986. Fx~28, n.~15. Escala 1:35.000.}
+{\footnotesize\begin{verbatim}
+@manual{geografico1986,
+address={S\~ao Paulo},
+note={Fx~28, n.~15. Escala 1:35.000},
+organization={Instituto Geogr\'afico e Cartogr\'afico {(S\~ao Paulo, SP)}},
+subtitle={foto a\'erea},
+title={Projeto {L}ins {T}up\~a},
+year={1986}}
+\end{verbatim}}
+\bibitem{espaciais1987}
+\abntrefinfo{Landsat\ldots}{LANDSAT\ldots}{1987--1988}
+{LANDSAT {TM} 5. S\~ao Jos\'e dos Campos: Instituto Nacional de Pesquisas
+  Espaciais, 1987--1988. Canais 3, 4 e composi{\c c}\~ao colorida 3, 4 e 5.
+  Escala 1:100.000.}
+{\footnotesize\begin{verbatim}
+@misc{espaciais1987,
+address={S\~ao Jos\'e dos Campos},
+howpublished={Canais 3, 4 e composi{\c c}\~ao colorida 3, 4 e 5. Escala
+  1:100.000},
+publisher={Instituto Nacional de Pesquisas Espaciais},
+title={Landsat {TM} 5},
+year={1987--1988}}
+\end{verbatim}}
+\bibitem{univali1999}
+\abntrefinfo{Estados Unidos. {National Oceanic and Atmospheric
+  Administration}}{ESTADOS UNIDOS. {National Oceanic and Atmospheric
+  Administration}}{}
+{ESTADOS UNIDOS. {National Oceanic and Atmospheric Administration}.
+  \emph{GOES-08: SE. 13 jul. 1999, 17:42Z. IR04}. Itaja{\'\i}: UNIVALI. Imagem
+  de sat\'elite: 1999071318.GIF: 557 Kb.\footnote{N\~ao d\'a para entender
+  porque a `norma' n\~ao coloca o t{\'\i}tulo em negrito neste exemplo.}}
+{\footnotesize\begin{verbatim}
+@misc{univali1999,
+address={Itaja{\'\i}},
+howpublished={Imagem de sat\'elite: 1999071318.GIF: 557 Kb},
+organization={Estados Unidos. {National Oceanic and Atmospheric
+  Administration}},
+publisher={UNIVALI},
+title={GOES-08: SE. 13 jul. 1999, 17:42Z. IR04}}
+\end{verbatim}}
+\bibitem{globo1995}
+\abntrefinfo{{MPB}\ldots}{{MPB}\ldots}{c1995}
+{{MPB} especial. [Rio de Janeiro]: Globo: Movieplay, c1995. 1 CD (50 min).
+ (Globo collection, 2).}
+{\footnotesize\begin{verbatim}
+@misc{globo1995,
+address={[Rio de Janeiro]},
+howpublished={1 CD (50 min)},
+number={2},
+publisher={Globo: Movieplay},
+series={Globo collection},
+title={{MPB} especial},
+year={c1995}}
+\end{verbatim}}
+\bibitem{alcione1988}
+\abntrefinfo{Alcione}{ALCIONE}{p1988}
+{ALCIONE. \emph{Ouro e cobre}. Dire{\c c}\~ao artistica: Miguel Propschi. S\~ao
+  Paulo: RCA Victor, p1988. 1~disco sonoro (45~min), 33~1/3 rpm, estero,
+  12~pol.}
+{\footnotesize\begin{verbatim}
+@misc{alcione1988,
+address={S\~ao Paulo},
+author={Alcione},
+furtherresp={Dire{\c c}\~ao artistica: Miguel Propschi},
+howpublished={1~disco sonoro (45~min), 33~1/3 rpm, estero, 12~pol.},
+publisher={RCA Victor},
+title={Ouro e cobre},
+year={p1988}}
+\end{verbatim}}
+\bibitem{silva1991}
+\abntrefinfo{Silva}{SILVA}{1991}
+{SILVA, L. I.~L. da. \emph{{L}uiz {I}n\'acio {L}ula da {S}ilva}: depoimento
+  [abr. 1991]. Entrevistadores: V. Tremel e M. Garcia. S\~ao Paulo: SENAI-SP,
+  1991. 2~fitas cassete (120~min), 3~3/4 pps, estero. Entrevista concedida ao
+  Projeto Mem\'oria do SENAI-SP.}
+{\footnotesize\begin{verbatim}
+@misc{silva1991,
+address={S\~ao Paulo},
+author={L. I. L. da Silva},
+furtherresp={Entrevistadores: V. Tremel e M. Garcia},
+howpublished={2~fitas cassete (120~min), 3~3/4 pps, estero. Entrevista
+  concedida ao Projeto Mem\'oria do SENAI-SP},
+publisher={SENAI-SP},
+subtitle={depoimento [abr. 1991]},
+title={{L}uiz {I}n\'acio {L}ula da {S}ilva},
+year={1991}}
+\end{verbatim}}
+\bibitem{fagner1988}
+\abntrefinfo{Fagner}{FAGNER}{1988}
+{FAGNER, R. \emph{Revela{\c c}\~ao}. Rio de Janeiro: CBS, 1988. 1~fita cassete
+  (60~min), 3~3/4 pps., estereo.}
+{\footnotesize\begin{verbatim}
+@misc{fagner1988,
+address={Rio de Janeiro},
+author={R. Fagner},
+howpublished={1~fita cassete (60~min), 3~3/4 pps., estereo},
+publisher={CBS},
+title={Revela{\c c}\~ao},
+year={1988}}
+\end{verbatim}}
+\bibitem{simone1977}
+\abntrefinfo{Simone}{SIMONE}{p1977}
+{SIMONE. \emph{Face a face}. [S.l.]: Emi-Odeon Brasil, p1977. 1~CD (ca.
+  40~min). Remasterizado em digital.}
+{\footnotesize\begin{verbatim}
+@misc{simone1977,
+author={Simone},
+howpublished={1~CD (ca. 40~min). Remasterizado em digital},
+publisher={Emi-Odeon Brasil},
+title={Face a face},
+year={p1977}}
+\end{verbatim}}
+\bibitem{alcionet1988}
+\abntrefinfo{Alcione}{ALCIONE}{p1988}
+{ALCIONE. Toque macio. {A. Gino. [Compositor]}.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Ouro e cobre}. Dire{\c c}\~ao
+  Art{\'\i}stica: Miguel Propschi. S\~ao Paulo: RCA Victor, p1988.
+1~disco sonoro (45~min), 33~1/3 rpm, est\'ereo, 12~pol. Lado~A, faixa~1 (4~min
+  3~s).\footnote{O compositor foi acrescentado ao t{\'\i}tulo. No original o
+  campo "S\~ao Paulo: RCA Victor, p1988" est\'a repetido. Parece ser um erro de
+  digita{\c c}\~ao assim como o ponto em "est\'ereo.".}}
+{\footnotesize\begin{verbatim}
+@inbook{alcionet1988,
+address={S\~ao Paulo},
+author={Alcione},
+booktitle={Ouro e cobre},
+furtherresp={Dire{\c c}\~ao Art{\'\i}stica: Miguel Propschi},
+note={1~disco sonoro (45~min), 33~1/3 rpm, est\'ereo, 12~pol. Lado~A, faixa~1
+  (4~min 3~s)},
+publisher={RCA Victor},
+title={Toque macio. {A. Gino. [Compositor]}},
+year={p1988}}
+\end{verbatim}}
+\bibitem{simonej1977}
+\abntrefinfo{Simone}{SIMONE}{p1977}
+{SIMONE. Jura secreta. {S. Costa, A. Silva. [Compositores]}.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Face a face}. [S.l.]: Emi-Odeon
+  Brasil, p1977.
+1 CD (ca. 40 min). Faixa 7 (4 min 22 s). Remasterizado em digital.\footnote{O
+  compositor foi acrescentado ao t{\'\i}tulo.}}
+{\footnotesize\begin{verbatim}
+@inbook{simonej1977,
+author={Simone},
+booktitle={Face a face},
+note={1 CD (ca. 40 min). Faixa 7 (4 min 22 s). Remasterizado em digital.},
+publisher={Emi-Odeon Brasil},
+title={Jura secreta. {S. Costa, A. Silva. [Compositores]}},
+year={p1977}}
+\end{verbatim}}
+\bibitem{bart1952}
+\abntrefinfo{Bart\'ok}{BART\'OK}{1952}
+{BART\'OK, B. \emph{O mandarim maravilhoso}: op. 19. Wien: Universal, 1952. 1
+  partitura (73 p.). Orquestra.}
+{\footnotesize\begin{verbatim}
+@misc{bart1952,
+address={Wien},
+author={B. Bart\'ok},
+howpublished={1 partitura (73 p.). Orquestra},
+publisher={Universal},
+subtitle={op. 19},
+title={O mandarim maravilhoso},
+year={1952}}
+\end{verbatim}}
+\bibitem{gallet1851}
+\abntrefinfo{Gallet}{GALLET}{1851}
+{GALLET, L. (Org.). \emph{Can{\c c}\~oes populares brasileiras}. Rio de
+  Janeiro: Carlos Wehns, 1851. 1 partitura (23 p.). Piano.}
+{\footnotesize\begin{verbatim}
+@misc{gallet1851,
+address={Rio de Janeiro},
+editor={L. Gallet},
+editortype={Org.},
+howpublished={1 partitura (23 p.). Piano},
+publisher={Carlos Wehns},
+title={Can{\c c}\~oes populares brasileiras},
+year={1851}}
+\end{verbatim}}
+\bibitem{villa1916}
+\abntrefinfo{Villa-Lobos}{VILLA-LOBOS}{1916}
+{VILLA-LOBOS, H. \emph{Cole{\c c}\~oes de quartetos modernos}: cordas. Rio de
+  Janeiro: [s.n.], 1916. 1 partitura (23 p.). Violoncelo.}
+{\footnotesize\begin{verbatim}
+@misc{villa1916,
+address={Rio de Janeiro},
+author={H. Villa-Lobos},
+howpublished={1 partitura (23 p.). Violoncelo},
+subtitle={cordas},
+title={Cole{\c c}\~oes de quartetos modernos},
+year={1916}}
+\end{verbatim}}
+\bibitem{duchamp1918}
+\abntrefinfo{Duchamp}{DUCHAMP}{1918}
+{DUCHAMP, M. \emph{Escultura para viajar}. 1918. 1 escultura vari\'avel,
+  borracha colorida e cordel, dimens\~oes \textit{ad lib.} Original
+  destru{\'\i}do. C\'opia por Richard Hamilton, feita por ocasi\~ao da
+  retrospectiva de Duchamp na Tate Gallery (Londres) em 1966. Cole{\c c}\~ao de
+  Arturo Schwarz. T{\'\i}tulo original: Sculpture for travelling.}
+{\footnotesize\begin{verbatim}
+@misc{duchamp1918,
+author={M. Duchamp},
+howpublished={1 escultura vari\'avel, borracha colorida e cordel, dimens\~oes
+  \textit{ad lib.} Original destru{\'\i}do. C\'opia por Richard Hamilton, feita
+  por ocasi\~ao da retrospectiva de Duchamp na Tate Gallery (Londres) em 1966.
+  Cole{\c c}\~ao de Arturo Schwarz. T{\'\i}tulo original: Sculpture for
+  travelling},
+title={Escultura para viajar},
+year={1918}}
+\end{verbatim}}
+\bibitem{europa0000}
+\abntrefinfo{Ta{\c{c}}a\ldots}{TA{\c{C}}A\ldots}{}
+{TA{\c{C}}A de vidro \`a maneira de {V}eneza, com a imagem de {N}ossa {S}enhora
+  e o menino no fuste tamb\'em decorado com detalhes azuis. Europa, s\'ec.
+  XVIII-XIX, 10,7 cm de di\^am. $\times$ 24,5 cm de alt.}
+{\footnotesize\begin{verbatim}
+@misc{europa0000,
+howpublished={Europa, s\'ec. XVIII-XIX, 10,7 cm de di\^am. $\times$ 24,5 cm de
+  alt.},
+title={Ta{\c{c}}a de vidro \`a maneira de {V}eneza, com a imagem de {N}ossa
+  {S}enhora e o menino no fuste tamb\'em decorado com detalhes azuis}}
+\end{verbatim}}
+\bibitem{indias0000}
+\abntrefinfo{Bule\ldots}{BULE\ldots}{}
+{BULE de porcelana: fam{\'\i}lia rosa, decorado com buqu\^es e guirlandas de
+  flores sobre fundo branco, pegador de tampa em formato de fruto. Marca
+  Companhia das \'Indias. China, s\'ec. XIX. 17 cm de alt.}
+{\footnotesize\begin{verbatim}
+@misc{indias0000,
+howpublished={Marca Companhia das \'Indias. China, s\'ec. XIX. 17 cm de alt.},
+title={Bule de porcelana: fam{\'\i}lia rosa, decorado com buqu\^es e guirlandas
+  de flores sobre fundo branco, pegador de tampa em formato de fruto}}
+\end{verbatim}}
+\bibitem{birds1998}
+\abntrefinfo{Birds\ldots}{BIRDS\ldots}{}
+{BIRDS from Amap\'a: banco de dados.
+Dispon{\'\i}vel em: \url{http://www.bdt.org/bdt/avifauna/aves}. Acesso em: 25
+  nov. 1998.}
+{\footnotesize\begin{verbatim}
+@misc{birds1998,
+subtitle={banco de dados},
+title={Birds from Amap\'a},
+url={http://www.bdt.org/bdt/avifauna/aves},
+urlaccessdate={25 nov. 1998}}
+\end{verbatim}}
+\bibitem{tropical1998}
+\abntrefinfo{Funda{\c c}\~ao Tropical de Pesquisas e Tecnologia "Andr\'e
+  Tosello"}{FUNDA{\c C}\~AO TROPICAL DE PESQUISAS E TECNOLOGIA "ANDR\'E
+  TOSELLO"}{}
+{FUNDA{\c C}\~AO TROPICAL DE PESQUISAS E TECNOLOGIA "ANDR\'E TOSELLO".
+  \emph{\'Acaros no {E}stado de {S}\~ao {P}aulo (\textit{Enseius concordis})}.
+  Banco de dados preparado por {C}arlos {H}. {W}. Flechtmann.
+Dispon{\'\i}vel em: \url{http://www.bdt.org/bdt/acarosp}. Acesso em: 28 nov.
+  1998.\footnote{Este exemplo dado na `norma' parece estar todo equivocado. O
+  exemplo mostra a cita{\c c}\~ao como se n\~ao tivesse um autor (daí a
+  primeira palavra do título em mai\'usculas. No entanto h\'a claramente um
+  autor (a funda{\c c}\~ao). Veja como est\'a na `norma': \'ACAROS no Estado de
+  S\~ao Paulo (\textit{Enseius concordis}): banco de dados preparado por Carlos
+  H. W. Flechtmann. In: FUNDA\c C\~AO TROPICAL DE PESQUISAS E TECNOLOGIA
+  ``ANDR\'E TOSELLO'''. \textbf{Bases de Dados Tropical}: no ar desde 1985.
+  Dispon{\'\i}vel em \ldots}}
+{\footnotesize\begin{verbatim}
+@misc{tropical1998,
+furtherresp={Banco de dados preparado por {C}arlos {H}. {W}. Flechtmann},
+organization={Funda{\c c}\~ao Tropical de Pesquisas e Tecnologia "Andr\'e
+  Tosello"},
+title={\'Acaros no {E}stado de {S}\~ao {P}aulo (\textit{Enseius concordis})},
+url={http://www.bdt.org/bdt/acarosp},
+urlaccessdate={28 nov. 1998}}
+\end{verbatim}}
+\bibitem{bioline1998}
+\abntrefinfo{Bioline\ldots}{BIOLINE\ldots}{}
+{BIOLINE Discussion List. List maintained by the Bases de Dados Tropical, BDT
+  in Brasil.
+Dispon{\'\i}vel em: \url{http://lisserv@bdt.org.br}. Acesso em: 25 nov. 1998.}
+{\footnotesize\begin{verbatim}
+@misc{bioline1998,
+title={Bioline Discussion List. List maintained by the Bases de Dados Tropical,
+  BDT in Brasil},
+url={http://lisserv@bdt.org.br},
+urlaccessdate={25 nov. 1998}}
+\end{verbatim}}
+\bibitem{drummond1998}
+\abntrefinfo{Book\ldots}{BOOK\ldots}{}
+{BOOK announcement 13 may 1997. Produced by J. Drummond.
+Dispon{\'\i}vel em:
+  \url{http://www.bdt.org.br/bioline/DBSearch?BIOLINE-L+READC+57}. Acesso em:
+  25 nov. 1998.\footnote{N\~ao d\'a para entender porque na `norma' todo
+  título foi escrito em mai\'usculas (BOOK ANNOUNCEMENT 12 MAY 1998) e n\~ao
+  apenas a primeira palavra. Ser\'a que confundiram o título com o nome de
+  organiza{\c c}\~ao?}}
+{\footnotesize\begin{verbatim}
+@misc{drummond1998,
+furtherresp={Produced by J. Drummond},
+title={Book announcement 13 may 1997},
+url={http://www.bdt.org.br/bioline/DBSearch?BIOLINE-L+READC+57},
+urlaccessdate={25 nov. 1998}}
+\end{verbatim}}
+\bibitem{coordena1995}
+\abntrefinfo{Civitas}{CIVITAS}{1995-1998}
+{CIVITAS. Coordena{\c c}\~ao de Sim\~ao Pedro P. Marinho. Desenvolvido pela
+  Pontif{\'\i}cia Universidade Cat\'olica de Minas Gerais. 1995--1998.
+  Apresenta textos sobre urbanismo e desenvolvimento de cidades.
+Dispon{\'\i}vel em: \url{http://www.gcsnet.com/oamis/civitas}. Acesso em: 27
+  nov. 1998.\footnote{Claramente h\'a aqui um nome que desempenha papel de
+  editor, minha sugest\~ao para esta cita{\c c}\~ao est\'a em
+  \cite{marinho1995}.}}
+{\footnotesize\begin{verbatim}
+@misc{coordena1995,
+furtherresp={Coordena{\c c}\~ao de Sim\~ao Pedro P. Marinho. Desenvolvido pela
+  Pontif{\'\i}cia Universidade Cat\'olica de Minas Gerais},
+howpublished={Apresenta textos sobre urbanismo e desenvolvimento de cidades},
+title={Civitas},
+url={http://www.gcsnet.com/oamis/civitas},
+urlaccessdate={27 nov. 1998},
+year={1995-1998}}
+\end{verbatim}}
+\bibitem{marinho1995}
+\abntrefinfo{Marinho}{MARINHO}{1995-1998}
+{MARINHO, S. P.~P. (Coord.). \emph{Civitas}. Pontif{\'\i}cia Universidade
+  Cat\'olica de Minas Gerais, 1995--1998.
+Apresenta textos sobre urbanismo e desenvolvimento de cidades.
+Dispon{\'\i}vel em: \url{http://www.gcsnet.com/oamis/civitas}. Acesso em: 27
+  nov. 1998.\footnote{Minha sugest\~ao para a referência
+  \cite{coordena1995}.}}
+{\footnotesize\begin{verbatim}
+@misc{marinho1995,
+editor={Marinho, Sim{\~a}o Pedro P.},
+editortype={Coord.},
+note={Apresenta textos sobre urbanismo e desenvolvimento de cidades},
+publisher={Pontif{\'\i}cia Universidade Cat\'olica de Minas Gerais},
+title={Civitas},
+url={http://www.gcsnet.com/oamis/civitas},
+urlaccessdate={27 nov. 1998},
+year={1995-1998}}
+\end{verbatim}}
+\bibitem{cassiano1998}
+\abntrefinfo{Galeria\ldots}{GALERIA\ldots}{1998}
+{GALERIA virtual de arte do {V}ale do {P}ara{\'\i}ba. S\~ao Jos\'e dos Campos:
+  Funda{\c c}\~ao Cultural Cassiano Ricardo, 1998. Apresenta reprodu{\c c}\~oes
+  virtuais de obras de artistas pl\'asticos do Vale do Para{\'\i}ba.
+Dispon{\'\i}vel em: \url{http://www.virtualvale.com.br/galeria}. Acesso em: 27
+  nov. 1998.\footnote{Esse exemplo difere daquele mostrado na `norma' pelo uso
+  do `:' entre o endere{\c c}o e a editora.}}
+{\footnotesize\begin{verbatim}
+@misc{cassiano1998,
+address={S\~ao Jos\'e dos Campos},
+howpublished={Apresenta reprodu{\c c}\~oes virtuais de obras de artistas
+  pl\'asticos do Vale do Para{\'\i}ba},
+publisher={Funda{\c c}\~ao Cultural Cassiano Ricardo},
+title={Galeria virtual de arte do {V}ale do {P}ara{\'\i}ba},
+url={http://www.virtualvale.com.br/galeria},
+urlaccessdate={27 nov. 1998},
+year={1998}}
+\end{verbatim}}
+\bibitem{parana1998}
+\abntrefinfo{Universidade Federal do Paran\'a. {Biblioteca
+  Central}}{UNIVERSIDADE FEDERAL DO PARAN\'A. {Biblioteca Central}}{1998}
+{UNIVERSIDADE FEDERAL DO PARAN\'A. {Biblioteca Central}. \emph{Normas.doc}:
+  normas para apresenta{\c c}\~ao de trabalhos. Curitiba, 1998.
+5 disquetes, 3~$1/2$~pol. Word for Windows 7.0.\footnote{Na `norma' aparece
+  como ``\textbf{Normas.doc.} normas para \ldots". Aqui a segunda parte foi
+  colocada como \texttt{subtitle}.}}
+{\footnotesize\begin{verbatim}
+@misc{parana1998,
+address={Curitiba},
+month={7 mar.},
+note={5 disquetes, 3~$1/2$~pol. Word for Windows 7.0},
+organization={Universidade Federal do Paran\'a. {Biblioteca Central}},
+subtitle={normas para apresenta{\c c}\~ao de trabalhos},
+title={Normas.doc},
+year={1998}}
+\end{verbatim}}
+\bibitem{parana1997}
+\abntrefinfo{Universidade Federal do Paran\'a. {Biblioteca de Ciência e
+  Tecnologia}}{UNIVERSIDADE FEDERAL DO PARAN\'A. {Biblioteca de Ciência e
+  Tecnologia}}{1997}
+{UNIVERSIDADE FEDERAL DO PARAN\'A. {Biblioteca de Ciência e Tecnologia}.
+  \emph{Mapas}. Curitiba, 1997. Base de Dados em Microisis, vers\~ao 3.7.}
+{\footnotesize\begin{verbatim}
+@misc{parana1997,
+address={Curitiba},
+howpublished={Base de Dados em Microisis, vers\~ao 3.7},
+organization={Universidade Federal do Paran\'a. {Biblioteca de Ciência e
+  Tecnologia}},
+title={Mapas},
+year={1997}}
+\end{verbatim}}
+\bibitem{microsoft1995}
+\abntrefinfo{Microsoft\ldots}{MICROSOFT\ldots}{1995}
+{MICROSOFT {P}roject for {W}indows 95, version 4.1: project planning software.
+  [S.l.]: Microsoft Corporation, 1995. Conjunto de programas. 1
+  CD-ROM.\footnote{Que vexame! A ABNT usa windows e word n\~ao sabe que a MS
+  fica em Redmond? Ou ser\'a que o soft era pirata e n\~ao tinha o certificado
+  de licen{\c c}a com o endere{\c c}o da MS?}}
+{\footnotesize\begin{verbatim}
+@misc{microsoft1995,
+howpublished={Conjunto de programas. 1 CD-ROM},
+publisher={Microsoft Corporation},
+subtitle={project planning software},
+title={Microsoft {P}roject for {W}indows 95, version 4.1},
+year={1995}}
+\end{verbatim}}
+\bibitem{mpc1993}
+\abntrefinfo{Alie's\ldots}{ALIE'S\ldots}{1993}
+{ALIE'S play house. Palo Alto, CA: MPC/Opcode Interactive, 1993. 1 CD-ROM.
+  Windows 3.1.}
+{\footnotesize\begin{verbatim}
+@misc{mpc1993,
+address={Palo Alto, CA},
+howpublished={1 CD-ROM. Windows 3.1},
+publisher={MPC/Opcode Interactive},
+title={Alie's play house},
+year={1993}}
+\end{verbatim}}
+\bibitem{sony1990}
+\abntrefinfo{Pau\ldots}{PAU\ldots}{[1990]}
+{PAU no gato! Por qu\^e? Rio de Janeiro: Sony Music Book Case Multimedia
+  Educational, [1990]. 1 CD-ROM. Windows 3.1.}
+{\footnotesize\begin{verbatim}
+@misc{sony1990,
+address={Rio de Janeiro},
+howpublished={1 CD-ROM. Windows 3.1},
+publisher={Sony Music Book Case Multimedia Educational},
+title={Pau no gato! Por qu\^e?},
+year={[1990]}}
+\end{verbatim}}
+\bibitem{accioly2000}
+\abntrefinfo{Accioly}{ACCIOLY}{}
+{ACCIOLY, F. \emph{Publica{\c c}\~ao eletr\^onica \normalfont [mensagem
+  pessoal]}. Mensagem recebida por $<$mtmendes@uol.com.br$>$ em 26 jan. 2000.}
+{\footnotesize\begin{verbatim}
+@misc{accioly2000,
+author={F. Accioly},
+howpublished={Mensagem recebida por $<$mtmendes@uol.com.br$>$ em 26 jan. 2000},
+title={Publica{\c c}\~ao eletr\^onica \normalfont [mensagem pessoal]}}
+\end{verbatim}}
+\bibitem{abnt-options1}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-options1}! . Op\c c\~ao selecionada {\tt
+  abnt-full-initials=}\verb+yes+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-options1,
+key={x},
+abnt-full-initials={yes}}
+\end{verbatim}}
+\bibitem{alves1995}
+\abntrefinfo{Alves}{ALVES}{1995}
+{ALVES, Roque de Brito. \emph{Ci\^encia criminal}. Rio de Janeiro: Forense,
+  1995.}
+{\footnotesize\begin{verbatim}
+@book{alves1995,
+address={Rio de Janeiro},
+author={Roque de Brito Alves},
+publisher={Forense},
+title={Ci\^encia criminal},
+year={1995}}
+\end{verbatim}}
+\bibitem{dami1995}
+\abntrefinfo{Dami{\~a}o e Henriques}{DAMI{\~A}O; HENRIQUES}{1995}
+{DAMI{\~A}O, Regina Toledo; HENRIQUES, Antonio. \emph{Curso de direito
+  judr{\'\i}dico}. S\~ao Paulo: Atlas, 1995.}
+{\footnotesize\begin{verbatim}
+@book{dami1995,
+address={S\~ao Paulo},
+author={Toledo Dami{\~a}o, Regina and Antonio Henriques},
+publisher={Atlas},
+title={Curso de direito judr{\'\i}dico},
+year={1995}}
+\end{verbatim}}
+\bibitem{abnt-options2}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-options2}! . Op\c c\~ao selecionada {\tt
+  abnt-full-initials=}\verb+no+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-options2,
+key={x},
+abnt-full-initials={no}}
+\end{verbatim}}
+\bibitem{passos1995}
+\abntrefinfo{Passos, Fonseca e Chaves}{PASSOS; FONSECA; CHAVES}{1995}
+{PASSOS, L. M.~M.; FONSECA, A.; CHAVES, M. \emph{Alegria de saber}:
+  matem\'atica, segunda s\'erie, 2, primeiro grau: livro do professor. S\~ao
+  Paulo: Scipione, 1995. 136~p.}
+{\footnotesize\begin{verbatim}
+@book{passos1995,
+address={S\~ao Paulo},
+author={Luciana M. M. Passos and Albani Fonseca and Marta Chaves},
+pages={136},
+publisher={Scipione},
+subtitle={matem\'atica, segunda s\'erie, 2, primeiro grau: livro do professor},
+title={Alegria de saber},
+year={1995}}
+\end{verbatim}}
+\bibitem{urani1994}
+\abntrefinfo{Urani et al.}{URANI et al.}{1994}
+{URANI, A. et al. \emph{Constitui{\c c}\~ao de uma matriz de contabilidade
+  social para o Brasil}. Bras{\'\i}lia, DF: IPEA, 1994.}
+{\footnotesize\begin{verbatim}
+@book{urani1994,
+address={Bras{\'\i}lia, DF},
+author={Urani, A and others},
+publisher={IPEA},
+title={Constitui{\c c}\~ao de uma matriz de contabilidade social para o
+  Brasil},
+year={1994}}
+\end{verbatim}}
+\bibitem{ferreira1991}
+\abntrefinfo{Ferreira}{FERREIRA}{1991}
+{FERREIRA, L. P. (Org.). \emph{O fonoaudi\'ologo e a escola}. S\~ao Paulo:
+  Summus, 1991.}
+{\footnotesize\begin{verbatim}
+@book{ferreira1991,
+address={S\~ao Paulo},
+editor={Piccolotto Ferreira, Leslie},
+editortype={Org.},
+publisher={Summus},
+title={O fonoaudi\'ologo e a escola},
+year={1991}}
+\end{verbatim}}
+\bibitem{marcondes1993}
+\abntrefinfo{Marcondes e Lima}{MARCONDES; LIMA}{1993}
+{MARCONDES, E.; LIMA, I.~N. de (Coord.). \emph{Dietas em pediatria
+  cl{\'\i}nica}. 4. ed. S\~ao Paulo: Sarvier, 1993.}
+{\footnotesize\begin{verbatim}
+@book{marcondes1993,
+address={S\~ao Paulo},
+edition={4},
+editor={Eduardo Marcondes and de Lima, Ilda Nogueira},
+editortype={Coord.},
+publisher={Sarvier},
+title={Dietas em pediatria cl{\'\i}nica},
+year={1993}}
+\end{verbatim}}
+\bibitem{moore1960}
+\abntrefinfo{Moore}{MOORE}{1960}
+{MOORE, W. (Ed.). \emph{Construtivismo del movimiento educacional}: soluciones.
+  C\'ordoba, AR: [s.n.], 1960.}
+{\footnotesize\begin{verbatim}
+@book{moore1960,
+address={C\'ordoba, AR},
+editor={W. Moore},
+subtitle={soluciones},
+title={Construtivismo del movimiento educacional},
+year={1960}}
+\end{verbatim}}
+\bibitem{lujan1993}
+\abntrefinfo{Lujan}{LUJAN}{1993}
+{LUJAN, R.~P. (Comp.). \emph{Um presente especial}. Tradu{\c c}\~ao Sonia da
+  Silva. 3. ed. S\~ao Paulo: Aquariana, 1993. 167~p.}
+{\footnotesize\begin{verbatim}
+@book{lujan1993,
+address={S\~ao Paulo},
+edition={3},
+editor={Lujan, Roger Patr{\'o}n},
+editortype={Comp.},
+furtherresp={Tradu{\c c}\~ao Sonia da Silva},
+pages={167},
+publisher={Aquariana},
+title={Um presente especial},
+year={1993}}
+\end{verbatim}}
+\bibitem{brasileira1993}
+\abntrefinfo{Diagn\'ostico\ldots}{DIAGN\'OSTICO\ldots}{1993}
+{DIAGN\'OSTICO do setor editorial brasileiro. S\~ao Paulo: C\^amara Brasileira
+  do Livro, 1993. 64~p.}
+{\footnotesize\begin{verbatim}
+@book{brasileira1993,
+address={S\~ao Paulo},
+pages={64},
+publisher={C\^amara Brasileira do Livro},
+title={Diagn\'ostico do setor editorial brasileiro},
+year={1993}}
+\end{verbatim}}
+\bibitem{diniz1994}
+\abntrefinfo{Diniz}{DINIZ}{1994}
+{DINIZ, J. \emph{As pupilas do senhor reitor}. 15. ed. S\~ao Paulo: \'Atica,
+  1994. 263~p.  (S\'erie Bom Livro).}
+{\footnotesize\begin{verbatim}
+@book{diniz1994,
+address={S\~ao Paulo},
+author={J{\'u}lio Diniz},
+edition={15},
+pages={263},
+publisher={\'Atica},
+series={S\'erie Bom Livro},
+title={As pupilas do senhor reitor},
+year={1994}}
+\end{verbatim}}
+\bibitem{alighieri1983}
+\abntrefinfo{Dante{\space}Alighieri}{DANTE{\space}ALIGHIERI}{[1983]}
+{DANTE{\space}ALIGHIERI. \emph{A divina com\'edia}. Tradu{\c c}\~ao, pref\'acio
+  e notas: Hern\^ani Donato. S\~ao Paulo: C{\'\i}rculo do Livro, [1983].
+  344~p.\footnote{Neste exemplo a `norma' n\~ao explica porque n\~ao foi
+  abreviado o nome do autor. Para for{\c c}ar o bibtex a considerar os dois
+  nomes como um só foi usado o comando {\tt space} entre o `Dante' e o
+  `Alighieri'.}}
+{\footnotesize\begin{verbatim}
+@book{alighieri1983,
+address={S\~ao Paulo},
+author={Dante{\space}Alighieri},
+furtherresp={Tradu{\c c}\~ao, pref\'acio e notas: Hern\^ani Donato},
+pages={344},
+publisher={C{\'\i}rculo do Livro},
+title={A divina com\'edia},
+year={[1983]}}
+\end{verbatim}}
+\bibitem{gomes1995}
+\abntrefinfo{Gomes}{GOMES}{1995}
+{GOMES, O. \emph{O direito de fam{\'\i}lia}. Atualiza{\c c}\~ao e notas de
+  Humberto Theodoro J\'unior. 11. ed. Rio de Janeiro: Forense, 1995. 562~p.}
+{\footnotesize\begin{verbatim}
+@book{gomes1995,
+address={Rio de Janeiro},
+author={O. Gomes},
+edition={11},
+furtherresp={Atualiza{\c c}\~ao e notas de Humberto Theodoro J\'unior},
+pages={562},
+publisher={Forense},
+title={O direito de fam{\'\i}lia},
+year={1995}}
+\end{verbatim}}
+\bibitem{albergaria1994}
+\abntrefinfo{Albergaria}{ALBERGARIA}{1994}
+{ALBERGARIA, L. \emph{Cinco anos sem chover}: hist\'oria de {L}ino
+  {A}lbergaria. Ilustra{\c c}\~oes de Paulo Lyra. 12. ed. S\~ao Paulo: FTD,
+  1994. 63~p.\footnote{Nome correto do autor \'e Lino \emph{de} Albergaria}}
+{\footnotesize\begin{verbatim}
+@book{albergaria1994,
+address={S\~ao Paulo},
+author={Lino Albergaria},
+edition={12},
+furtherresp={Ilustra{\c c}\~oes de Paulo Lyra},
+pages={63},
+publisher={FTD},
+subtitle={hist\'oria de {L}ino {A}lbergaria},
+title={Cinco anos sem chover},
+year={1994}}
+\end{verbatim}}
+\bibitem{brasileira1988}
+\abntrefinfo{Associa{\c c}\~ao Brasileira de Normas T\'ecnicas}{ASSOCIA{\c
+  C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS}{1988}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 10520}:
+  apresenta{\c c}\~ao de cita{\c c}\~oes em documentos: procedimento.
+Rio de Janeiro, 1988.}
+{\footnotesize\begin{verbatim}
+@manual{brasileira1988,
+address={Rio de Janeiro},
+organization={Associa{\c c}\~ao Brasileira de Normas T\'ecnicas},
+subtitle={apresenta{\c c}\~ao de cita{\c c}\~oes em documentos: procedimento},
+title={{NBR} 10520},
+year={1988}}
+\end{verbatim}}
+\bibitem{universidade1993}
+\abntrefinfo{Universidade de S\~ao Paulo}{UNIVERSIDADE DE S\~AO PAULO}{1993}
+{UNIVERSIDADE DE S\~AO PAULO. \emph{Cat\'alogo de teses da {U}niversidade de
+  S\~ao Paulo, 1992}.
+S\~ao Paulo, 1993, 467~p.}
+{\footnotesize\begin{verbatim}
+@manual{universidade1993,
+address={S\~ao Paulo},
+organization={Universidade de S\~ao Paulo},
+pages={467},
+title={Cat\'alogo de teses da {U}niversidade de S\~ao Paulo, 1992},
+year={1993}}
+\end{verbatim}}
+\bibitem{biblioteconomia1979}
+\abntrefinfo{Congresso Brasileiro de Biblioteconomia e Documenta{\c
+  c}\~ao}{CONGRESSO BRASILEIRO DE BIBLIOTECONOMIA E DOCUMENTA{\c C}\~AO}{1979}
+{CONGRESSO BRASILEIRO DE BIBLIOTECONOMIA E DOCUMENTA{\c C}\~AO, 10., 1979,
+  Curitiba. \emph{Anais...} Curitiba: Associa{\c c}\~ao Bibliotec\'aria do
+  Paran\'a, 1979.
+3~v.}
+{\footnotesize\begin{verbatim}
+@proceedings{biblioteconomia1979,
+address={Curitiba},
+conference-number={10},
+conference-year={1979},
+conference-location={Curitiba},
+note={3~v.},
+organization={Congresso Brasileiro de Biblioteconomia e Documenta{\c c}\~ao},
+publisher={Associa{\c c}\~ao Bibliotec\'aria do Paran\'a},
+title={Anais...},
+year={1979}}
+\end{verbatim}}
+\bibitem{secretaria1993}
+\abntrefinfo{S\~ao Paulo {(Estado). Secretaria do Meio Ambiente.}}{S\~AO PAULO
+  {(Estado). Secretaria do Meio Ambiente.}}{1993}
+{S\~AO PAULO {(Estado). Secretaria do Meio Ambiente.} \emph{Diretrizes para a
+  politica ambiental do {E}stado de {S}\~ao {P}aulo}.
+S\~ao Paulo, 1993, 35~p.}
+{\footnotesize\begin{verbatim}
+@manual{secretaria1993,
+address={S\~ao Paulo},
+organization={S\~ao Paulo {(Estado). Secretaria do Meio Ambiente.}},
+pages={35},
+title={Diretrizes para a politica ambiental do {E}stado de {S}\~ao {P}aulo},
+year={1993}}
+\end{verbatim}}
+\bibitem{justica1993}
+\abntrefinfo{Brasil. {Minist\'erio da Justi{\c c}a}}{BRASIL. {Minist\'erio da
+  Justi{\c c}a}}{1993}
+{BRASIL. {Minist\'erio da Justi{\c c}a}. \emph{Relat\'orio de atividades}.
+Bras{\'\i}lia, DF, 1993, 28~p.}
+{\footnotesize\begin{verbatim}
+@techreport{justica1993,
+address={Bras{\'\i}lia, DF},
+organization={Brasil. {Minist\'erio da Justi{\c c}a}},
+pages={28},
+title={Relat\'orio de atividades},
+year={1993}}
+\end{verbatim}}
+\bibitem{biblioteca1985}
+\abntrefinfo{Biblioteca Nacional {(Brasil)}}{BIBLIOTECA NACIONAL
+  {(Brasil)}}{1985}
+{BIBLIOTECA NACIONAL {(Brasil)}. \emph{Relat\'orio da diretoria-geral}: 1984.
+Rio de Janeiro, 1985, 40~p.}
+{\footnotesize\begin{verbatim}
+@techreport{biblioteca1985,
+address={Rio de Janeiro},
+organization={Biblioteca Nacional {(Brasil)}},
+pages={40},
+subtitle={1984},
+title={Relat\'orio da diretoria-geral},
+year={1985}}
+\end{verbatim}}
+\bibitem{biblioteca1983}
+\abntrefinfo{Biblioteca Nacional {(Portugal)}}{BIBLIOTECA NACIONAL
+  {(Portugal)}}{1983}
+{BIBLIOTECA NACIONAL {(Portugal)}. \emph{O 24 de julho de 1833 e a guerra civil
+  de 1829--1834}.
+Lisboa, 1983, 95~p.}
+{\footnotesize\begin{verbatim}
+@techreport{biblioteca1983,
+address={Lisboa},
+organization={Biblioteca Nacional {(Portugal)}},
+pages={95},
+title={O 24 de julho de 1833 e a guerra civil de 1829--1834},
+year={1983}}
+\end{verbatim}}
+\bibitem{pastro1993}
+\abntrefinfo{Pastro}{PASTRO}{1993}
+{PASTRO, C. \emph{Arte sacra}: espa{\c c}o sagrado hoje. S\~ao Paulo: Loyola,
+  1993. 343~p.}
+{\footnotesize\begin{verbatim}
+@book{pastro1993,
+address={S\~ao Paulo},
+author={C. Pastro},
+pages={343},
+publisher={Loyola},
+subtitle={espa{\c c}o sagrado hoje},
+title={Arte sacra},
+year={1993}}
+\end{verbatim}}
+\bibitem{golsalves1971}
+\abntrefinfo{Gonsalves}{GONSALVES}{1971}
+{GONSALVES, P.~E. (Org.). \emph{A crian{\c c}a}: perguntas e respostas:
+  m\'edicos, psic\'ologos, professores, t\'ecnicos, dentistas... Pref\'acio do
+  prof. Dr. {C}arlos da Silva Lacaz. S\~ao Paulo: Cultrix: Ed.\ da USP,
+  1971.\footnote{No original est\'a `prof.' em min\'usculas.}}
+{\footnotesize\begin{verbatim}
+@book{golsalves1971,
+address={S\~ao Paulo},
+editor={P. E. Gonsalves},
+editortype={Org.},
+furtherresp={Pref\'acio do prof. Dr. {C}arlos da Silva Lacaz},
+publisher={Cultrix: Ed.\ da USP},
+subtitle={perguntas e respostas: m\'edicos, psic\'ologos, professores,
+  t\'ecnicos, dentistas...},
+title={A crian{\c c}a},
+year={1971}}
+\end{verbatim}}
+\bibitem{febab1973}
+\abntrefinfo{Revista\ldots}{REVISTA\ldots}{1973--1992}
+{REVISTA BRASILEIRA DE BIBLIOTECNONOMIA E DOCUMENTA{\c C}\~AO. S\~ao Paulo:
+  FEBAB, 1973--1992.}
+{\footnotesize\begin{verbatim}
+@journalpart{febab1973,
+address={S\~ao Paulo},
+publisher={FEBAB},
+title={Revista Brasileira de Bibliotecnonomia e documenta{\c c}\~ao},
+year={1973--1992}}
+\end{verbatim}}
+\bibitem{boletim1965}
+\abntrefinfo{Boletim\ldots}{BOLETIM\ldots}{1965--}
+{BOLETIM ESTAT{\'I}STICO {[da] Rede Ferrovi\'aria Federal}. Rio de Janeiro:
+  [s.n.], 1965--.\footnote{O ítem 8.2.5 da `norma' trata de títulos
+  `gen\'ericos'. Infelizmente o bibtex n\~ao tem como decidir se um título \'e
+  gen\'erico ou n\~ao. Este caso ainda precisa ser trabalhado.}}
+{\footnotesize\begin{verbatim}
+@journalpart{boletim1965,
+address={Rio de Janeiro},
+howpublished={Trimestral},
+title={Boletim Estat{\'\i}stico {[da] Rede Ferrovi\'aria Federal}},
+year={1965--}}
+\end{verbatim}}
+\bibitem{leitao1989}
+\abntrefinfo{Leit{\~a}o}{LEIT{\~A}O}{1989}
+{LEIT{\~A}O, D.~M. A informa{\c c}\~ao como insumo estrat\'egico.
+\emph{Ci.\ Inf.}, Bras{\'\i}lia, DF, v.~22, n.~2, p. 118--123, maio/ago. 1989.}
+{\footnotesize\begin{verbatim}
+@article{leitao1989,
+address={Bras{\'\i}lia, DF},
+author={D. M. Leit{\~a}o},
+journal={Ci.\ Inf.},
+month={maio/ago.},
+number={2},
+pages={118-123},
+title={A informa{\c c}\~ao como insumo estrat\'egico},
+volume={22},
+year={1989}}
+\end{verbatim}}
+\bibitem{schaum1956}
+\abntrefinfo{Schaum}{SCHAUM}{1956}
+{SCHAUM, D. \emph{Schaum's outline of theory and problems}. 5th. ed. New York:
+  Schaum Publishing, 1956. 204~p.\footnote{Na verdade a `norma' est\'a em
+  contradi{\c c}\~ao ao usar \emph{Publishing} pois isso \'e equivalente a
+  `Editor'. Tamb\'em o correto seria usar \emph{fifth} e n\~ao \emph{5th}, que
+  \'e o uso tradicional em bibliografias no exterior (j\'a que querem usar este
+  campo em inglês, que o fa{\c c}am direito).}}
+{\footnotesize\begin{verbatim}
+@book{schaum1956,
+address={New York},
+author={D. Schaum},
+edition={5th},
+pages={204},
+publisher={Schaum Publishing},
+title={Schaum's outline of theory and problems},
+year={1956}}
+\end{verbatim}}
+\bibitem{pedrosa1995}
+\abntrefinfo{Pedrosa}{PEDROSA}{1995}
+{PEDROSA, I. \emph{Da cor \`a cor inexistente}. 6. ed. Rio de Janeiro:
+  L.~Cristiano, 1995. 219~p.}
+{\footnotesize\begin{verbatim}
+@book{pedrosa1995,
+address={Rio de Janeiro},
+author={I. Pedrosa},
+edition={6},
+pages={219},
+publisher={L.~Cristiano},
+title={Da cor \`a cor inexistente},
+year={1995}}
+\end{verbatim}}
+\bibitem{francca1996}
+\abntrefinfo{Fran{\c c}a et al.}{FRAN{\c C}A et al.}{1996a}
+{FRAN{\c C}A, J.~L. et al. \emph{Manual para normaliza{\c c}\~ao de publica{\c
+  c}\~oes t\'ecnico-cient{\'\i}ficas}. {3}. ed. rev. e aum. Belo Horizonte: Ed.
+  da UFMG, 1996.\footnote{Apesar de ser um manual esta entrada n\~ao foi
+  formatada como {\tt manual} e sim como {\tt book} pois n\~ao se enquadra na
+  defini{\c c}\~ao de manual do bibtex. Veja o que acontece se esta referência
+  for formatada como {\tt manual} em \citeonline{francco1996}. Note que ainda
+  aparece um `ed.' adicional que ainda precisa ser acertado no estilo.}}
+{\footnotesize\begin{verbatim}
+@book{francca1996,
+address={Belo Horizonte},
+author={J. L. Fran{\c c}a and others},
+edition={{3}. ed. rev. e aum.},
+publisher={Ed. da UFMG},
+title={Manual para normaliza{\c c}\~ao de publica{\c c}\~oes
+  t\'ecnico-cient{\'\i}ficas},
+year={1996}}
+\end{verbatim}}
+\bibitem{francco1996}
+\abntrefinfo{Fran{\c c}a et al.}{FRAN{\c C}A et al.}{1996b}
+{FRAN{\c C}A, J.~L. et al. \emph{Manual para normaliza{\c c}\~ao de publica{\c
+  c}\~oes t\'ecnico-cient{\'\i}ficas}.
+{3}. ed. rev. e aum. Belo Horizonte, 1996.\footnote{Aqui a referência
+  \citeonline{francca1996} foi formatada como {\tt manual} para fins de
+  compara{\c c}\~ao.}}
+{\footnotesize\begin{verbatim}
+@manual{francco1996,
+address={Belo Horizonte},
+author={J. L. Fran{\c c}a and others},
+edition={{3}. ed. rev. e aum.},
+publisher={Ed. da UFMG},
+title={Manual para normaliza{\c c}\~ao de publica{\c c}\~oes
+  t\'ecnico-cient{\'\i}ficas},
+year={1996}}
+\end{verbatim}}
+\bibitem{zani1995}
+\abntrefinfo{Zani}{ZANI}{1995}
+{ZANI, R. \emph{Beleza, sa\'ude e bem-estar}. S\~ao Paulo: Saraiva, 1995.
+  173~p.}
+{\footnotesize\begin{verbatim}
+@book{zani1995,
+address={S\~ao Paulo},
+author={R. Zani},
+pages={173},
+publisher={Saraiva},
+title={Beleza, sa\'ude e bem-estar},
+year={1995}}
+\end{verbatim}}
+\bibitem{swokowski1994}
+\abntrefinfo{Swokowski, Flores e Moreno}{SWOKOWSKI; FLORES; MORENO}{1994}
+{SWOKOWSKI, E.~W.; FLORES, V. R. L.~F.; MORENO, M. Q. \emph{C\'alculo de
+  geometria anal{\'\i}tica}. Tradu{\c c}\~ao de Alfredo Alves de Faria.
+  Revis\~ao t\'ecnica Antonio Pertence J\'unior. 2. ed. S\~ao Paulo: Makron
+  Books do Brasil, 1994. 2~v.\footnote{O t{\'\i}tulo deveria ser: C\'alculo
+  {\em e} geometria anal{\'\i}tica e os \'ultimos dois autores na verdade s\~ao
+  os tradutores.}}
+{\footnotesize\begin{verbatim}
+@book{swokowski1994,
+address={S\~ao Paulo},
+author={Earl W. Swokowski and Vera Regina L. F. Flores and Quint{\~ao} Moreno,
+  M{\'a}rcio},
+edition={2},
+furtherresp={Tradu{\c c}\~ao de Alfredo Alves de Faria. Revis\~ao t\'ecnica
+  Antonio Pertence J\'unior},
+note={2~v.\footnote{O t{\'\i}tulo deveria ser: C\'alculo {\em e} geometria
+  anal{\'\i}tica e os \'ultimos dois autores na verdade s\~ao os tradutores.}},
+publisher={Makron Books do Brasil},
+title={C\'alculo de geometria anal{\'\i}tica},
+year={1994}}
+\end{verbatim}}
+\bibitem{lazzarini1994}
+\abntrefinfo{Lazzarini Neto}{LAZZARINI NETO}{1994}
+{LAZZARINI NETO, S. \emph{Cria e recria}. [S\~ao Paulo]: SDF Editores, 1994.
+  108~p.}
+{\footnotesize\begin{verbatim}
+@book{lazzarini1994,
+address={[S\~ao Paulo]},
+author={Lazzarini, Neto, S.},
+pages={108},
+publisher={SDF Editores},
+title={Cria e recria},
+year={1994}}
+\end{verbatim}}
+\bibitem{libris1981}
+\abntrefinfo{Os~grandes\ldots}{OS~GRANDES\ldots}{1981}
+{OS~GRANDES cl\'assicos das poesias l{\'\i}ricas. [S.l.]: Ex Libris, 1981.
+  60~f.}
+{\footnotesize\begin{verbatim}
+@book{libris1981,
+pages={60},
+pagename={f.},
+publisher={Ex Libris},
+title={Os~grandes cl\'assicos das poesias l{\'\i}ricas},
+year={1981}}
+\end{verbatim}}
+\bibitem{krieger1992}
+\abntrefinfo{Krieger, Novaes e Faria}{KRIEGER; NOVAES; FARIA}{1992}
+{KRIEGER, G.; NOVAES, L.~A.; FARIA, T. \emph{Todos os s\'ocios do presidente}.
+  3. ed. [S.l.]: Scritta, 1992. 195~p.}
+{\footnotesize\begin{verbatim}
+@book{krieger1992,
+author={G. Krieger and L. A. Novaes and T. Faria},
+edition={3},
+pages={195},
+publisher={Scritta},
+title={Todos os s\'ocios do presidente},
+year={1992}}
+\end{verbatim}}
+\bibitem{daghalian1995}
+\abntrefinfo{Daghlian}{DAGHLIAN}{1995}
+{DAGHLIAN, J. \emph{L\'ogica e \'algebra de {B}oole}. 4. ed. S\~ao Paulo:
+  Atlas, 1995. 167~p., il., 21~cm. Bibliografia: p.~166--167.
+ISBN 85-224-1256-1.}
+{\footnotesize\begin{verbatim}
+@book{daghalian1995,
+address={S\~ao Paulo},
+author={J. Daghlian},
+edition={4},
+dimensions={21~cm},
+illustrated={},
+isbn={85-224-1256-1},
+note={Bibliografia: p.~166--167},
+pages={167},
+publisher={Atlas},
+title={L\'ogica e \'algebra de {B}oole},
+year={1995}}
+\end{verbatim}}
+\bibitem{lima1985}
+\abntrefinfo{Lima}{LIMA}{1985}
+{LIMA, M. \emph{Tem encontro com {D}eus}: teologia para leigos. Rio de Janeiro:
+  J.~Olympio, 1985.}
+{\footnotesize\begin{verbatim}
+@book{lima1985,
+address={Rio de Janeiro},
+author={M. Lima},
+publisher={J.~Olympio},
+subtitle={teologia para leigos},
+title={Tem encontro com {D}eus},
+year={1985}}
+\end{verbatim}}
+\bibitem{maia1995}
+\abntrefinfo{Alfonso-Goldfarb e Maia}{ALFONSO-GOLDFARB; MAIA}{1995}
+{ALFONSO-GOLDFARB, A.~M.; MAIA, C.~A. (Coord.). \emph{Hist\'oria da ci\^encia}:
+  o mapa do conhecimento. Rio de Janeiro: Express\~ao e Cultura, 1995. 968~p.
+  (Am\'erica 500 anos, 2).\footnote{Nesta referência ainda falta modificar o
+  estilo para que seja acrescentado um segundo conjunto {\tt address} e {\tt
+  publisher}.}}
+{\footnotesize\begin{verbatim}
+@book{maia1995,
+address={Rio de Janeiro},
+editor={Ana Maria Alfonso-Goldfarb and Carlos A. Maia},
+editortype={Coord.},
+number={2},
+pages={968},
+publisher={Express\~ao e Cultura},
+series={Am\'erica 500 anos},
+subtitle={o mapa do conhecimento},
+title={Hist\'oria da ci\^encia},
+year={1995}}
+\end{verbatim}}
+\bibitem{figueiredo1990}
+\abntrefinfo{Figueiredo}{FIGUEIREDO}{1990}
+{FIGUEIREDO, N.~M. \emph{Metodologias para a promo{\c c}\~ao do uso da
+  informa{\c c}\~ao}: t\'ecnicas aplicadas particularmente em bibliotecas
+  universit\'arias especializadas. S\~ao Paulo: Nobel, 1990.}
+{\footnotesize\begin{verbatim}
+@book{figueiredo1990,
+address={S\~ao Paulo},
+author={N. M. Figueiredo},
+publisher={Nobel},
+subtitle={t\'ecnicas aplicadas particularmente em bibliotecas universit\'arias
+  especializadas},
+title={Metodologias para a promo{\c c}\~ao do uso da informa{\c c}\~ao},
+year={1990}}
+\end{verbatim}}
+\bibitem{franco1993}
+\abntrefinfo{Franco}{FRANCO}{1993}
+{FRANCO, I. \emph{Discursos}: de outubro de 1992 a agosto de 1993.
+  Bras{\'\i}lia, DF: [s.n.], 1993. 107~p.}
+{\footnotesize\begin{verbatim}
+@book{franco1993,
+address={Bras{\'\i}lia, DF},
+author={Itamar Franco},
+pages={107},
+subtitle={de outubro de 1992 a agosto de 1993},
+title={Discursos},
+year={1993}}
+\end{verbatim}}
+\bibitem{alves1993}
+\abntrefinfo{Gon{\c c}alves}{GON{\c C}ALVES}{1993}
+{GON{\c C}ALVES, F.~B. \emph{A hist\'oria de {Mirador}}. [S.l.: s.n.], 1993.}
+{\footnotesize\begin{verbatim}
+@book{alves1993,
+author={F. B. Gon{\c c}alves},
+title={A hist\'oria de {Mirador}},
+year={1993}}
+\end{verbatim}}
+\bibitem{vicosa1994}
+\abntrefinfo{Universidade Federal de Vi{\c c}osa}{UNIVERSIDADE FEDERAL DE VI{\c
+  C}OSA}{1994}
+{UNIVERSIDADE FEDERAL DE VI{\c C}OSA. \emph{Cat\'alogo de gradua{\c c}\~ao,
+  1994--1995}.
+Vi{\c c}osa, MG, 1994, 385~p.}
+{\footnotesize\begin{verbatim}
+@manual{vicosa1994,
+address={Vi{\c c}osa, MG},
+organization={Universidade Federal de Vi{\c c}osa},
+pages={385},
+title={Cat\'alogo de gradua{\c c}\~ao, 1994--1995},
+year={1994}}
+\end{verbatim}}
+\bibitem{leite1994}
+\abntrefinfo{Leite}{LEITE}{1994}
+{LEITE, C.~B. \emph{O s\'eculo do desempenho}. S\~ao Paulo: LTr, 1994. 160~p.}
+{\footnotesize\begin{verbatim}
+@book{leite1994,
+address={S\~ao Paulo},
+author={C. B. Leite},
+pages={160},
+publisher={LTr},
+title={O s\'eculo do desempenho},
+year={1994}}
+\end{verbatim}}
+\bibitem{cipolla1993}
+\abntrefinfo{Cipolla}{CIPOLLA}{1993}
+{CIPOLLA, S. \emph{Eu e a escola 2{$^a$} s\'erie}. S\~ao Paulo: Paulinas, 1993.
+  63~p.}
+{\footnotesize\begin{verbatim}
+@book{cipolla1993,
+address={S\~ao Paulo},
+author={S. Cipolla},
+pages={63},
+publisher={Paulinas},
+title={Eu e a escola 2{$^a$} s\'erie},
+year={1993}}
+\end{verbatim}}
+\bibitem{florenzano1993}
+\abntrefinfo{Florenzano}{FLORENZANO}{[1993]}
+{FLORENZANO, E. \emph{Dicion\'ario de id\'eias semelhantes}. Rio de Janeiro:
+  Ediouro, [1993]. 383~p.}
+{\footnotesize\begin{verbatim}
+@book{florenzano1993,
+address={Rio de Janeiro},
+author={E. Florenzano},
+pages={383},
+publisher={Ediouro},
+title={Dicion\'ario de id\'eias semelhantes},
+year={[1993]}}
+\end{verbatim}}
+\bibitem{biblica1970}
+\abntrefinfo{Chave\ldots}{CHAVE\ldots}{1970 (impress\~ao 1994)}
+{CHAVE b{\'\i}blica. Bras{\'\i}lia, DF: Sociedade B{\'\i}blica do Brasil, 1970
+  (impress\~ao 1994). 511~p.}
+{\footnotesize\begin{verbatim}
+@book{biblica1970,
+address={Bras{\'\i}lia, DF},
+pages={511},
+publisher={Sociedade B{\'\i}blica do Brasil},
+title={Chave b{\'\i}blica},
+year={1970 (impress\~ao 1994)}}
+\end{verbatim}}
+\bibitem{ruch1926}
+\abntrefinfo{Ruch}{RUCH}{1926-1940}
+{RUCH, G. \emph{Hist\'oria geral da civiliza{\c c}\~ao}: da {A}ntig\"uidade ao
+  {XX} s\'eculo. Rio de Janeiro: F. Briguiet, 1926--1940. 4~v., il., 19~cm.}
+{\footnotesize\begin{verbatim}
+@book{ruch1926,
+address={Rio de Janeiro},
+author={G. Ruch},
+note={4~v., il., 19~cm},
+publisher={F. Briguiet},
+subtitle={da {A}ntig\"uidade ao {XX} s\'eculo},
+title={Hist\'oria geral da civiliza{\c c}\~ao},
+year={1926-1940}}
+\end{verbatim}}
+\bibitem{grafica1985}
+\abntrefinfo{Globo\ldots}{GLOBO\ldots}{1985--\space}
+{GLOBO RURAL. S\~ao Paulo: Rio Gr\'afica, 1985--\space. Mensal.\footnote{Aqui o
+  espa{\c c}o após o ano foi for{\c c}ado com o comando {\tt space} para ficar
+  igual ao original, muito embora esse espa{\c c}o n\~ao ocorra em outros
+  exemplos.}}
+{\footnotesize\begin{verbatim}
+@journalpart{grafica1985,
+address={S\~ao Paulo},
+note={Mensal},
+publisher={Rio Gr\'afica},
+title={Globo Rural},
+year={1985--\space}}
+\end{verbatim}}
+\bibitem{industria1957}
+\abntrefinfo{Desenvolvimento\ldots}{DESENVOLVIMENTO\ldots}{1957-1968}
+{DESENVOLVIMENTO \& CONJUNTURA. Rio de Janeiro: Confedera{\c c}\~ao Nacional da
+  Ind\'ustria, 1957--1968. Mensal.}
+{\footnotesize\begin{verbatim}
+@journalpart{industria1957,
+address={Rio de Janeiro},
+note={Mensal},
+publisher={Confedera{\c c}\~ao Nacional da Ind\'ustria},
+title={Desenvolvimento \& Conjuntura},
+year={1957-1968}}
+\end{verbatim}}
+\bibitem{alcarde1996}
+\abntrefinfo{Alcarde e Rodella}{ALCARDE; RODELLA}{1996}
+{ALCARDE, J.~C.; RODELLA, A.~A. O equivalente em carbonato de c\'alcio dos
+  corretivos da acidez dos solos.
+\emph{Scientia Agricola}, Piracicaba, v.~53, n.~2/3, p. 204--210, maio/dez.
+  1996.}
+{\footnotesize\begin{verbatim}
+@article{alcarde1996,
+address={Piracicaba},
+author={J. C. Alcarde and A. A. Rodella},
+journal={Scientia Agricola},
+month={maio/dez.},
+number={2/3},
+pages={204-210},
+title={O equivalente em carbonato de c\'alcio dos corretivos da acidez dos
+  solos},
+volume={53},
+year={1996}}
+\end{verbatim}}
+\bibitem{benetton1993}
+\abntrefinfo{Benetton}{BENETTON}{1993}
+{BENETTON, M.~J. Terapia ocupacional e reabilita{\c c}\~ao psicossocial: uma
+  rela{\c c}\~ao poss{\'\i}vel.
+\emph{Revista de Terapia Ocupacional da Universidade de S\~ao Paulo}, S\~ao
+  Paulo, v.~4, n.~3, p. 11--16, mar. 1993.}
+{\footnotesize\begin{verbatim}
+@article{benetton1993,
+address={S\~ao Paulo},
+author={M. J. Benetton},
+journal={Revista de Terapia Ocupacional da Universidade de S\~ao Paulo},
+month={mar.},
+number={3},
+pages={11-16},
+title={Terapia ocupacional e reabilita{\c c}\~ao psicossocial: uma rela{\c
+  c}\~ao poss{\'\i}vel},
+volume={4},
+year={1993}}
+\end{verbatim}}
+\bibitem{figueirde1996}
+\abntrefinfo{Figueiredo}{FIGUEIREDO}{1996}
+{FIGUEIREDO, E. Canad\'a e {A}ntilhas: l{\'\i}nguas populares, oralidade e
+  literatura.
+\emph{Gragoat\'a}, Niter\'oi, n.~1, p. 127--136, 2. sem. 1996.}
+{\footnotesize\begin{verbatim}
+@article{figueirde1996,
+address={Niter\'oi},
+author={E. Figueiredo},
+journal={Gragoat\'a},
+month={2. sem.},
+number={1},
+pages={127-136},
+title={Canad\'a e {A}ntilhas: l{\'\i}nguas populares, oralidade e literatura},
+year={1996}}
+\end{verbatim}}
+\bibitem{lucci1994}
+\abntrefinfo{Lucci}{LUCCI}{1994}
+{LUCCI, E.~A. \emph{Viver e aprender}: estudos sociais, 3: exemplar do
+  professor. 3. ed. S\~ao Paulo: Saraiva, 1994. 96, 7~p.\footnote{A \'ultima
+  parte (``96, 7'') foi colocada num campo {\tt pages}, n\~ao sei exatamente o
+  que quer dizer, mas atende ao ítem 8.7.1 da `norma'\cite{NBR6023:2000}.}}
+{\footnotesize\begin{verbatim}
+@book{lucci1994,
+address={S\~ao Paulo},
+author={E. A. Lucci},
+edition={3},
+pages={96, 7},
+publisher={Saraiva},
+subtitle={estudos sociais, 3: exemplar do professor},
+title={Viver e aprender},
+year={1994}}
+\end{verbatim}}
+\bibitem{felipe1994}
+\abntrefinfo{Felipe}{FELIPE}{1994}
+{FELIPE, J. F.~A. \emph{A {P}revid\^encia social na pr\'atica forense}. 4. ed.
+  Rio de Janeiro: Forense, 1994. viii, 236~p.\footnote{A \'ultima parte
+  (``viii, 236'') foi colocada num campo {\tt pages}, para atender ao ítem
+  8.7.1 da `norma'\cite{NBR6023:2000}.}}
+{\footnotesize\begin{verbatim}
+@book{felipe1994,
+address={Rio de Janeiro},
+author={J. F. A. Felipe},
+edition={4},
+pages={viii, 236},
+publisher={Forense},
+title={A {P}revid\^encia social na pr\'atica forense},
+year={1994}}
+\end{verbatim}}
+\bibitem{lellis1994}
+\abntrefinfo{Jakubovic e Lellis}{JAKUBOVIC; LELLIS}{1994}
+{JAKUBOVIC, J.; LELLIS, M. \emph{Matem\'atica na medida certa, 8. s\'erie}:
+  livro do professor. 2. ed. S\~ao Paulo: Scipione, 1994. 208,
+  xxi~p.\footnote{A \'ultima parte (``208, xxi'') foi colocada num campo {\tt
+  pages}, para atender ao ítem 8.7.1 da `norma'\cite{NBR6023:2000}.}}
+{\footnotesize\begin{verbatim}
+@book{lellis1994,
+address={S\~ao Paulo},
+author={J. Jakubovic and M. Lellis},
+edition={2},
+pages={208, xxi},
+publisher={Scipione},
+subtitle={livro do professor},
+title={Matem\'atica na medida certa, 8. s\'erie},
+year={1994}}
+\end{verbatim}}
+\bibitem{piaget1980}
+\abntrefinfo{Piaget}{PIAGET}{1980}
+{PIAGET, J. \emph{Para onde vai a educa{\c c}\~ao}. 7. ed. Rio de Janeiro:
+  J.~Olympio, 1980. 500~p.}
+{\footnotesize\begin{verbatim}
+@book{piaget1980,
+address={Rio de Janeiro},
+author={J. Piaget},
+edition={7},
+pages={500},
+publisher={J.~Olympio},
+title={Para onde vai a educa{\c c}\~ao},
+year={1980}}
+\end{verbatim}}
+\bibitem{tabak1993}
+\abntrefinfo{Tabak}{TABAK}{1993}
+{TABAK, F. \emph{A lei como instrumento de mudan{\c c}a social}. Fortaleza:
+  Funda{\c c}\~ao Waldemar Alc\^antara, 1993. 17~f.}
+{\footnotesize\begin{verbatim}
+@book{tabak1993,
+address={Fortaleza},
+author={F. Tabak},
+pages={17},
+pagename={f.},
+publisher={Funda{\c c}\~ao Waldemar Alc\^antara},
+title={A lei como instrumento de mudan{\c c}a social},
+year={1993}}
+\end{verbatim}}
+\bibitem{tourinho1994}
+\abntrefinfo{Tourinho Filho}{TOURINHO FILHO}{1994}
+{TOURINHO FILHO, F.~C. \emph{Processo penal}. {16.} ed. rev. e atual. S\~ao
+  Paulo: Saraiva, 1994. 4~v.\footnote{Aqui tivemos a necessidade de `enganar' o
+  estilo bibliogr\'afico. Quando o campo edition inicia por um n\'umero o
+  estilo adiciona autom\'aticamente um "ed.". Neste caso colocamos o n\'umero
+  entre chaves o que resolveu o problema.}}
+{\footnotesize\begin{verbatim}
+@book{tourinho1994,
+address={S\~ao Paulo},
+author={Tourinho, Filho, F. C.},
+edition={{16.} ed. rev. e atual.},
+howpublished={4~v.},
+publisher={Saraiva},
+title={Processo penal},
+year={1994}}
+\end{verbatim}}
+\bibitem{silva1996}
+\abntrefinfo{Silva}{SILVA}{1996}
+{SILVA, D.~P. \emph{Vocabul\'ario jur{\'\i}dico}. 4. ed. Rio de Janeiro:
+  Forense, 1996. 5~v. em~3.}
+{\footnotesize\begin{verbatim}
+@book{silva1996,
+address={Rio de Janeiro},
+author={D. P. Silva},
+edition={4},
+note={5~v. em~3},
+publisher={Forense},
+title={Vocabul\'ario jur{\'\i}dico},
+year={1996}}
+\end{verbatim}}
+\bibitem{rego1991}
+\abntrefinfo{Rego}{REGO}{1991}
+{REGO, L. L.~B. O desenvolvimento cognitivo e a prontid\~ao para alfabetiza{\c
+  c}\~ao. In:  CARRARO, T.~N. (Org.). \emph{Aprender pensando}. 6. ed.
+  Petr\'opolis: Vozes, 1991. p. 31--40.}
+{\footnotesize\begin{verbatim}
+@incollection{rego1991,
+address={Petr\'opolis},
+author={L. L. B. Rego},
+booktitle={Aprender pensando},
+edition={6},
+editor={T. N. Carraro},
+editortype={Org.},
+pages={31-40},
+publisher={Vozes},
+title={O desenvolvimento cognitivo e a prontid\~ao para alfabetiza{\c c}\~ao},
+year={1991}}
+\end{verbatim}}
+\bibitem{marques1993}
+\abntrefinfo{Marques e Lanzelotte}{MARQUES; LANZELOTTE}{1993}
+{MARQUES, M.~P.; LANZELOTTE, R.~G. \emph{Banco de dados e hiperm{\'\i}dia}:
+  construindo um metamodelo para o {P}rojeto {P}ortinari. Rio de Janeiro: PUC,
+  Departamento de Inform\'atica, 1993. Pagina{\c c}\~ao irregular.}
+{\footnotesize\begin{verbatim}
+@book{marques1993,
+address={Rio de Janeiro},
+author={M. P. Marques and R. G. Lanzelotte},
+note={Pagina{\c c}\~ao irregular},
+publisher={PUC, Departamento de Inform\'atica},
+subtitle={construindo um metamodelo para o {P}rojeto {P}ortinari},
+title={Banco de dados e hiperm{\'\i}dia},
+year={1993}}
+\end{verbatim}}
+\bibitem{tamandare1993}
+\abntrefinfo{Sistema\ldots}{SISTEMA\ldots}{1993}
+{SISTEMA de ensino {T}amandar\'e: sargentos do {E}x\'ercito e da
+  {A}eron\'autica. [Rio de Janeiro]: Col\'egio Curso Tamandar\'e, 1993. N\~ao
+  paginado.}
+{\footnotesize\begin{verbatim}
+@book{tamandare1993,
+address={[Rio de Janeiro]},
+note={N\~ao paginado},
+publisher={Col\'egio Curso Tamandar\'e},
+subtitle={sargentos do {E}x\'ercito e da {A}eron\'autica},
+title={Sistema de ensino {T}amandar\'e},
+year={1993}}
+\end{verbatim}}
+\bibitem{cesar1994}
+\abntrefinfo{Cesar}{CESAR}{1994}
+{CESAR, A.~M. \emph{A bala e a mitra}. Recife: Baga{\c c}o, 1994. 267~p., il.}
+{\footnotesize\begin{verbatim}
+@book{cesar1994,
+address={Recife},
+author={A. M. Cesar},
+illustrated={},
+pages={267},
+publisher={Baga{\c c}o},
+title={A bala e a mitra},
+year={1994}}
+\end{verbatim}}
+\bibitem{azevedo1994}
+\abntrefinfo{Azevedo}{AZEVEDO}{1994}
+{AZEVEDO, M.~R. de. \emph{Viva vida}: estudos sociais, 4. S\~ao Paulo: FTD,
+  1994. 194~p., il. color.}
+{\footnotesize\begin{verbatim}
+@book{azevedo1994,
+address={S\~ao Paulo},
+author={M. R. de Azevedo},
+illustrated={il. color.},
+pages={194},
+publisher={FTD},
+subtitle={estudos sociais, 4.},
+title={Viva vida},
+year={1994}}
+\end{verbatim}}
+\bibitem{batista1992}
+\abntrefinfo{Batista e Batista}{BATISTA; BATISTA}{1992}
+{BATISTA, Z.; BATISTA, N. \emph{O foguete do {G}uido}. Ilustra{\c c}\~oes de
+  Marilda Castanha. S\~ao Paulo: Ed. do Brasil, 1992. 15~p., principalmente il.
+  color.}
+{\footnotesize\begin{verbatim}
+@book{batista1992,
+address={S\~ao Paulo},
+author={Z. Batista and N. Batista},
+furtherresp={Ilustra{\c c}\~oes de Marilda Castanha},
+illustrated={principalmente il. color.},
+pages={15},
+publisher={Ed. do Brasil},
+title={O foguete do {G}uido},
+year={1992}}
+\end{verbatim}}
+\bibitem{chueire1994}
+\abntrefinfo{Chueire}{CHUEIRE}{1994}
+{CHUEIRE, C. \emph{Marca angelical}. Ilustra{\c c}\~ao Luciane Fadel.
+  Petr\'opolis: Vozes, 1994. 18~p., somente il., 20~cm.
+ISBN 85-326-1087-0.}
+{\footnotesize\begin{verbatim}
+@book{chueire1994,
+address={Petr\'opolis},
+author={C. Chueire},
+dimensions={20~cm},
+furtherresp={Ilustra{\c c}\~ao Luciane Fadel},
+illustrated={somente il.},
+isbn={85-326-1087-0},
+pages={18},
+publisher={Vozes},
+title={Marca angelical},
+year={1994}}
+\end{verbatim}}
+\bibitem{duran1993}
+\abntrefinfo{Duran}{DURAN}{1993}
+{DURAN, J.~J. \emph{Ilumina{\c c}\~ao para v{\'\i}deo e cinema}. S\~ao Paulo:
+  [s.n.], 1993. 126~p., 21~cm.}
+{\footnotesize\begin{verbatim}
+@book{duran1993,
+address={S\~ao Paulo},
+author={J. J. Duran},
+dimensions={21~cm},
+pages={126},
+title={Ilumina{\c c}\~ao para v{\'\i}deo e cinema},
+year={1993}}
+\end{verbatim}}
+\bibitem{chemello1993}
+\abntrefinfo{Chemello}{CHEMELLO}{1993}
+{CHEMELLO, T. \emph{L\~as, linhas e retalhos}. 3. ed. S\~ao Paulo: Global,
+  1993. 61~p., il., 16~cm {$\times$}~23~cm.}
+{\footnotesize\begin{verbatim}
+@book{chemello1993,
+address={S\~ao Paulo},
+author={T. Chemello},
+edition={3},
+dimensions={16~cm {$\times$}~23~cm},
+illustrated={},
+pages={61},
+publisher={Global},
+title={L\~as, linhas e retalhos},
+year={1993}}
+\end{verbatim}}
+\bibitem{arbex1993}
+\abntrefinfo{Arbex Junior}{ARBEX JUNIOR}{1993}
+{ARBEX JUNIOR, J. \emph{Nacionalismo}: o desafio \`a nova ordem
+  p\'os-socialista. S\~ao Paulo: Scipione, 1993. 104~p., il., 23~cm.
+  (Hist\'oria em aberto).}
+{\footnotesize\begin{verbatim}
+@book{arbex1993,
+address={S\~ao Paulo},
+author={Arbex, Junior, J.},
+dimensions={23~cm},
+illustrated={},
+pages={104},
+publisher={Scipione},
+series={Hist\'oria em aberto},
+subtitle={o desafio \`a nova ordem p\'os-socialista},
+title={Nacionalismo},
+year={1993}}
+\end{verbatim}}
+\bibitem{carvalho1994}
+\abntrefinfo{Carvalho}{CARVALHO}{1994}
+{CARVALHO, M. \emph{Guia pr\'atico do alfabetizador}. S\~ao Paulo: \'Atica,
+  1994. 95~p., 21~cm.  (Princ{\'\i}pios, 243).}
+{\footnotesize\begin{verbatim}
+@book{carvalho1994,
+address={S\~ao Paulo},
+author={M. Carvalho},
+dimensions={21~cm},
+number={243},
+pages={95},
+publisher={\'Atica},
+series={Princ{\'\i}pios},
+title={Guia pr\'atico do alfabetizador},
+year={1994}}
+\end{verbatim}}
+\bibitem{miglori1993}
+\abntrefinfo{Miglori}{MIGLORI}{1993}
+{MIGLORI, R. \emph{Paradigmas e educa{\c c}\~ao}. S\~ao Paulo: Aquariana, 1993.
+  20~p., 23~cm.  (Vis\~ao do futuro, v.~1).}
+{\footnotesize\begin{verbatim}
+@book{miglori1993,
+address={S\~ao Paulo},
+author={R. Miglori},
+dimensions={23~cm},
+pages={20},
+publisher={Aquariana},
+series={Vis\~ao do futuro},
+title={Paradigmas e educa{\c c}\~ao},
+volume={1},
+year={1993}}
+\end{verbatim}}
+\bibitem{amaral1994}
+\abntrefinfo{Amaral Sobrinho}{AMARAL SOBRINHO}{1994}
+{AMARAL SOBRINHO, J. \emph{Ensino fundamental}: gastos das {U}ni\~ao e do {MEC}
+  em 1991: tend\^encias. Bras{\'\i}lia, DF: IPEA, 1994. 8~p.  (Texto para
+  discuss\~ao, n.~31).\footnote{O n\'umero em s\'erie n\~ao deveria de levar o
+  `n.', este exemplo \'e uma exce{\c c}\~ao. N\~ao sabemos por que.}}
+{\footnotesize\begin{verbatim}
+@book{amaral1994,
+address={Bras{\'\i}lia, DF},
+author={Amaral, Sobrinho, J.},
+number={n.~31},
+pages={8},
+publisher={IPEA},
+series={Texto para discuss\~ao},
+subtitle={gastos das {U}ni\~ao e do {MEC} em 1991: tend\^encias},
+title={Ensino fundamental},
+year={1994}}
+\end{verbatim}}
+\bibitem{rodrigues1994}
+\abntrefinfo{Rodrigues}{RODRIGUES}{1994}
+{RODRIGUES, A. \emph{Teatro completo}. Organiza{\c c}\~ao geral e pref\'acio
+  S\'abato Magaldi. Rio de Janeiro: Nova Aguilar, 1994. 1134~p., 19~cm.
+  (Biblioteca luso-brasileira. Serie brasileira).\footnote{Falta mesmo o acento
+  em \emph{S\'erie} no exemplo da norma.}}
+{\footnotesize\begin{verbatim}
+@book{rodrigues1994,
+address={Rio de Janeiro},
+author={A. Rodrigues},
+dimensions={19~cm},
+furtherresp={Organiza{\c c}\~ao geral e pref\'acio S\'abato Magaldi},
+pages={1134},
+publisher={Nova Aguilar},
+series={Biblioteca luso-brasileira. Serie brasileira},
+title={Teatro completo},
+year={1994}}
+\end{verbatim}}
+\bibitem{carruth1993}
+\abntrefinfo{Carruth}{CARRUTH}{1993}
+{CARRUTH, J. \emph{A nova casa do {B}ebeto}. Desenhos de Tony Hutchings.
+  Tradu{\c c}\~ao Ruth Rocha. S\~ao Paulo: C{\'\i}rculo do Livro, 1993. 21~p.
+  T{\'\i}tulo original: Moving House.}
+{\footnotesize\begin{verbatim}
+@book{carruth1993,
+address={S\~ao Paulo},
+author={J. Carruth},
+furtherresp={Desenhos de Tony Hutchings. Tradu{\c c}\~ao Ruth Rocha},
+note={T{\'\i}tulo original: Moving House},
+pages={21},
+publisher={C{\'\i}rculo do Livro},
+title={A nova casa do {B}ebeto},
+year={1993}}
+\end{verbatim}}
+\bibitem{saadi1994}
+\abntrefinfo{Saadi}{SAADI}{1944}
+{SAADI. \emph{O jardim das rosas...} Tradu{\c c}\~ao de Aur\'elio Buarque de
+  Holanda. Rio de Janeiro: J. Olympio, 1944. 124~p., il.  (Cole{\c c}\~ao
+  Rubaiyat). Vers\~ao francesa de: Franz Toussaint. Original \'arabe.}
+{\footnotesize\begin{verbatim}
+@book{saadi1994,
+address={Rio de Janeiro},
+author={Saadi},
+furtherresp={Tradu{\c c}\~ao de Aur\'elio Buarque de Holanda},
+illustrated={},
+note={Vers\~ao francesa de: Franz Toussaint. Original \'arabe},
+pages={124},
+publisher={J. Olympio},
+series={Cole{\c c}\~ao Rubaiyat},
+title={O jardim das rosas...},
+year={1944}}
+\end{verbatim}}
+\bibitem{mandino1994}
+\abntrefinfo{Mandino}{MANDINO}{1994}
+{MANDINO, O. \emph{A universidade do sucesso}. Tradu{\c c}\~ao de Eugenia
+  Loureiro. 6. ed. Rio de Janeiro: Record, 1994. 562~p., 21~cm. T{\'\i}tulo
+  original: The university of success.}
+{\footnotesize\begin{verbatim}
+@book{mandino1994,
+address={Rio de Janeiro},
+author={O Mandino},
+edition={6},
+dimensions={21~cm},
+furtherresp={Tradu{\c c}\~ao de Eugenia Loureiro},
+note={T{\'\i}tulo original: The university of success},
+pages={562},
+publisher={Record},
+title={A universidade do sucesso},
+year={1994}}
+\end{verbatim}}
+\bibitem{makau1962}
+\abntrefinfo{Makau}{MAKAU}{1962}
+{MAKAU, A.~B. \emph{Esperanza de la educaci\'on hoy}. Lisboa: J.~Piaget, 1962.
+  Separata de: \abntreprintinfo{ wmoore1960}}
+{\footnotesize\begin{verbatim}
+@book{makau1962,
+address={Lisboa},
+author={A. B. Makau},
+publisher={J.~Piaget},
+reprinted-from={wmoore1960},
+title={Esperanza de la educaci\'on hoy},
+year={1962}}
+\end{verbatim}}
+\bibitem{lion1981}
+\abntrefinfo{Lion e Andrade}{LION; ANDRADE}{1981}
+{LION, M.~F.; ANDRADE, J. Drogas cardiovasculares e gravidez.
+Separata de: \emph{Arquivos Brasileiros de Cardiologia}, S\~ao Paulo, v.~37,
+  n.~2, p. 125--127, 1981.}
+{\footnotesize\begin{verbatim}
+@article{lion1981,
+address={S\~ao Paulo},
+author={M. F. Lion and J. Andrade},
+journal={Arquivos Brasileiros de Cardiologia},
+number={2},
+pages={125-127},
+reprinted-text={Separata de},
+title={Drogas cardiovasculares e gravidez},
+volume={37},
+year={1981}}
+\end{verbatim}}
+\bibitem{morgado1990}
+\abntrefinfo{Morgado}{MORGADO}{1990}
+{MORGADO, M. L.~C.
+\emph{Reimplante dent\'ario}.
+51~f. Monografia (Especializa{\c c}\~ao) --- Faculdade de Odontologia,
+  Universidade Camilo Castelo Branco, S\~ao Paulo, 1990.}
+{\footnotesize\begin{verbatim}
+@monography{morgado1990,
+address={S\~ao Paulo},
+author={M. L. C. Morgado},
+pages={51},
+pagename={f.},
+school={Faculdade de Odontologia, Universidade Camilo Castelo Branco},
+title={Reimplante dent\'ario},
+type={Especializa{\c c}\~ao},
+year={1990}}
+\end{verbatim}}
+\bibitem{araujo1986}
+\abntrefinfo{Ara\'ujo}{ARA\'UJO}{1986}
+{ARA\'UJO, U. A.~M.
+\emph{M\'ascaras inteiri{\c c}as Tuk\'una}: possibilidade de estudo de
+  artefatos de museu para o conhecimento do universo ind{\'\i}gena.
+1985. 102~f. Disserta\c{c}\~{a}o (Mestrado em Ci\^encias Sociais) --- Funda{\c
+  c}\~ao Escola de Sociologia Pol{\'\i}tica de S\~ao Paulo, S\~ao Paulo,
+  1986.\footnote{No original: `S\~ao Paulo. 1985.', ou seja um ponto após o
+  endere{\c c}o ao inv\'es de uma vírgula que aparentemente deveria ser o
+  correto.}}
+{\footnotesize\begin{verbatim}
+@mastersthesis{araujo1986,
+address={S\~ao Paulo},
+author={U. A. M. Ara\'ujo},
+pages={102},
+pagename={f.},
+school={Funda{\c c}\~ao Escola de Sociologia Pol{\'\i}tica de S\~ao Paulo},
+subtitle={possibilidade de estudo de artefatos de museu para o conhecimento do
+  universo ind{\'\i}gena},
+title={M\'ascaras inteiri{\c c}as Tuk\'una},
+type={Mestrado em Ci\^encias Sociais},
+year={1986}}
+\end{verbatim}}
+\bibitem{abnt-options3}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-options3}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+title+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-options3,
+key={x},
+abnt-thesis-year={title}}
+\end{verbatim}}
+\bibitem{morgadob1990}
+\abntrefinfo{Morgado}{MORGADO}{1990}
+{MORGADO, M. L.~C.
+\emph{Reimplante dent\'ario}.
+1990. 51~f. Monografia (Especializa{\c c}\~ao) --- Faculdade de Odontologia,
+  Universidade Camilo Castelo Branco, S\~ao Paulo.}
+{\footnotesize\begin{verbatim}
+@monography{morgadob1990,
+address={S\~ao Paulo},
+author={M. L. C. Morgado},
+pages={51},
+pagename={f.},
+school={Faculdade de Odontologia, Universidade Camilo Castelo Branco},
+title={Reimplante dent\'ario},
+type={Especializa{\c c}\~ao},
+year={1990}}
+\end{verbatim}}
+\bibitem{abnt-options4}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-options4}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+both+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-options4,
+key={x},
+abnt-thesis-year={both}}
+\end{verbatim}}
+\bibitem{morgadoc1990}
+\abntrefinfo{Morgado}{MORGADO}{1990}
+{MORGADO, M. L.~C.
+\emph{Reimplante dent\'ario}.
+1990. 51~f. Monografia (Especializa{\c c}\~ao) --- Faculdade de Odontologia,
+  Universidade Camilo Castelo Branco, S\~ao Paulo, 1990.}
+{\footnotesize\begin{verbatim}
+@monography{morgadoc1990,
+address={S\~ao Paulo},
+author={M. L. C. Morgado},
+pages={51},
+pagename={f.},
+school={Faculdade de Odontologia, Universidade Camilo Castelo Branco},
+title={Reimplante dent\'ario},
+type={Especializa{\c c}\~ao},
+year={1990}}
+\end{verbatim}}
+\bibitem{abnt-options5}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-options5}! . Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+final+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-options5,
+key={x},
+abnt-thesis-year={final}}
+\end{verbatim}}
+\bibitem{laurenti1978}
+\abntrefinfo{Laurenti}{LAURENTI}{1978}
+{LAURENTI, R. \emph{Mortalidade pr\'e-natal}. S\~ao Paulo: Centro Brasileiro de
+  Classifica{\c c}\~ao de Doen{\c c}as, 1978. Mimeografado.}
+{\footnotesize\begin{verbatim}
+@book{laurenti1978,
+address={S\~ao Paulo},
+author={R. Laurenti},
+note={Mimeografado},
+publisher={Centro Brasileiro de Classifica{\c c}\~ao de Doen{\c c}as},
+title={Mortalidade pr\'e-natal},
+year={1978}}
+\end{verbatim}}
+\bibitem{marins1991}
+\abntrefinfo{Marins}{MARINS}{1991}
+{MARINS, J. L.~C. Massa calcificada da naso-faringe.
+\emph{Radiologia Brasileira}, S\~ao Paulo, n.~23, 1991.
+No prelo.}
+{\footnotesize\begin{verbatim}
+@article{marins1991,
+address={S\~ao Paulo},
+author={J. L. C. Marins},
+journal={Radiologia Brasileira},
+note={No prelo},
+number={23},
+title={Massa calcificada da naso-faringe},
+year={1991}}
+\end{verbatim}}
+\bibitem{malagrino1985}
+\abntrefinfo{Malagrino et al.}{MALAGRINO et al.}{}
+{MALAGRINO, W. et al. Estudos preliminares sobre os efeitos de baixas
+  concentra{\c c}\~oes de detergentes ami\^onicos na forma{\c c}\~ao do bisso
+  em \textit{Branchidontas solisianus}. In:  CONGRESSO BRASILEIRO DE ENGENHARIA
+  SANIT\'ARIA E AMBIENTAL, 13., 1985. [S.l.]. N\~ao publicado.\footnote{O
+  original difere completamente, n\~ao ficou claro porque a `norma' neste caso
+  fugiu completamente da formata{\c c}\~ao dos outros exemplos.}}
+{\footnotesize\begin{verbatim}
+@inproceedings{malagrino1985,
+author={W. Malagrino and others},
+conference-number={13},
+conference-year={1985},
+note={N\~ao publicado},
+organization={Congresso Brasileiro de Engenharia Sanit\'aria e Ambiental},
+title={Estudos preliminares sobre os efeitos de baixas concentra{\c c}\~oes de
+  detergentes ami\^onicos na forma{\c c}\~ao do bisso em \textit{Branchidontas
+  solisianus}}}
+\end{verbatim}}
+\bibitem{zilberman1998}
+\abntrefinfo{Zilberman}{ZILBERMAN}{1988}
+{ZILBERMAN, R. \emph{A leitura e o ensino da literatura}. S\~ao Paulo:
+  Contexto, 1988. Recens\~ao de: \abntreprintinfo{ silva1988}}
+{\footnotesize\begin{verbatim}
+@book{zilberman1998,
+address={S\~ao Paulo},
+author={R. Zilberman},
+publisher={Contexto},
+reprinted-from={silva1988},
+reprinted-text={Recens\~ao de},
+title={A leitura e o ensino da literatura},
+year={1988}}
+\end{verbatim}}
+\bibitem{holanda1994}
+\abntrefinfo{Holanda}{HOLANDA}{1994}
+{HOLANDA, S.~B. \emph{Caminhos e fronteiras}. 3. ed. S\~ao Paulo: Companhia das
+  Letras, 1994. 301~p., il., 21~cm. Inclui {\'\i}ndice.
+ISBN 85-7164-411-X.}
+{\footnotesize\begin{verbatim}
+@book{holanda1994,
+address={S\~ao Paulo},
+author={S. B. Holanda},
+edition={3},
+dimensions={21~cm},
+illustrated={},
+isbn={85-7164-411-X},
+note={Inclui {\'\i}ndice},
+pages={301},
+publisher={Companhia das Letras},
+title={Caminhos e fronteiras},
+year={1994}}
+\end{verbatim}}
+\bibitem{pelosi1993}
+\abntrefinfo{Pelosi}{PELOSI}{1993}
+{PELOSI, T. \emph{O caminho das cordas}. Rio de Janeiro: Anais, 1993. 158~p.,
+  il., 21~cm. Bibliografia: p. 115--158.}
+{\footnotesize\begin{verbatim}
+@book{pelosi1993,
+address={Rio de Janeiro},
+author={T. Pelosi},
+dimensions={21~cm},
+illustrated={},
+note={Bibliografia: p. 115--158},
+pages={158},
+publisher={Anais},
+title={O caminho das cordas},
+year={1993}}
+\end{verbatim}}
+\bibitem{tringali1994}
+\abntrefinfo{Tringali}{TRINGALI}{1994}
+{TRINGALI, D. \emph{Escolas liter\'arias}. S\~ao Paulo: Musa, 1994. 246~p.,
+  21~cm. Inclui bibliografias.}
+{\footnotesize\begin{verbatim}
+@book{tringali1994,
+address={S\~ao Paulo},
+author={D. Tringali},
+dimensions={21~cm},
+note={Inclui bibliografias},
+pages={246},
+publisher={Musa},
+title={Escolas liter\'arias},
+year={1994}}
+\end{verbatim}}
+\bibitem{delosmar1997}
+\abntrefinfo{Resprin}{RESPRIN}{1997}
+{RESPRIN: comprimidos. Respons\'avel t\'ecnico Delosmar R.\ Bastos. S\~ao
+  Jos\'e dos Campos: Johnson \& Johnson, 1997.
+Bula de rem\'edio.\footnote{N\~ao sabemos porque na `norma' foi formatado desse
+  jeito. Seria mais sensato colocar a empresa como autora e formatar como {\tt
+  manual}. Afinal o que \'e uma bula sen\~ao um manual? Veja na referência
+  \citeonline{resprinb1997} a nossa sugest\~ao de formata{\c c}\~ao.}}
+{\footnotesize\begin{verbatim}
+@misc{delosmar1997,
+address={S\~ao Jos\'e dos Campos},
+furtherresp={Respons\'avel t\'ecnico Delosmar R.\ Bastos},
+note={Bula de rem\'edio},
+publisher={Johnson \& Johnson},
+subtitle={comprimidos},
+title={Resprin},
+year={1997}}
+\end{verbatim}}
+\bibitem{resprinb1997}
+\abntrefinfo{Johnson \& Johnson}{JOHNSON \& JOHNSON}{1997}
+{JOHNSON \& JOHNSON. \emph{Resprin}: comprimidos.
+Respons\'avel t\'ecnico Delosmar R.\ Bastos. S\~ao Jos\'e dos Campos, 1997.
+  Bula de rem\'edio.\footnote{Esta \'e a nossa sugest\~ao de formata{\c c}\~ao
+  para a referência \citeonline{delosmar1997}.}}
+{\footnotesize\begin{verbatim}
+@manual{resprinb1997,
+address={S\~ao Jos\'e dos Campos},
+furtherresp={Respons\'avel t\'ecnico Delosmar R.\ Bastos},
+note={Bula de rem\'edio},
+organization={Johnson \& Johnson},
+subtitle={comprimidos},
+title={Resprin},
+year={1997}}
+\end{verbatim}}
+\bibitem{cardim1984}
+\abntrefinfo{Cardim}{CARDIM}{1984}
+{CARDIM, M.~S. \emph{Constitui o ensino de 2$^o$ grau regular noturno uma
+  verdadeira educa{\c c}\~ao de adultos?} Curitiba: Universidade Federal do
+  Paran\'a, Setor de Educa{\c c}\~ao, 1984. 3 microfichas. Redu{\c c}\~ao de
+  1:24.000.}
+{\footnotesize\begin{verbatim}
+@book{cardim1984,
+address={Curitiba},
+author={M. S. Cardim},
+note={3 microfichas. Redu{\c c}\~ao de 1:24.000},
+publisher={Universidade Federal do Paran\'a, Setor de Educa{\c c}\~ao},
+title={Constitui o ensino de 2$^o$ grau regular noturno uma verdadeira educa{\c
+  c}\~ao de adultos?},
+year={1984}}
+\end{verbatim}}
+\bibitem{cretella1992}
+\abntrefinfo{Cretella J\'unior}{CRETELLA J\'UNIOR}{1992}
+{CRETELLA J\'UNIOR, J. \emph{Do impeachment no direito brasileiro}. [S\~ao
+  Paulo]: R. dos Tribunais, 1992. 107~p.\footnote{A pagina{\c c}\~ao no exemplo
+  da `norma' est\'a `p.~107'.}}
+{\footnotesize\begin{verbatim}
+@book{cretella1992,
+address={[S\~ao Paulo]},
+author={Cretella, J\'unior, J.},
+pages={107},
+publisher={R. dos Tribunais},
+title={Do impeachment no direito brasileiro},
+year={1992}}
+\end{verbatim}}
+\bibitem{boletime1965}
+\abntrefinfo{Boletim~estat{\'\i}stico\ldots}{BOLETIM~ESTAT{\'I}STICO\ldots}{1965}
+{BOLETIM~ESTAT{\'I}STICO [da] {R}ede {F}errovi\'aria {F}ederal.
+Rio de Janeiro, p.~20, 1965.\footnote{A pagina{\c c}\~ao no exemplo da `norma'
+  est\'a `p.~20'.}}
+{\footnotesize\begin{verbatim}
+@article{boletime1965,
+address={Rio de Janeiro},
+pages={20},
+title={Boletim~estat{\'\i}stico [da] {R}ede {F}errovi\'aria {F}ederal},
+year={1965}}
+\end{verbatim}}
+\bibitem{abnt-repeated-author-omit=yes}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-repeated-author-omit=yes}! . Op\c c\~ao selecionada
+  {\tt abnt-repeated-author-omit=}\verb+yes+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-repeated-author-omit=yes,
+key={aaaa},
+abnt-repeated-author-omit={yes}}
+\end{verbatim}}
+\bibitem{freyre1943}
+\abntrefinfo{Freyre}{FREYRE}{1943}
+{FREYRE, G. \emph{Casa grande \& senzala}: forma{\c c}\~ao da fam{\'\i}lia
+  brasileira sob regime de economia patriarcal. Rio de Janeiro: J.~Olympio,
+  1943. 2~v.}
+{\footnotesize\begin{verbatim}
+@book{freyre1943,
+address={Rio de Janeiro},
+author={G. Freyre},
+howpublished={2~v.},
+publisher={J.~Olympio},
+subtitle={forma{\c c}\~ao da fam{\'\i}lia brasileira sob regime de economia
+  patriarcal},
+title={Casa grande \& senzala},
+year={1943}}
+\end{verbatim}}
+\bibitem{freyre1936}
+\abntrefinfo{Freyre}{FREYRE}{1936}
+{\underline{\ \ \ \ \ \ \ \ }. \emph{Sobrados e mocambos}: decad\^encia do
+  patriarcado rural no brasil. S\~ao Paulo: Ed.~Nacional, 1936.\footnote{O
+  certo deveria ser `Nacional' e n\~ao `Ed.~Nacional'.}}
+{\footnotesize\begin{verbatim}
+@book{freyre1936,
+address={S\~ao Paulo},
+author={G. Freyre},
+publisher={Ed.~Nacional},
+subtitle={decad\^encia do patriarcado rural no Brasil},
+title={Sobrados e mocambos},
+year={1936}}
+\end{verbatim}}
+\bibitem{abnt-repeated-author-omit=no}
+\abntrefinfo{nada}{NADA}{a}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-repeated-author-omit=no}! . Op\c c\~ao selecionada
+  {\tt abnt-repeated-author-omit=}\verb+no+. Op\c c\~ao selecionada {\tt
+  abnt-repeated-title-omit=}\verb+no+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-repeated-author-omit=no,
+key={aaaa},
+abnt-repeated-author-omit={no},
+abnt-repeated-title-omit={no}}
+\end{verbatim}}
+\bibitem{abnt-repeated-title-omit=yes}
+\abntrefinfo{nada}{NADA}{b}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-repeated-title-omit=yes}! . Op\c c\~ao selecionada
+  {\tt abnt-repeated-author-omit=}\verb+yes+. Op\c c\~ao selecionada {\tt
+  abnt-repeated-title-omit=}\verb+yes+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-repeated-title-omit=yes,
+key={aaaa},
+abnt-repeated-author-omit={yes},
+abnt-repeated-title-omit={yes}}
+\end{verbatim}}
+\bibitem{freyreg1936}
+\abntrefinfo{Freyre}{FREYRE}{1936}
+{FREYRE, G. \emph{Sobrados e mocambos}: decad\^encia do patriarcado rural no
+  brasil. S\~ao Paulo: Ed.~Nacional, 1936. 405~p.}
+{\footnotesize\begin{verbatim}
+@book{freyreg1936,
+address={S\~ao Paulo},
+author={G. Freyre},
+pages={405},
+publisher={Ed.~Nacional},
+subtitle={decad\^encia do patriarcado rural no Brasil},
+title={Sobrados e mocambos},
+year={1936}}
+\end{verbatim}}
+\bibitem{freyre1938}
+\abntrefinfo{Freyre}{FREYRE}{1938}
+{\underline{\ \ \ \ \ \ \ \ }. \underline{\ \ \ \ \ \ \ \ }. 2. ed. S\~ao
+  Paulo: Ed.~Nacional, 1938. 410~p.}
+{\footnotesize\begin{verbatim}
+@book{freyre1938,
+address={S\~ao Paulo},
+author={G. Freyre},
+edition={2},
+pages={410},
+publisher={Ed.~Nacional},
+subtitle={decad\^encia do patriarcado rural no Brasil},
+title={Sobrados e mocambos},
+year={1938}}
+\end{verbatim}}
+\bibitem{abnt-repeated-title-omit=no}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{abnt-repeated-title-omit=no}! . Op\c c\~ao selecionada {\tt
+  abnt-repeated-title-omit=}\verb+no+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{abnt-repeated-title-omit=no,
+key={aaaa},
+abnt-repeated-title-omit={no}}
+\end{verbatim}}
+\bibitem{DOI}
+\abntrefinfo{IDF}{IDF}{2003}
+{INTERNATIONAL DOI FOUNDATION. \emph{The {DOI} handbook}.
+Oxford, 2003. Dispon{\'\i}vel em: \url{doi:10.1000/182}.}
+{\footnotesize\begin{verbatim}
+@manual{DOI,
+address={Oxford},
+month={fev.},
+organization={International DOI Foundation},
+org-short={IDF},
+title={The {DOI} handbook},
+url={doi:10.1000/182},
+year={2003}}
+\end{verbatim}}
+\bibitem{hamada2008}
+\abntrefinfo{Hamada}{HAMADA}{2008}
+{HAMADA, M. Constructive codes for classical and quantum wiretap channels.
+In:  ROLAND E. CHEN. \emph{Cryptography and Research Perspectives}. Nova York,
+  Estados Unidos: Nova Science Publishers, 2008. p. 1--48.}
+{\footnotesize\begin{verbatim}
+@inbook{hamada2008,
+address={Nova York, Estados Unidos},
+author={Mitsuru Hamada},
+booktitle={Cryptography and Research Perspectives},
+organization={Roland E. Chen},
+pages={1-48},
+publisher={Nova Science Publishers},
+title={Constructive Codes for Classical and Quantum Wiretap Channels},
+year={2008}}
+\end{verbatim}}
+\bibitem{ABNT-final}
+\abntrefinfo{nada}{NADA}{}
+{Mudan\c ca de estilo ap\'os este ponto com o comando
+  \verb!\citeoption{ABNT-final}! . Op\c c\~ao selecionada {\tt
+  abnt-show-options=}\verb+list+. Op\c c\~ao selecionada {\tt
+  abnt-emphasize=}\verb+\textbf+. Op\c c\~ao selecionada {\tt
+  abnt-full-initials=}\verb+no+. Op\c c\~ao selecionada {\tt
+  abnt-thesis-year=}\verb+final+. Op\c c\~ao selecionada {\tt
+  abnt-etal-list=}\verb+3+.}
+{\footnotesize\begin{verbatim}
+@abnt-options{ABNT-final,
+key={x},
+abnt-emphasize={\textbf},
+abnt-full-initials={no},
+abnt-show-options={list},
+abnt-thesis-year={final}}
+\end{verbatim}}
+\bibitem{abntex2cite-alf}
+\abntrefinfo{abnTeX2 e Araujo}{ABNTEX2; ARAUJO}{2013}
+{ABNTEX2; ARAUJO, L.~C. \textbf{O pacote abntex2cite: t{\'o}picos
+  espec{\'\i}ficos da ABNT NBR 10520:2002 e o estilo bibliogr{\'a}fico
+  alfab{\'e}tico (sistema autor-data}.
+[S.l.], 2013. Dispon{\'\i}vel em: \url{http://abntex2.googlecode.com/}.}
+{\footnotesize\begin{verbatim}
+@manual{abntex2cite-alf,
+author={abnTeX2 and Lauro C{\'e}sar Araujo},
+organization={Equipe abnTeX2},
+title={O pacote abntex2cite: t{\'o}picos espec{\'\i}ficos da ABNT NBR
+  10520:2002 e o estilo bibliogr{\'a}fico alfab{\'e}tico (sistema autor-data},
+url={http://abntex2.googlecode.com/},
+year={2013}}
+\end{verbatim}}
+\bibitem{abntex2classe}
+\abntrefinfo{abnTeX2 e Araujo}{ABNTEX2; ARAUJO}{2012}
+{\underline{\ \ \ \ \ \ \ \ }. \textbf{A classe abntex2: Modelo can{\^o}nico de
+  trabalhos acad{\^e}micos brasileiros compat{\'\i}vel com as normas ABNT NBR
+  14724:2011, ABNT NBR 6024:2012 e outras}.
+[S.l.], 2012. Dispon{\'\i}vel em: \url{http://abntex2.googlecode.com/}.}
+{\footnotesize\begin{verbatim}
+@manual{abntex2classe,
+author={abnTeX2 and Lauro C{\'e}sar Araujo},
+organization={Equipe abnTeX2},
+title={A classe abntex2: Modelo can{\^o}nico de trabalhos acad{\^e}micos
+  brasileiros compat{\'\i}vel com as normas ABNT NBR 14724:2011, ABNT NBR
+  6024:2012 e outras},
+url={http://abntex2.googlecode.com/},
+year={2012}}
+\end{verbatim}}
+\bibitem{NBR6023:2002}
+\abntrefinfo{ABNT}{ABNT}{2002}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \textbf{{NBR} 6023}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- refer\^encias --- elabora{\c
+  c}\~ao.
+Rio de Janeiro, 2002, 24~p. Substitui a Ref.~\citeonline{NBR6023:2000}.}
+{\footnotesize\begin{verbatim}
+@manual{NBR6023:2002,
+address={Rio de Janeiro},
+month={ago.},
+note={Substitui a Ref.~\citeonline{NBR6023:2000}},
+organization={Associa{\c c}\~ao Brasileira de Normas T\'ecnicas},
+org-short={ABNT},
+pages={24},
+subtitle={Informa{\c c}\~ao e documenta{\c c}\~ao --- Refer\^encias ---
+  Elabora{\c c}\~ao},
+title={{NBR} 6023},
+year={2002}}
+\end{verbatim}}
+\bibitem{Tsen86}
+\abntrefinfo{Tsen e Morko{\c{c}}}{TSEN; MORKO{\c{C}}}{1986}
+{TSEN, K.~T.; MORKO{\c{C}}, H. Population relaxation time of nonequilibrium
+  {LO} phonons and electron-phonon interactions in {GaAs--Al$_x$Ga$_{1-x}$As}
+  multiple-quantum-well structures.
+\textbf{Phys.\ Rev.~B}, v.~34, p. 4412--4414, 1986.}
+{\footnotesize\begin{verbatim}
+@article{Tsen86,
+author={K T Tsen and H Morko{\c{c}}},
+journal={Phys.\ Rev.~B},
+pages={4412-4414},
+title={Population relaxation time of nonequilibrium {LO} phonons and
+  electron-phonon interactions in {GaAs--Al$_x$Ga$_{1-x}$As}
+  multiple-quantum-well structures},
+volume={34},
+year={1986}}
+\end{verbatim}}
+\bibitem{Sun99}
+\abntrefinfo{Sun}{SUN}{1999}
+{SUN, H. Electronic states of {V}-shaped semiconductor quantum wires in
+  electric fields.
+\textbf{Phys.\ Rev.\ B}, v.~58, p. 15381--15384, 1999.}
+{\footnotesize\begin{verbatim}
+@article{Sun99,
+author={H Sun},
+journal={Phys.\ Rev.\ B},
+pages={15381-15384},
+title={Electronic states of {V}-shaped semiconductor quantum wires in electric
+  fields},
+volume={58},
+year={1999}}
+\end{verbatim}}
+\bibitem{Creci99}
+\abntrefinfo{Creci e Weber}{CRECI; WEBER}{1999}
+{CRECI, G.; WEBER, G. Electron and hole states in {V}-groove quantum wires: an
+  effective potential calculation.
+\textbf{Semicond.\ Sci.\ Technol.}, v.~14, p. 690--694, 1999.}
+{\footnotesize\begin{verbatim}
+@article{Creci99,
+author={Geraldo Creci and Gerald Weber},
+journal={Semicond.\ Sci.\ Technol.},
+pages={690-694},
+title={Electron and hole states in {V}-groove quantum wires: an effective
+  potential calculation},
+volume={14},
+year={1999}}
+\end{verbatim}}
+\bibitem{Subramaniam98}
+\abntrefinfo{Subramaniam, Kirsch e Jovin}{SUBRAMANIAM; KIRSCH; JOVIN}{1998}
+{SUBRAMANIAM, V.; KIRSCH, A.~K.; JOVIN, T.~M. Cell biological applications of
+  scanning near-field optical microscopy {(NSOM)}.
+\textbf{Cell.\ Mol.\ Biol.}, v.~44, p. 689--700, 1998.}
+{\footnotesize\begin{verbatim}
+@article{Subramaniam98,
+author={V Subramaniam and A K Kirsch and T M Jovin},
+journal={Cell.\ Mol.\ Biol.},
+pages={689-700},
+title={Cell biological applications of scanning near-field optical microscopy
+  {(NSOM)}},
+volume={44},
+year={1998}}
+\end{verbatim}}
+\bibitem{Deng00}
+\abntrefinfo{Deng et al.}{DENG et al.}{2000}
+{DENG, Z.-Y. et al. Subband structures and exciton and impurity states in
+  {V}-shaped {GaAs-Ga$_{1-x}$Al$_x$As} quantum wires.
+\textbf{Phys.\ Rev.\ B}, v.~61, p. 15905--15913, 2000.}
+{\footnotesize\begin{verbatim}
+@article{Deng00,
+author={Z-Y Deng and X Chen and T Ohji and T Kobayashi},
+journal={Phys.\ Rev.\ B},
+pages={15905-15913},
+title={Subband structures and exciton and impurity states in {V}-shaped
+  {GaAs-Ga$_{1-x}$Al$_x$As} quantum wires},
+volume={61},
+year={2000}}
+\end{verbatim}}
+\bibitem{Eiter99:HAA}
+\abntrefinfo{Eiter et al.}{EITER et al.}{1999}
+{EITER, T. et al. Heterogeneous active agents, {I}: Semantics.
+\textbf{Artificial Intelligence}, Elsevier, v.~108, p. 179--255, 1999.}
+{\footnotesize\begin{verbatim}
+@article{Eiter99:HAA,
+author={Eiter, Thomas and others},
+journal={Artificial Intelligence},
+pages={179-255},
+publisher={Elsevier},
+title={Heterogeneous Active Agents, {I}: Semantics},
+volume={108},
+year={1999}}
+\end{verbatim}}
+\bibitem{Inverno97:Formalisms}
+\abntrefinfo{d'Inverno et al.}{D'INVERNO et al.}{1997}
+{D'INVERNO, M. et al. Formalisms for multi-agent systems.
+\textbf{The Knowledge Engeneering Review}, v.~3, n.~12, 1997.}
+{\footnotesize\begin{verbatim}
+@article{Inverno97:Formalisms,
+author={d'Inverno, Mark and Fisher, Michael and Lomuscio, Alessio and Luck,
+  Michael and de Rijke, Maarten and Ryan, Mark and Wooldridge, Michael},
+journal={The Knowledge Engeneering Review},
+number={12},
+title={Formalisms for Multi-Agent Systems},
+volume={3},
+year={1997}}
+\end{verbatim}}
+\bibitem{Koneman99}
+\abntrefinfo{Koneman et al.}{KONEMAN et al.}{1999}
+{KONEMAN, E.~W. et al. \textbf{Diagn{\'o}stico Microbiol{\'o}gico}. 5. ed.
+  Buenos Aires: M{\'e}dica Panamericana, 1999.}
+{\footnotesize\begin{verbatim}
+@book{Koneman99,
+address={Buenos Aires},
+author={E W Koneman and S D Allen and W M Janda and P C Schreckenberger and W C
+  Winn},
+edition={5},
+publisher={M{\'e}dica Panamericana},
+title={Diagn{\'o}stico Microbiol{\'o}gico},
+year={1999}}
+\end{verbatim}}
+\bibitem{Ferber95:SMA}
+\abntrefinfo{Ferber}{FERBER}{1995}
+{FERBER, J. \textbf{Les Syst\`emes Multi-Agent: Vers une Inteligence
+  Collective}. Paris: InterEditions, 1995.}
+{\footnotesize\begin{verbatim}
+@book{Ferber95:SMA,
+address={Paris},
+author={Ferber, Jacques},
+publisher={InterEditions},
+title={Les Syst\`emes Multi-Agent: Vers une Inteligence Collective},
+year={1995}}
+\end{verbatim}}
+\bibitem{Cardona82}
+\abntrefinfo{Cardona e G{\"u}ntherodt}{CARDONA; G{\"U}NTHERODT}{1982}
+{CARDONA, M.; G{\"U}NTHERODT, G. (Ed.). \textbf{Light Scattering in Solids}.
+  Berlin: Springer, 1982.  (Topics in applied physics, 51).
+ISBN 3-540-11513-7.}
+{\footnotesize\begin{verbatim}
+@book{Cardona82,
+address={Berlin},
+editor={M. Cardona and G. G{\"u}ntherodt},
+isbn={3-540-11513-7},
+number={51},
+publisher={Springer},
+series={Topics in applied physics},
+title={Light Scattering in Solids},
+year={1982}}
+\end{verbatim}}
+\bibitem{Jennings98:Applications}
+\abntrefinfo{Jennings e Wooldridge}{JENNINGS; WOOLDRIDGE}{1998}
+{JENNINGS, N.~R.; WOOLDRIDGE, M.~J. Applications of intelligent agents. In:
+  JENNINGS, N.~R.; WOOLDRIDGE, M.~J. (Ed.). \textbf{Agent Technology:
+  Foundations, Applications, and Markets}. Heidelberg: Springer, 1998. p.
+  3--28.}
+{\footnotesize\begin{verbatim}
+@incollection{Jennings98:Applications,
+address={Heidelberg},
+author={Nicholas R. Jennings and Michael J. Wooldridge},
+booktitle={Agent Technology: Foundations, Applications, and Markets},
+editor={Nicholas R. Jennings and Michael J. Wooldridge},
+pages={3--28},
+publisher={Springer},
+title={Applications of Intelligent Agents},
+year={1998}}
+\end{verbatim}}
+\bibitem{Valiant95:Rationality}
+\abntrefinfo{Valiant}{VALIANT}{1995}
+{VALIANT, L.~G. Rationality. In:  \textbf{Proc. of the 8th Annual Conference on
+  Computer Learning Theory}. Santa Cruz (CA): [s.n.], 1995.}
+{\footnotesize\begin{verbatim}
+@inproceedings{Valiant95:Rationality,
+address={Santa Cruz (CA)},
+author={Valiant, Leslie G.},
+booktitle={Proc. of the 8th Annual Conference on Computer Learning Theory},
+month={July 5-8},
+title={Rationality},
+year={1995}}
+\end{verbatim}}
+\bibitem{Chiao00}
+\abntrefinfo{Elamaran et al.}{ELAMARAN et al.}{2000}
+{ELAMARAN, B. et al. {A Beam-Steerer Using Reconfigurable PBG Ground Plane}.
+  In:  MICROWAVE SYMPOSIUM DIGEST,{ 67., 2000, Massachussets}.
+  \textbf{Proceedings...} Piscataway, NJ: Institute of Electrical and
+  Electronics Engineers, Inc., 2000. v.~2, p. 835--838.}
+{\footnotesize\begin{verbatim}
+@inproceedings{Chiao00,
+address={Piscataway, NJ},
+author={B. Elamaran and Iao-Mak Chio and Liang-Yu Chen and Jung-Chih Chiao},
+booktitle={Proceedings...},
+organization={Microwave Symposium digest,{ 67., 2000, Massachussets}},
+pages={835-838},
+publisher={Institute of Electrical and Electronics Engineers, Inc.},
+title={{A Beam-Steerer Using Reconfigurable PBG Ground Plane}},
+volume={2},
+year={2000}}
+\end{verbatim}}
+\bibitem{Bumgardner97:Syd}
+\abntrefinfo{Bumgardner}{BUMGARDNER}{1997}
+{BUMGARDNER, J. \textbf{Syd 1.0.5: User Manual}.
+[S.l.], 1997.}
+{\footnotesize\begin{verbatim}
+@manual{Bumgardner97:Syd,
+author={Bumgardner, Jim},
+title={Syd 1.0.5: User Manual},
+year={1997}}
+\end{verbatim}}
+\bibitem{Giraffa:1999}
+\abntrefinfo{Giraffa}{GIRAFFA}{1999}
+{GIRAFFA, L. M.~M.
+\textbf{Uma arquitetura de tutor utilizando estados mentais}.
+Tese (Doutorado) --- Universidade Federal do Rio Grande do Sul, Porto Alegre,
+  1999.}
+{\footnotesize\begin{verbatim}
+@phdthesis{Giraffa:1999,
+address={Porto Alegre},
+author={L{\'u}cia M. Martins Giraffa},
+school={Universidade Federal do Rio Grande do Sul},
+title={Uma arquitetura de tutor utilizando estados mentais},
+year={1999}}
+\end{verbatim}}
+\bibitem{Singh91:Intentions}
+\abntrefinfo{Singh}{SINGH}{1991}
+{SINGH, M.~P. \textbf{Intentions for Multiagent Systems}.
+[S.l.], 1991.}
+{\footnotesize\begin{verbatim}
+@techreport{Singh91:Intentions,
+author={Munindar P. Singh},
+institution={Unknown},
+title={Intentions for Multiagent Systems},
+year={1991}}
+\end{verbatim}}
+\bibitem{Mccarthy92:Elephant}
+\abntrefinfo{McCarthy}{MCCARTHY}{1992}
+{MCCARTHY, J. Elephant 2000: {A} programming language based on speech acts.
+  Artigo do McCarthy sobre a linguage de programa\c{c}\~ao Elephant. 1992.}
+{\footnotesize\begin{verbatim}
+@unpublished{Mccarthy92:Elephant,
+author={John McCarthy},
+note={Artigo do McCarthy sobre a linguage de programa\c{c}\~ao Elephant},
+title={Elephant 2000: {A} Programming Language Based on Speech Acts},
+year={1992}}
+\end{verbatim}}
+\end{thebibliography}

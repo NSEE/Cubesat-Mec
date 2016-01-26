@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 2013-Artigo-INCT.aux
+The style file: unsrt.bst
+Database file #1: ref.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in LEON3
+Warning--empty journal in mil1553
+Warning--empty journal in GRLIB
+Name 1 in "{C. Catala}, and {PLATO consortium}" has a comma at the end for entry Plato
+while executing---line 944 of file unsrt.bst
+You've used 8 entries,
+            1791 wiz_defined-function locations,
+            489 strings with 4943 characters,
+and the built_in function-call counts, 1811 in all, are:
+= -- 176
+> -- 54
+< -- 4
++ -- 22
+- -- 14
+* -- 84
+:= -- 275
+add.period$ -- 27
+call.type$ -- 8
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 101
+empty$ -- 182
+format.name$ -- 14
+if$ -- 427
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 8
+newline$ -- 43
+num.names$ -- 8
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 61
+stack$ -- 0
+substring$ -- 88
+swap$ -- 34
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 17
+width$ -- 9
+write$ -- 90
+(There was 1 error message)

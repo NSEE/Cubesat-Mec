@@ -1,0 +1,142 @@
+% ------------------------------------------------------------------------
+% Projeto de pesquisa - Iniciação científica
+% ------------------------------------------------------------------------
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,left=3cm,right=2cm,top=3.5cm,bottom=3cm]{geometry}
+\usepackage{indentfirst}
+\usepackage{ncccomma}
+\usepackage[latin1]{inputenc}
+\usepackage[english,brazil,brazilian]{babel}
+\usepackage{graphicx}
+\usepackage[centertags]{amsmath}
+\usepackage{amssymb,amsfonts}
+\usepackage[T1]{fontenc}
+%\usepackage{schemabloc}
+\usepackage{color}
+\usepackage[numbers,colon]{natbib}
+
+% Fuzz -------------------------------------------------------------------
+\hfuzz1pt % Don't bother to report over-full boxes if over-edge is < 2pt
+
+% Notas de rodapé --------------------------------------------------------
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% Espaçamento ------------------------------------------------------------
+\setlength{\parindent}{30pt} \setlength{\parskip}{6pt}
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+
+\newcommand{\setlinespacing}[1]{\setlength{\baselineskip}{#1 \defbaselineskip}}
+\newcommand{\doublespacing}{\setlength{\baselineskip}{2.0 \defbaselineskip}}
+\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+% ------------------------------------------------------------------------
+\def\baselinestretch{1}
+\setlinespacing{1.6}
+
+% ------------------------------------------------------------------------
+\pagenumbering{arabic} \pagestyle{myheadings}
+
+% ------------------------------------------------------------------------
+\title{Desenvolvimento de uma plataforma para simulação de satélites}
+\author{Orientador: Prof. Rodrigo A. Romano - \texttt{rromano@maua.br}}
+\date{}
+
+% ---
+\newcommand{\magsubs}{_{\textrm{\scriptsize{mag}}}}
+% ------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+% ------------------------------------------------------------------------
+\section{Resumo do projeto}
+
+
+
+Com a disponibilidade crescente de recursos computacionais e da evolução das ferramentas de simulação, cada vez mais a concepção de sistemas é realizada com o auxílio de simuladores. No caso da área aeroespacial, devido ao alto custo e à complexidade dos problemas envolvidos, plataformas de simulação são elementos indispensáveis em qualquer projeto.
+
+{\color{red} \textit{Comecei a esboçar algo, mas falta terminar...}}
+
+% ------------------------------------------------------------------------
+\section{Introdução}
+
+No contexto da área aeroespacial, simuladores são ferramentas de software que podem ser utilizados por pesquisadores, engenheiros, alunos ou mesmo gerentes para analisar e avaliar as operações de aeronaves, satélites e veículos lançadores. As informações obtidas, fornecem informações que auxiliam a responder perguntas a respeito de um projeto ou produto. Esses simuladores podem ser desenvolvidos a partir de requisitos bastante específicos de uma determinada missão, ou então, para uma classe mais generalizada de aeronaves.
+
+O código do simulador é composto por ferramentas associadas (que realizam operações de codificação, tais como bibliotecas de álgebra linear, integradores numéricos, ou pacotes para cálculo de órbita) e por algoritmos derivados. Normalmente, o software do simulador é executado com determinadas condições iniciais e operacionais durante o período de tempo necessário para analisar um conjunto de características. Por fim, os dados são exibidos ao usuário, no formato de texto, ou através de interfaces gráficas.
+
+Uma evidência da importância das ferramentas de software na área aeroespacial é a quantidade de simuladores disponíveis. Há pacotes de simulação que para uma ampla gama de funções que são úteis para os engenheiros e cientistas. Dentre tais funcionalidades, pode-se citar: análise de órbita e de atitude, testes \textit{hardware-in-the-loop} (HIL) e verificação/validação do sistema de controle. Além dos pacotes gratuitos, há opções comerciais submetidos a procedimentos rigorosos de validação que geralmente são bem aceitos pela comunidade de engenheiros e cientistas. O grau de funcionalidade varia muito entre os pacotes disponíveis, podendo-se encontrar desde simples opções para reproduzir a propagação de dois corpos representados por pontos de massa até complexos simuladores tridimensionais de satélites de comunicação.
+
+% ------------------------------------------------------------------------
+\section{Objetivo}
+
+O objetivo deste trabalho de pesquisa é desenvolver um simulador para a dinâmica de atitude de um satélite. Como os dados de dinâmica de atitude são tridimensionais, pretende-se disponibilizar o recurso de visualização em três dimensões, de modo a oferecer uma plataforma mais lúdica para a interpretação de resultados das simulações.
+
+% ------------------------------------------------------------------------
+\section{Revisão bibliográfica}
+
+Em sua dissertação de mestrado%, desenvolvida na Faculty of the Virginia Polytechnic Institute
+, \citet{Turner:2003} trata do desenvolvimento de modelos e simuladores de satélites usando o conceito de orientação a objetos usando plataforma de código aberto (\textit{open-source}). No mesmo trabalho, são abordados assuntos correlatos como: modelagem das dinâmicas de translação e rotação de satélites, métodos numéricos usados na implementação de simuladores e projeto de software.
+
+\citet{Witt:2010} descrevem um simulador de dinâmicas de órbita e de atitude, baseado na ferramenta de código aberto OpenSimKit (OSK) \citep{Eickhoff:2010}. Para visualização tridimensional, os autores utilizam o software Celestia \citep{Laurel:2008}, que recebe os dados do simulados através de \textit{sockets}.
+
+\citet{Hao:2011} apresentam uma plataforma de simulação tridimensional composta por três módulos: o simulador, um servidor de processamento de dados e terminais de visualização (Figura \ref{fig:sch_Hao2011}). No módulo simulador é implementado o modelo do satélite usando a plataforma Matlab$^\text{\circledR}$/Simulink. O simulador utiliza o recurso Real-Time Windows Target que gera os dados de atitude e órbita do satélite em tempo real. O módulo de processamento recebe os dados do simulador usando uma interface serial é envia comandos no padrão da ferramenta STK (\textit{Satellite Tool Kit}) para para os terminais de visualização. O STK é um pacote comercial de ferramentas de simulação (desenvolvido pela Analytical Graphics, Inc.) amplamente utilizado pela indústria aeroespacial. Além da capacidade de simulação, o STK também fornece recursos para visualização tridimensional e uma interface simples para exportação de dados a sistemas de terceiros.
+
+%\begin{figure}[!htb]
+%\centering
+%\label{fig:sch_Hao2011}
+%\includegraphics[width=.8\linewidth]{../../../EEM/IC/SatelliteSimulation/sch_Hao2011.png} 
+%\caption{Componentes da plataforma proposta por \citet{Hao:2011}.}
+%\end{figure}
+
+No trabalho de \citet{Abbas:2011} é proposto um simulador para o subsistema de controle de atitude de um satélite geoestacionário usando a plataforma de software de Ptolemy II \citep{Brooks:2010}. Diferentemente dos trabalhos citados anteriormente, cujo enfoque principal é a descrição da plataforma de simulação, nesse caso o foco está no desenvolvimento de um sistema de controle de atitude, baseado no modelo de dinâmica da plataforma multi-missão (PMM) que integra o programa espacial brasileiro. 
+
+%Em âmbito nacional, \citet{Carrara:XXXX}
+
+% ------------------------------------------------------------------------
+\section{Materiais e métodos}
+
+\subsection{Recursos necessários para o desenvolvimento do simulador}
+
+Para o desenvolvimento desta pesquisa de iniciação científica serão utilizados:
+
+\begin{itemize}
+\item Um computador;
+\item Software Matlab$^\text{\circledR}$/Simulink;
+\item Plataforma dSpace.
+\end{itemize}
+
+\subsection{Metodologia proposta}
+
+A primeira atividade desta pesquisa refere-se ao estudo das equações que descrevem o comportamento da dinâmica de atitude da plataforma multi-missão (PMM). Em seguida, deve-se implementar as equações diferenciais em uma plataforma de simulação. A princípio pretende-se adotar a software Matlab$^\text{\circledR}$/Simulink para este propósito.
+
+A segunda etapa é voltada ao desenvolvimento da interface de visualização tridimensional da dinâmica de atitude. Além de pesquisar a melhor ferramenta para a geração de gráficos em três dimensões, é preciso atentar para os detalhes de integração entre o simulador e o subsistema de visualização de resultados.
+
+{\color{red} \textit{Um diagrama de blocos do sistema seria interessante.}}
+
+% ------------------------------------------------------------------------
+\section{Plano de trabalho}
+
+O desenvolvimento desta pesquisa é particionado nas seguintes etapas:
+
+\begin{enumerate}
+\item Estudo do modelo matemático da plataforma multi-missão (PMM);
+\item Implementação do modelo matemático através de equações diferenciais;
+\item Estudo de ferramentas para visualização gráfica;
+\item Desenvolvimento de um terminal para geração de gráficos tridimensionais;
+\item Integração do simulador com o terminal de visualização;
+\item Redação de relatórios técnicos com os resultados obtidos.
+\end{enumerate}
+
+% ------------------------------------------------------------------------
+\section{Cronograma}
+
+{\color{red} \textit{Precisa?}}
+
+% ------------------------------------------------------------------------
+\setlinespacing{1.44}
+\bibliographystyle{plainnat}
+\bibliography{satsim}
+% ------------------------------------------------------------------------
+\end{document}
+% ------------------------------------------------------------------------

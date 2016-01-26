@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{cailliau1999corot}
+Damien Cailliau and Remy Bellenger.
+\newblock The corot instruments software: towards intrinsically reconfigurable
+  real-time embedded processing software in space-borne instruments.
+\newblock In {\em High-Assurance Systems Engineering, 1999. Proceedings. 4th
+  IEEE International Symposium on}, pages 75--80. IEEE, 1999.
+
+\bibitem{SpW}
+{ESA Requirements and Standards Division}.
+\newblock {SpaceWire Links, nodes, routers and networks - ECSS-E-ST-50-12C}.
+\newblock {\em Space engineering}, 2008.
+
+\bibitem{LEON3}
+Christopher P.
+\newblock {Enhanced LEON3 Core for Superscalar Processing}.
+\newblock 1, 2007.
+
+\bibitem{abbasitabar2012susceptibility}
+Hamed Abbasitabar, Hamid~R Zarandi, and Ronak Salamat.
+\newblock Susceptibility analysis of leon3 embedded processor against multiple
+  event transients and upsets.
+\newblock In {\em Computational Science and Engineering (CSE), 2012 IEEE 15th
+  International Conference on}, pages 548--553. IEEE, 2012.
+
+\bibitem{zhang2010research}
+Bingxue Zhang, Xudan Xu, and Bo~Li.
+\newblock Research on the design of software fault tolerance based on rtems.
+\newblock In {\em Computer, Mechatronics, Control and Electronic Engineering
+  (CMCE), 2010 International Conference on}, volume~1, pages 402--405. IEEE,
+  2010.
+
+\bibitem{mil1553}
+{Alta Data Technologies LLC}.
+\newblock {MIL STD 1553 Tutorial and Reference}.
+\newblock 2, 2007.
+
+\bibitem{GRLIB}
+Gaisler.
+\newblock {GRLIB IP Core Users Manual}.
+\newblock 1, 2010.
+
+\bibitem{Plato}
+{C. Catala} and {PLATO consortium}.
+\newblock {PLATO PLAnetary Transits and Oscillations of stars - A study of
+  exoplanetary systems }.
+\newblock {\em proposal}, 1, 2008.
+
+\end{thebibliography}
