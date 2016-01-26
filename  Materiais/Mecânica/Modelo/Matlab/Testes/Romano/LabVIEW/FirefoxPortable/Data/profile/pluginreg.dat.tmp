@@ -1,0 +1,86 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.15|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npgbfnc_uni.dll|$
+Y:\ff2\FirefoxPortable\Data\profile\extensions\{87F8774F-B485-47E2-A755-A40A8A5E8873}\plugins\npgbfnc_uni.dll|$
+2.6.4.14|$
+1328197340000|1|5|$
+Internet Banking Helper|$
+Módulo de Proteção - Banco Itau Unibanco|$
+1
+0|application/gas-ibh-uni|Módulo de Proteção - Banco Itau Unibanco||$
+npqtplugin7.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin7.dll|$
+7.7.1.0|$
+1323870079882|1|1|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.1|$
+3
+0|image/jpeg2000|Imagem JPEG2000|jp2|$
+1|image/jpeg2000-image|Imagem JPEG2000|jp2|$
+2|image/x-jpeg2000-image|Imagem JPEG2000|jp2|$
+npqtplugin6.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin6.dll|$
+7.7.1.0|$
+1323870079871|1|1|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.1|$
+8
+0|video/x-m4v|Video (protected)|m4v|$
+1|image/x-macpaint|Imagem MacPaint|pntg,pnt,mac|$
+2|image/pict|Imagem PICT|pict,pic,pct|$
+3|image/x-pict|Imagem PICT|pict,pic,pct|$
+4|image/x-quicktime|Imagem QuickTime|qtif,qti|$
+5|image/x-sgi|Imagem SGI|sgi,rgb|$
+6|image/x-targa|Imagem TGA|targa,tga|$
+7|image/jp2|Imagem JPEG2000|jp2|$
+npqtplugin5.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin5.dll|$
+7.7.1.0|$
+1323870079804|1|1|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.1|$
+10
+0|audio/3gpp|MÆdia 3GPP|3gp,3gpp|$
+1|video/3gpp2|MÆdia 3GPP2|3g2,3gp2|$
+2|audio/3gpp2|MÆdia 3GPP2|3g2,3gp2|$
+3|video/sd-video|VÆdeo SD|sdv|$
+4|application/x-mpeg|MÆdia AMC|amc|$
+5|video/mp4|MÆdia MPEG-4|mp4|$
+6|audio/mp4|MÆdia MPEG-4|mp4|$
+7|audio/x-m4a|þudio AAC|m4a|$
+8|audio/x-m4pp|AAC audio (protected)|m4p|$
+9|audio/x-m4b|AAC audio book|m4b|$
+npqtplugin4.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin4.dll|$
+7.7.1.0|$
+1323870079701|1|1|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.1|$
+4
+0|video/mpeg|MÆdia MPEG|mpeg,mpg,m1s,m1v,m1a,m75,m15,mp2,mpm,mpv,mpa|$
+1|audio/mpeg|MPEG audio|mpeg,mpg,m1s,m1a,mp2,mpm,mpa,m2a|$
+2|audio/x-mpeg|MPEG audio|mpeg,mpg,m1s,m1a,mp2,mpm,mpa,m2a|$
+3|video/3gpp|MÆdia 3GPP|3gp,3gpp|$
+npqtplugin3.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin3.dll|$
+7.7.1.0|$
+1323870079660|1|1|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.1|$
+8
+0|audio/x-gsm|GSM audio|gsm|$
+1|audio/AMR|þudio AMR|AMR|$
+2|audio/aac|þudio AAC|aac,adts|$
+3|audio/x-aac|þudio AAC|aac,adts|$
+4|audio/x-caf|CAF audio|caf|$
+5|audio/ac3|þudio AC3|ac3|$
+6|audio/x-ac3|þudio AC3|ac3|$
+7|video/x-mpeg|MÆdia MPEG|mpeg,mpg,m1s,m1v,m1a,m75,m15,mp2,mpm,mpv,mpa|$
+npqtplugin2.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin2.dll|$
+7.7.1.0|$

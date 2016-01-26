@@ -1,0 +1,16 @@
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{87F8774F-B485-47E2-A755-A40A8A5E8873}</em:id>
+    <em:name>Guardiao Itau 30 horas</em:name>
+    <em:version>2.6.4.14</em:version>
+    <em:unpack>true</em:unpack>
+    <em:updateURL>https://clickbanking.itau.com.br/itau/gbplugin/gbplugin2/Update.rdf</em:updateURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>10.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
